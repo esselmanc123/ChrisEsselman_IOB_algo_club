@@ -16,20 +16,21 @@
 #include <iostream>
 #include <fstream>
 #include <vector> 
+#include <sstream>
 
 using namespace std;
 
 int main(int argc, char **argv) 
 {
-    //Checking if the amount of input arguments  is correct
-	if (argc==1)  
+    //Make sure the correct number of arguments
+	if (argc != 4)  
     {
-		cout << "Use as:  " << argv[0] << " <Comma-delimited text file>\n";
-		cout << "Example: " << argv[0] << " Table.txt\n";
+		cout << "Use as:  " << argv[0] << " <Comma-delimited_text_file col_names? rownames?>\n";
+		cout << "Example: " << argv[0] << " Table.txt 0 1 \n";
 		return 0;
 	}
-	
-    // Opening the file:
+
+	//Make sure the file can be opened
 	ifstream InFile(argv[1]);
 	if (!InFile.is_open())  
     {
@@ -37,48 +38,135 @@ int main(int argc, char **argv)
 		return 1;
 	}
 
-    vector<double> X,Y;
+    //Read in true or false to see if the data has variable names
+    int is_there_colnames = stoi(argv[2]);
+    //transform(skip_col_names.begin(),skip_col_names.end(),skip_col_names.begin(),::toupper);
 
-    // Now I can read the actual numbers:
+    //Read in true or false to see if the data has rownames
+    int is_there_rownames = stoi(argv[3]);
+    //transform(skip_rownames.begin(),skip_rownames.end(),skip_rownames.begin(),::toupper);
+
+    //Vectors to hold the headers, rownames, and variables
+    vector<string> col_names;
+    vector<string> row_names;
+    vector<vector<string> > the_data;
+
+    //Read in the headers and the row names
 	string Str;
-//	for (int i=0;i<rows;++i)  {
-// The line above cannot be used now because we do not know the number of rows. 
-// Instead, we'll keep reading as long as there is another line in the file
-	while (getline(InFile,Str,','))  
+
+    //Counters for rows and the columns
+    int counterX = 0;
+    int counterY = 0;
+
+	//Read each line of txt file
+	while (!InFile.eof())  
     {
-// The getline above will fail (return false) if are at the end of the file
-        if (strcmp(Str.c_str(),"NA") == 0)
+        if (is_there_colnames == 1 && is_there_rownames == 1)
         {
-            X.push_back(0.0);
-        }
-        else
-        {
-            X.push_back(stof(Str));
-        }
-		  // convert Str to a double and add the value as the new last element to the vector X
-// Now read the rest of the line:
-		if (getline(InFile,Str))  
-        {
-            if (strcmp(Str.c_str(),"NA") == 0)
+            int skip = 0;
+            if (counterX == 0)
             {
-                Y.push_back(0.0);
+                //get the line
+                getline(InFile,Str);
+                //Put header line into sstram to parse
+                istringstream ss(Str);
+                //Blank string variable to parse with
+                string substr;
+                //Read the column names in
+                while (getline(ss,substr,','))
+                {
+                    if (skip != 0)
+                    {
+                        col_names.push_back(substr);
+                    }
+                    skip++;
+                }
+                counterX++;
             }
             else
             {
-                Y.push_back(stof(Str));
+                //get the line
+                getline(InFile,Str);
+                //Put header line into sstram to parse
+                istringstream ss(Str);
+                //Blank string variable to parse with
+                string substr;
+                //make the vector longer
+                the_data.push_back(vector<string>());
+                //Read the column names in
+                while (getline(ss,substr,','))
+                {
+                    if (skip == 0)
+                    {
+                        row_names.push_back(substr);
+                    }
+                    else
+                    {
+                        the_data[counterX - 1].push_back(substr);
+                    }
+                    skip++;
+                }
+                row_names.push_back(col_names[0]);
+                counterX++;
             }
-		}
-		else  
+            
+        }
+        else if (is_there_colnames == 0 && is_there_rownames == 1)
         {
-// This will happen if there was no tab in the line being read because the getline(InFile,Str) above would have failed
-			cout << "The input file is corrupted or has incorrect format. Quitting ...\n";
-			exit (1);
-		}
+
+        }
+        /*
+        if (strcmp(skip_headers.c_str(),"YES"))
+        {
+            //Put header line into sstram to parse
+            istringstream ss(Str);
+
+            //Blank string variable to parse with
+            string substr;
+
+            while (getline(ss, substr,','))
+            {
+                headers.push_back(substr);
+                cout << t;
+                t++;
+            }
+        }
+        counterX++;
+        */
+        for (int i = 0; i < col_names.size(); i++)
+        {
+            cout << col_names[i] << "\n";
+            cout << row_names[i] << "\n";
+        }
+    }
+}
+    /*
+
+        //Put line in sstream to parse
+        istringstream ss(Str);
+
+        //Blank string variable to parse with
+        string substr;
+
+        //Get label
+        getline(ss, substr, ',');
+        Label.push_back(substr);
+        aa_numbers.push_back(vector<double>());
+
+        //Get numbers till end of line
+        while (getline(ss,substr,'\t'))
+        {
+            aa_numbers[counterX].push_back(stof(substr));
+            if (counterX == 0)
+            {
+                counterY++;
+            }
+        }
+        counterX++;
+
 	}
-    // Print the data I read:
-	cout << "Data read from the file:\nX\tY\n";
-	for (int i=0;i<X.size();++i)  cout << X[i] << "\t" << Y[i] << "\n";
 	
     return 0;
 
 }
+*/
