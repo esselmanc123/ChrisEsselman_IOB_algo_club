@@ -20,6 +20,18 @@
 
 using namespace std;
 
+bool is_number(string& s)
+{
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (!isdigit(s[i]))
+        {
+            return 0;
+        }
+    }
+    return 1; 
+}
+
 int main(int argc, char **argv) 
 {
     //Make sure the correct number of arguments
@@ -49,7 +61,7 @@ int main(int argc, char **argv)
     //Vectors to hold the headers, rownames, and variables
     vector<string> col_names;
     vector<string> row_names;
-    vector<vector<string> > the_data;
+    vector<vector<double> > the_data;
 
     //Read in the headers and the row names
 	string Str;
@@ -92,7 +104,7 @@ int main(int argc, char **argv)
                 //Blank string variable to parse with
                 string substr;
                 //make the vector longer
-                the_data.push_back(vector<string>());
+                the_data.push_back(vector<double>());
                 //Read the column names in
                 while (getline(ss,substr,','))
                 {
@@ -102,71 +114,142 @@ int main(int argc, char **argv)
                     }
                     else
                     {
-                        the_data[counterX - 1].push_back(substr);
+                        if (is_number(substr))
+                        {
+                            the_data[counterX - 1].push_back(stof(substr));
+                        }
+                        else
+                        {
+                            the_data[counterX - 1].push_back(0.0);
+                        }
+                        
                     }
                     skip++;
                 }
-                row_names.push_back(col_names[0]);
                 counterX++;
             }
             
         }
         else if (is_there_colnames == 0 && is_there_rownames == 1)
         {
-
-        }
-        /*
-        if (strcmp(skip_headers.c_str(),"YES"))
-        {
+            int skip = 0;
+            //get the line
+            getline(InFile,Str);
             //Put header line into sstram to parse
             istringstream ss(Str);
-
             //Blank string variable to parse with
             string substr;
-
-            while (getline(ss, substr,','))
+            //make the vector longer
+            the_data.push_back(vector<double>());
+            //Read the column names in
+            while (getline(ss,substr,','))
             {
-                headers.push_back(substr);
-                cout << t;
-                t++;
+                if (skip == 0)
+                {
+                    row_names.push_back(substr);
+                }
+                else
+                {
+                    if (is_number(substr))
+                    {
+                        the_data[counterX].push_back(stof(substr));
+                    }
+                    else
+                    {
+                        the_data[counterX].push_back(0.0);
+                    }
+                        
+                }
+                skip++;
             }
+            counterX++;
         }
-        counterX++;
-        */
-        for (int i = 0; i < col_names.size(); i++)
+        else if (is_there_colnames == 1 && is_there_rownames == 0)
         {
-            cout << col_names[i] << "\n";
-            cout << row_names[i] << "\n";
-        }
-    }
-}
-    /*
-
-        //Put line in sstream to parse
-        istringstream ss(Str);
-
-        //Blank string variable to parse with
-        string substr;
-
-        //Get label
-        getline(ss, substr, ',');
-        Label.push_back(substr);
-        aa_numbers.push_back(vector<double>());
-
-        //Get numbers till end of line
-        while (getline(ss,substr,'\t'))
-        {
-            aa_numbers[counterX].push_back(stof(substr));
             if (counterX == 0)
             {
-                counterY++;
+                //get the line
+                getline(InFile,Str);
+                //Put header line into sstram to parse
+                istringstream ss(Str);
+                //Blank string variable to parse with
+                string substr;
+                //Read the column names in
+                while (getline(ss,substr,','))
+                {
+                    col_names.push_back(substr);
+                }
+                counterX++;
+            }
+            else
+            {
+                //get the line
+                getline(InFile,Str);
+                //Put header line into sstram to parse
+                istringstream ss(Str);
+                //Blank string variable to parse with
+                string substr;
+                //make the vector longer
+                the_data.push_back(vector<double>());
+                //Read the column names in
+                while (getline(ss,substr,','))
+                {
+                    if (is_number(substr))
+                    {
+                        the_data[counterX - 1].push_back(stof(substr));
+                    }
+                    else
+                    {
+                        the_data[counterX - 1].push_back(0.0);
+                    }    
+                }
+                counterX++;
             }
         }
-        counterX++;
+        else
+        {
+            //get the line
+            getline(InFile,Str);
+            //Put header line into sstram to parse
+            istringstream ss(Str);
+            //Blank string variable to parse with
+            string substr;
+            //make the vector longer
+            the_data.push_back(vector<double>());
+            //Read the column names in
+            while (getline(ss,substr,','))
+            {
+                if (is_number(substr))
+                {
+                    the_data[counterX].push_back(stof(substr));
+                }
+                else
+                {
+                    the_data[counterX].push_back(0.0);
+                }    
+            }
+            counterX++;
+            cout << the_data.size() << "\n";
+        }
+    }
+    the_data.pop_back();
 
-	}
-	
-    return 0;
+    for (int i = 0; i < col_names.size(); i++)
+    {
+        cout << col_names[i] << "\n";
+    }
 
+    for (int i = 0; i < row_names.size(); i++)
+    {
+        cout << "Rownames" << row_names[i] << "\n";
+    }
+
+    for (int i = 0; i < the_data.size(); i++)
+    {
+        for (int j = 0; j < the_data[1].size();j++)
+        {
+            cout << the_data[i][j] << '\t';
+        }
+        cout << '\n';
+    }
 }
-*/
