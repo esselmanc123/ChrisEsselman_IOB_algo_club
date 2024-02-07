@@ -17,9 +17,12 @@
 #include <fstream>
 #include <vector> 
 #include <sstream>
+#include <cmath>
 
 using namespace std;
 
+//Function to tell if a string can be converted to a number
+//Using this function to convert input csv into data matrix
 bool is_number(string& s)
 {
     for (int i = 0; i < s.length(); i++)
@@ -31,6 +34,38 @@ bool is_number(string& s)
     }
     return 1; 
 }
+
+//Normalizing the data
+void normalize(vector<vector<double> >& matrix)
+{
+    double means, sd;
+    int row_size = matrix.size();
+    int column_size = matrix[0].size();
+
+    for (int j = 0; j < column_size; j++)
+    {
+        double adder = 0.0;
+        for (int i = 0; i < row_size; i++)
+        {
+            adder = adder + matrix[i][j];
+        }
+        means = adder/row_size;
+        adder = 0.0;
+        for (int i = 0; i < row_size; i++)
+        {
+            adder += (matrix[i][j] - means) * (matrix[i][j] - means);
+        }
+
+        sd = sqrt(adder/row_size);
+
+        for (int i = 0; i < row_size; i++)
+        {
+            matrix[i][j] = (matrix[i][j] - means)/sd;
+        }
+    }
+}
+
+
 
 int main(int argc, char **argv) 
 {
@@ -252,4 +287,19 @@ int main(int argc, char **argv)
         }
         cout << '\n';
     }
+    
+    cout << "*****************************" << "\n";
+
+    normalize(the_data);
+
+    for (int i = 0; i < the_data.size(); i++)
+    {
+        for (int j = 0; j < the_data[1].size();j++)
+        {
+            cout << the_data[i][j] << '\t';
+        }
+        cout << '\n';
+    }
+
+
 }
