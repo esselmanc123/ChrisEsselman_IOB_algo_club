@@ -65,6 +65,11 @@ void normalize(vector<vector<double> >& matrix)
     }
 }
 
+void compute_distance_matrix(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
+{
+
+}
+
 
 
 int main(int argc, char **argv) 
@@ -300,6 +305,8 @@ int main(int argc, char **argv)
         }
         cout << '\n';
     }
+
+    vector<vector<double> > dissimilarity_matrix;
 
 
 }
