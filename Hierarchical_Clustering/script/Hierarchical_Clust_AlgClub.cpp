@@ -65,20 +65,53 @@ void normalize(vector<vector<double> >& matrix)
     }
 }
 
-void compute_distance_matrix(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
+void jaccard_distance(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
 {
-
+    for (int z = 0; z < data.size(); z++)
+    {
+        blank_matrix.push_back(vector<double>());
+        for (int i = 0; i < data.size(); i++)
+        {
+            double similarity = 0.0;
+            double number_in_both = 0;
+            for (int j = 0; j < data[0].size(); j++)
+            {
+                if (data[z][j] == data[i][j])
+                {
+                    number_in_both++;
+                }
+            }
+            similarity = number_in_both/data[0].size();
+            blank_matrix[z].push_back(1-similarity);
+        }
+    }
 }
 
+void euclidean_distance(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
+{
+    for (int z = 0; z < data.size(); z++)
+    {
+        blank_matrix.push_back(vector<double>());
+        for (int i = 0; i < data.size(); i++)
+        {
+            double sum = 0.0;
+            for (int j = 0; j < data[0].size(); j++)
+            {
+                sum += (data[z][j] - data[i][j]) * (data[z][j] - data[i][j]);
+            }
+            blank_matrix[z].push_back(sqrt(sum));
+        }
+    }
+}
 
 
 int main(int argc, char **argv) 
 {
     //Make sure the correct number of arguments
-	if (argc != 4)  
+	if (argc != 5)  
     {
-		cout << "Use as:  " << argv[0] << " <Comma-delimited_text_file col_names? rownames?>\n";
-		cout << "Example: " << argv[0] << " Table.txt 0 1 \n";
+		cout << "Use as:  " << argv[0] << " <Comma-delimited_text_file col_names? rownames? numerical_or_categorical?>\n";
+		cout << "Example: " << argv[0] << " Table.txt 0 1 1\n";
 		return 0;
 	}
 
@@ -98,6 +131,7 @@ int main(int argc, char **argv)
     int is_there_rownames = stoi(argv[3]);
     //transform(skip_rownames.begin(),skip_rownames.end(),skip_rownames.begin(),::toupper);
 
+    int numerical_or_categorical = stoi(argv[4]);
     //Vectors to hold the headers, rownames, and variables
     vector<string> col_names;
     vector<string> row_names;
@@ -308,5 +342,36 @@ int main(int argc, char **argv)
 
     vector<vector<double> > dissimilarity_matrix;
 
+    
+    if (numerical_or_categorical == 1)
+    {
+        euclidean_distance(the_data,dissimilarity_matrix);
+        cout << "************************" << "\n";
+        cout << "Dissim matrix Euclidean" << "\n";
+        for (int i = 0; i < dissimilarity_matrix.size(); i++)
+        {
+            for (int j = 0; j < dissimilarity_matrix[1].size();j++)
+            {
+                cout << dissimilarity_matrix[i][j] << '\t';
+            }
+            cout << '\n';
+        }
 
+    }
+    else
+    {
+        jaccard_distance(the_data,dissimilarity_matrix);
+
+        cout << "************************" << "\n";
+        cout << "Dissim matrix jaccard" << "\n";
+
+        for (int i = 0; i < dissimilarity_matrix.size(); i++)
+        {
+            for (int j = 0; j < dissimilarity_matrix[1].size();j++)
+            {
+                cout << dissimilarity_matrix[i][j] << '\t';
+            }
+            cout << '\n';
+        }
+    }
 }
