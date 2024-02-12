@@ -7,10 +7,6 @@
     Going to be writing the divisive hierarchical algorithm that I found from the book:
     Finding Groups in Data: An Introduction to Cluster Analysis (Kaufman 1990)
 
-    Still need to read in the data. Some of the arguments will be to tell if to skip headers
-    or the skip the row names. That will be my first task. 
-
-
 */
 
 #include <iostream>
@@ -35,7 +31,21 @@ bool is_number(string& s)
     return 1; 
 }
 
+//Function to tell if vector has all negative elements
+bool all_negative(vector<double> difference)
+{
+    for (int i = 0; i < difference.size(); i++)
+    {
+        if (difference[i] > 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
 //Normalizing the data
+//Mean center and scale
 void normalize(vector<vector<double> >& matrix)
 {
     double means, sd;
@@ -65,6 +75,7 @@ void normalize(vector<vector<double> >& matrix)
     }
 }
 
+// Distance for categorical or binary data
 void jaccard_distance(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
 {
     for (int z = 0; z < data.size(); z++)
@@ -87,6 +98,7 @@ void jaccard_distance(vector<vector<double> > data, vector<vector<double> >& bla
     }
 }
 
+// Distance for numerical data
 void euclidean_distance(vector<vector<double> > data, vector<vector<double> >& blank_matrix)
 {
     for (int z = 0; z < data.size(); z++)
@@ -104,6 +116,112 @@ void euclidean_distance(vector<vector<double> > data, vector<vector<double> >& b
     }
 }
 
+//Diana algorithm
+void diana(vector<vector<double> > dissimmat, vector<int> &clusters, int level)
+{
+    /*
+    First find which cluster we need to split at this round. Will do this 
+    by finding the cluster that has the largest distance between any two points. 
+    Already have dissim mat, so need to find indicies of that point.
+    */
+   double highest_dissimilarity = 0.0;
+   int index_group;
+   for (int i = 0; i < clusters.size(); i++)
+   {
+        for (int j = 0; j < clusters.size(); j++)
+        {
+            if ((dissimmat[i][j] > highest_dissimilarity) && (clusters[i] == clusters[j]))
+            {
+                highest_dissimilarity = dissimmat[i][j];
+                index_group = i;
+            }
+        }
+   }
+    //Find the size of the cluster to split and the location of the indices
+    vector<int> clust_indices;
+    for (int i = 0; i < clusters.size(); i++)
+    {
+        if (clusters[i] == clusters[index_group])
+        {
+            clust_indices.push_back(i);
+        }
+    }
+    /*
+        Next will need to do the splitting of the largest cluster
+        Find point with highest average dissimilarity of each data point to every other data point in the cluster.
+        Will be using the variables highest_dissimilarity and index group to keep a track of this
+    */
+    // Initialize differences vector
+    vector<double> differences;
+    for (int i = 0; i < clust_indices.size() - 1; i++)
+    {
+        differences.push_back(1.0);
+    }
+
+    // Initialize splinter indices
+    vector<int> splinter_indices;
+
+    //While loop that does the splitting
+    while (all_negative(differences) == false)
+    {
+        index_group = 0;
+        highest_dissimilarity = 0.0;
+        //This finds the initial splinter group
+        if (splinter_indices.size() == 0)
+        {
+            for (int i = 0; i < clust_indices.size(); i++)
+            {
+                double sum_dist = 0.0;
+                for (int j = 0; j < clust_indices.size(); j++)
+                {
+                    sum_dist += dissimmat[clust_indices[i]][clust_indices[j]];
+                }
+                if ((sum_dist/clust_indices.size() >= highest_dissimilarity))
+                {
+                    highest_dissimilarity = sum_dist/clust_indices.size();
+                    index_group = i;
+                }
+            }
+            //Add index to splinter group
+            splinter_indices.push_back(clust_indices[index_group]);
+            //Remove index to clust group
+            clust_indices.erase (clust_indices.begin()+index_group);
+        }
+        //Find who else should join the splinter group
+        else
+        {
+            for (int i = 0; i < clust_indices.size(); i++)
+            {
+                double sum_dist_clust = 0.0;
+                double sum_dist_splint = 0.0;
+                for (int j = 0; j < clust_indices.size(); j++)
+                {
+                    sum_dist_clust += dissimmat[clust_indices[i]][clust_indices[j]];
+                }
+                for (int j = 0; j < splinter_indices.size(); j++)
+                {
+                    sum_dist_splint += dissimmat[clust_indices[i]][splinter_indices[j]];
+                }
+                differences[i] = (sum_dist_clust/clust_indices.size()) - (sum_dist_splint/splinter_indices.size());
+                if (differences[i] >= highest_dissimilarity)
+                {
+                    highest_dissimilarity = differences[i];
+                    index_group = i;
+                }
+            }
+            if (differences[index_group] >= 0)
+            {
+                splinter_indices.push_back(clust_indices[index_group]);
+                clust_indices.erase (clust_indices.begin()+index_group);
+                differences.erase (differences.begin()+index_group);
+            }
+        }
+    }
+    for (int i = 0; i < splinter_indices.size(); i++)
+    {
+        clusters[splinter_indices[i]] = level;
+    }
+}
 
 int main(int argc, char **argv) 
 {
@@ -308,70 +426,51 @@ int main(int argc, char **argv)
     }
     the_data.pop_back();
 
-    for (int i = 0; i < col_names.size(); i++)
-    {
-        cout << col_names[i] << "\n";
-    }
-
-    for (int i = 0; i < row_names.size(); i++)
-    {
-        cout << "Rownames" << row_names[i] << "\n";
-    }
-
-    for (int i = 0; i < the_data.size(); i++)
-    {
-        for (int j = 0; j < the_data[1].size();j++)
-        {
-            cout << the_data[i][j] << '\t';
-        }
-        cout << '\n';
-    }
-    
-    cout << "*****************************" << "\n";
-
     normalize(the_data);
-
-    for (int i = 0; i < the_data.size(); i++)
-    {
-        for (int j = 0; j < the_data[1].size();j++)
-        {
-            cout << the_data[i][j] << '\t';
-        }
-        cout << '\n';
-    }
 
     vector<vector<double> > dissimilarity_matrix;
 
-    
     if (numerical_or_categorical == 1)
     {
         euclidean_distance(the_data,dissimilarity_matrix);
-        cout << "************************" << "\n";
-        cout << "Dissim matrix Euclidean" << "\n";
-        for (int i = 0; i < dissimilarity_matrix.size(); i++)
-        {
-            for (int j = 0; j < dissimilarity_matrix[1].size();j++)
-            {
-                cout << dissimilarity_matrix[i][j] << '\t';
-            }
-            cout << '\n';
-        }
-
     }
     else
     {
         jaccard_distance(the_data,dissimilarity_matrix);
+    }
+    vector<int> clusts;
+    for (int i = 0; i < the_data.size(); i++)
+    {
+        clusts.push_back(0);
+    }
 
-        cout << "************************" << "\n";
-        cout << "Dissim matrix jaccard" << "\n";
-
-        for (int i = 0; i < dissimilarity_matrix.size(); i++)
+    if (is_there_rownames == true)
+    {
+        for (int q = 1; q < row_names.size() + 1; q++)
         {
-            for (int j = 0; j < dissimilarity_matrix[1].size();j++)
+            diana(dissimilarity_matrix,clusts,q);
+            for (int i = 0; i < row_names.size(); i++)
             {
-                cout << dissimilarity_matrix[i][j] << '\t';
+                cout << row_names[i] << "\t" << clusts[i] << "\n";
             }
-            cout << '\n';
+            cout << "************************" << "\n";
+            cout << "************************" << "\n";
+        }
+    }
+    else
+    {
+        for (int q = 1; q < the_data.size() + 1; q++)
+        {
+            diana(dissimilarity_matrix,clusts,q);
+            for (int i = 0; i < the_data.size(); i++)
+            {
+                cout << i+1 << "\t" << clusts[i] << "\n";
+            }
+            cout << "************************" << "\n";
+            cout << "************************" << "\n";
+
         }
     }
 }
+
+    
