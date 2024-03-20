@@ -11,7 +11,7 @@ b. edge - both nodes make up original sequence
 ***** Want to Visit Every Edge Once *******
 
 3. Guarunteed to have a Eulerian trail (visit every edge once). Follow it to construct the final sequence
-Hierholzer's algorithm below
+Hierholzer's algorithm below. Going to be doing a directed graph
 https://algorithms.discrete.ma.tum.de/graph-algorithms/hierholzer/index_en.html
 
     1. Check if graph can acutally contain a Eulerian Trial
@@ -47,10 +47,15 @@ https://algorithms.discrete.ma.tum.de/graph-algorithms/hierholzer/index_en.html
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstring>  
+#include <cstring> 
+#include <vector>
 
 using namespace std;
 
+struct Node {
+    string k_one_mer;
+    struct Node *next;
+};
 int main(int argc, char **argv)
 {
     if (argc != 2)
@@ -68,53 +73,48 @@ int main(int argc, char **argv)
 		return 2;
 	}
 
-	//Check Kmer length
-	char Z1;
-	//Skip first line
-	while (Z1 != '\n')  kmer_file.get(Z1);
-    //Determine length of sequences
-    long kmer_file_length = 0;
-    while (kmer_file.get(Z1))
-	{
-		if (isalpha(Z1))
-		{
-			kmer_file_length++;
+    //Save the kmers in a vector of strings
+	vector<string> kmers;
 
-		}
-	}
-    string holder = argv[2];
-    }
-    long kmer_length = stoi(argv[2]);
-    if (kmer_length < 2 || kmer_length > kmer_file_length)
-    {
-        cout << "This is not a valid number for kmer length" << "\n";
-        cout << "Kmer length must be 2 <= kmer_length <= length_of_sequence" << "\n";
-        return 11;
-    }
-    kmer_file.clear();
-	kmer_file.seekg(0, ios::beg);
-    kmer_file.get(Z1);
-    while (Z1 != '\n')  kmer_file.get(Z1);
-    char sequence1[kmer_file_length];
-    int i1 = 0;
-	while (kmer_file.get(Z1))
-	{
-		if (isalpha(Z1))
-		{
-			sequence1[i1] = toupper(Z1);
-			i1++;
-		}
-	}
-    //Close files
-	kmer_file.close();
+    // Blank sting variable
+    string str;
 
-    for (int i = 0; i < kmer_file_length - kmer_length; i++)
+    while (getline(kmer_file,str))
     {
-        for (int j = 0; j < kmer_length; j++)
+        kmers.push_back(str);
+    }
+
+    //Save the k-1mers in a vector of strings
+    vector<string> k_minus_one_mers;
+
+    //Do the splitting of the kmers
+    for (int i = 0; i < kmers.size(); i++)
+    {
+        string left = "";
+        string right = "";
+        for (int j = 0; j < kmers[1].size() - 1; j++)
         {
-            cout << sequence1[i+j];
+            left = left + kmers[i][j];
+            right = right + kmers[i][j+1];
         }
-        cout << "\n";
+        k_minus_one_mers.push_back(left);
+        k_minus_one_mers.push_back(right);
     }
+
+    // Now create the linked list with vertices as the k-1mers and edges being if they overlap
+    //Directed graph where left is pointing to the right
+
+    for (int i = 0; i < k_minus_one_mers.size(); i++)
+    {
+
+    }
+
+    // cout << "kmers size :  " << kmers.size() << "\n";
+    // cout << "kmers-1 size :" << k_minus_one_mers.size() << "\n";
+
+    // for (int i = 0; i < k_minus_one_mers.size(); i++)
+    // {
+    //     cout << k_minus_one_mers[i] << "\n";
+    // }
 	
 }
