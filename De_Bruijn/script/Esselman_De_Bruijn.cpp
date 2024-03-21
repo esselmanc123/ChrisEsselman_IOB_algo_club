@@ -8,6 +8,7 @@ https://www.bitdegree.org/learn/linked-list-c-plus-plus
 a. vertices - k-1mers
 b. edge - both nodes make up original sequence
 
+
 ***** Want to Visit Every Edge Once *******
 
 3. Guarunteed to have a Eulerian trail (visit every edge once). Follow it to construct the final sequence
@@ -54,7 +55,7 @@ using namespace std;
 
 struct Node {
     string k_one_mer;
-    struct Node *next;
+    vector<Node *> nexts;
     bool visited;
 };
 int main(int argc, char **argv)
@@ -105,6 +106,22 @@ int main(int argc, char **argv)
         k_minus_one_mers.push_back(dummy);
     }
 
+    /*
+        Psuedocode for linked list-
+
+        - Do kind of a recursive algorithm
+        1. While splitting the left and right draw and edge between the two
+        2. Look for nodes that are the same and make them into one.
+            - need to collapse edges as well. Pointers help with this. Keep the same number of edges but now point to collapsed node
+        3. Keep doing this until have unique nodes
+
+        Use vector erase to get rid of specific elements
+
+        https://www.youtube.com/watch?v=f-ecmECK7lw
+
+
+
+    */
     // Now create the linked list with vertices as the k-1mers and edges being if they overlap
     //Directed graph where left is pointing to the right
 
