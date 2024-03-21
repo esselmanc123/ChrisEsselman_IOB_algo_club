@@ -55,6 +55,7 @@ using namespace std;
 struct Node {
     string k_one_mer;
     struct Node *next;
+    bool visited;
 };
 int main(int argc, char **argv)
 {
@@ -85,7 +86,7 @@ int main(int argc, char **argv)
     }
 
     //Save the k-1mers in a vector of strings
-    vector<string> k_minus_one_mers;
+    vector<Node> k_minus_one_mers;
 
     //Do the splitting of the kmers
     for (int i = 0; i < kmers.size(); i++)
@@ -97,8 +98,11 @@ int main(int argc, char **argv)
             left = left + kmers[i][j];
             right = right + kmers[i][j+1];
         }
-        k_minus_one_mers.push_back(left);
-        k_minus_one_mers.push_back(right);
+        Node dummy;
+        dummy.k_one_mer = left;
+        k_minus_one_mers.push_back(dummy);
+        dummy.k_one_mer = right;
+        k_minus_one_mers.push_back(dummy);
     }
 
     // Now create the linked list with vertices as the k-1mers and edges being if they overlap
