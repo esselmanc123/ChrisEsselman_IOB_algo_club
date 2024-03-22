@@ -56,8 +56,55 @@ using namespace std;
 struct Node {
     string k_one_mer;
     vector<Node *> nexts;
-    bool visited;
+    vector<bool > visited;
 };
+
+void construct_graph(vector<Node> &graph, vector<string> Kmers)
+{
+    /*
+        Psuedocode for linked list-
+
+        - Do kind of a recursive algorithm
+        1. While splitting the left and right draw and edge between the two
+        2. Look for nodes that are the same and make them into one.
+            - need to collapse edges as well. Pointers help with this. Keep the same number of edges but now point to collapsed node
+        3. Keep doing this until have unique nodes
+
+        Use vector erase to get rid of specific elements
+
+        https://www.youtube.com/watch?v=f-ecmECK7lw
+    */
+    //Do the splitting of the kmers
+    for (int i = 0; i < Kmers.size(); i++)
+    {
+        string left = "";
+        string right = "";
+        for (int j = 0; j < Kmers[1].size() - 1; j++)
+        {
+            left = left + Kmers[i][j];
+            right = right + Kmers[i][j+1];
+        }
+        bool is_there_left_node = false;
+        bool is_there_right_node = false;
+        for (int j = 0; j < graph.size(); j++)
+        {
+            if (left.compare(graph[j].k_one_mer) == 0)
+            {
+                is_there_left_node = true;
+            }
+            if (right.compare(graph[j].k_one_mer) == 0)
+            {
+                is_there_right_node = true;
+            }
+        }
+        Node dummy;
+        dummy.k_one_mer = left;
+        graph.push_back(dummy);
+        dummy.k_one_mer = right;
+        graph.push_back(dummy);
+    }
+
+}
 int main(int argc, char **argv)
 {
     if (argc != 2)
@@ -87,55 +134,26 @@ int main(int argc, char **argv)
     }
 
     //Save the k-1mers in a vector of strings
-    vector<Node> k_minus_one_mers;
-
-    //Do the splitting of the kmers
-    for (int i = 0; i < kmers.size(); i++)
-    {
-        string left = "";
-        string right = "";
-        for (int j = 0; j < kmers[1].size() - 1; j++)
-        {
-            left = left + kmers[i][j];
-            right = right + kmers[i][j+1];
-        }
-        Node dummy;
-        dummy.k_one_mer = left;
-        k_minus_one_mers.push_back(dummy);
-        dummy.k_one_mer = right;
-        k_minus_one_mers.push_back(dummy);
-    }
-
-    /*
-        Psuedocode for linked list-
-
-        - Do kind of a recursive algorithm
-        1. While splitting the left and right draw and edge between the two
-        2. Look for nodes that are the same and make them into one.
-            - need to collapse edges as well. Pointers help with this. Keep the same number of edges but now point to collapsed node
-        3. Keep doing this until have unique nodes
-
-        Use vector erase to get rid of specific elements
-
-        https://www.youtube.com/watch?v=f-ecmECK7lw
+    vector<Node> d_graph;
 
 
+    construct_graph(d_graph,kmers);
+    
 
-    */
     // Now create the linked list with vertices as the k-1mers and edges being if they overlap
     //Directed graph where left is pointing to the right
 
-    for (int i = 0; i < k_minus_one_mers.size(); i++)
+    for (int i = 0; i < d_graph.size(); i++)
     {
 
     }
 
     // cout << "kmers size :  " << kmers.size() << "\n";
-    // cout << "kmers-1 size :" << k_minus_one_mers.size() << "\n";
+    // cout << "kmers-1 size :" << d_graph.size() << "\n";
 
-    // for (int i = 0; i < k_minus_one_mers.size(); i++)
+    // for (int i = 0; i < d_graph.size(); i++)
     // {
-    //     cout << k_minus_one_mers[i] << "\n";
+    //     cout << d_graph[i] << "\n";
     // }
 	
 }
