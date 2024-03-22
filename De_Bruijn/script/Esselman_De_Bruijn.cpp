@@ -77,6 +77,7 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
     //Do the splitting of the kmers
     for (int i = 0; i < Kmers.size(); i++)
     {
+        //Split into left and right k-1mers
         string left = "";
         string right = "";
         for (int j = 0; j < Kmers[1].size() - 1; j++)
@@ -84,24 +85,73 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
             left = left + Kmers[i][j];
             right = right + Kmers[i][j+1];
         }
+        //Check if the k-1mer has been created yet and if it has find the pointer to that node
         bool is_there_left_node = false;
         bool is_there_right_node = false;
+        Node *left_point;
+        Node *right_point;
+        int left_index;
+        int right_index;
         for (int j = 0; j < graph.size(); j++)
         {
             if (left.compare(graph[j].k_one_mer) == 0)
             {
                 is_there_left_node = true;
+                left_point = &graph[j];
+                left_index = j;
             }
             if (right.compare(graph[j].k_one_mer) == 0)
             {
                 is_there_right_node = true;
+                right_point = &graph[j];
+                right_index = j;
+            }
+            if (is_there_left_node && is_there_right_node)
+            {
+                break;
             }
         }
+
+        //Figure out how to do this without having the indexing variables
+        //Add Nodes and edges to the graph
         Node dummy;
-        dummy.k_one_mer = left;
-        graph.push_back(dummy);
-        dummy.k_one_mer = right;
-        graph.push_back(dummy);
+        if ((is_there_left_node == false) && (is_there_right_node == false))
+        {
+            //Add the two nodes to the graph
+            dummy.k_one_mer = left;
+            graph.push_back(dummy);
+            dummy.k_one_mer = right;
+            graph.push_back(dummy);
+            //Add pointer from the left to the right and add edge flag
+            graph[graph.size() - 2].nexts.push_back(&graph[graph.size() - 1]);
+            graph[graph.size() - 2].visited.push_back(false);
+        }
+        else if ((is_there_left_node == false) && (is_there_right_node == true))
+        {
+            //Make a new left node
+            dummy.k_one_mer = left;
+            graph.push_back(dummy);
+            //Point the new node to the old right node
+            graph[graph.size() - 1].nexts.push_back(right_point);
+            graph[graph.size() - 1].visited.push_back(false);
+
+        }
+        else if ((is_there_left_node == true) && (is_there_right_node == false))
+        {
+            //Make a new right node
+            dummy.k_one_mer = right;
+            graph.push_back(dummy);
+            //Make old node point to new node
+            graph[left_index].nexts.push_back(&graph[graph.size() - 1]);
+            graph[left_index].visited.push_back(false);
+        }
+        else
+        {
+            //Make old node point to old node
+            graph[left_index].nexts.push_back(right_point);
+            graph[left_index].visited.push_back(false);
+        }
+       
     }
 
 }
