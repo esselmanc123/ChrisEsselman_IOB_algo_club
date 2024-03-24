@@ -50,13 +50,14 @@ https://algorithms.discrete.ma.tum.de/graph-algorithms/hierholzer/index_en.html
 #include <string>
 #include <cstring> 
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
 struct Node {
     string k_one_mer;
-    vector<Node *> nexts;
-    vector<int> visited;
+    vector<int> indices_pointing;
+    vector<bool> edges_graph;
 };
 
 void construct_graph(vector<Node> &graph, vector<string> Kmers)
@@ -85,93 +86,113 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
             left = left + Kmers[i][j];
             right = right + Kmers[i][j+1];
         }
-        cout << left << "\n";
-        cout << right << "\n";
-        //Check if the k-1mer has been created yet and if it has find the pointer to that node
+        //Check if the k-1mer has been created yet and if it has find the index to that node
         bool is_there_left_node = false;
         bool is_there_right_node = false;
-        Node *left_point;
-        Node *right_point;
+        int left_pos;
+        int right_pos;
         for (int j = 0; j < graph.size(); j++)
         {
             if (left == graph[j].k_one_mer)
             {
                 is_there_left_node = true;
-                left_point = &graph[j];
+                left_pos = j;
                 
             }
             if (right == graph[j].k_one_mer)
             {
                 is_there_right_node = true;
-                right_point = &graph[j]; 
+                right_pos = j;
             }
-            cout << "is_there_left_node: " << is_there_left_node << "\n";
-            cout << "is_there_right_node: " << is_there_right_node << "\n";
-        }
-        cout << "test" << "\n";
-
-        if (is_there_left_node)
-        {
-            cout << "left_point_string: "<< left_point->k_one_mer << "\n";
-        }
-        if (is_there_right_node)
-        {
-            cout << "right_point_string" << right_point->k_one_mer << "\n";
         }
         //Figure out how to do this without having the indexing variables
         //Add Nodes and edges to the graph
         Node dummy;
         if ((is_there_left_node == false) && (is_there_right_node == false))
         {
-            cout << "test3" << "\n";
             //Add the two nodes to the graph
             dummy.k_one_mer = left;
             graph.push_back(dummy);
             dummy.k_one_mer = right;
             graph.push_back(dummy);
             //Add pointer from the left to the right and add edge flag
-            graph[graph.size() - 2].nexts.push_back(&graph[graph.size() - 1]);
-            graph[graph.size() - 2].visited.push_back(0);
-            cout << "test4" << "\n";
+            graph[graph.size() - 2].indices_pointing.push_back(graph.size() - 1);
+            graph[graph.size() - 2].edges_graph.push_back(false);
         }
         else if ((is_there_left_node == false) && (is_there_right_node == true))
         {
-            cout << "test5" << "\n";
             //Make a new left node
             dummy.k_one_mer = left;
             graph.push_back(dummy);
             //Point the new node to the old right node
-            graph[graph.size() - 1].nexts.push_back(right_point);
-            graph[graph.size() - 1].visited.push_back(0);
-            cout << "test6" << "\n";
-
+            graph[graph.size() - 1].indices_pointing.push_back(right_pos);
+            graph[graph.size() - 1].edges_graph.push_back(false);
         }
         else if ((is_there_left_node == true) && (is_there_right_node == false))
         {
-            cout << "test7" << "\n";
             //Make a new right node
             dummy.k_one_mer = right;
             graph.push_back(dummy);
-            cout << "test7.5" << "\n";
             //Make old node point to new node
-            left_point->nexts.push_back(&graph[graph.size() - 1]);
-            Node *right_string = left_point->nexts[left_point->nexts.size() - 1];
-            cout << "right_string: " << right_string->k_one_mer << "\n";
-            cout << "test7.75" << "\n";
-            left_point->visited.push_back(0);
-            cout << "visited_entry: " << left_point->visited[left_point->visited.size() - 1]; 
-            cout << "test8" << "\n";
+            graph[left_pos].indices_pointing.push_back(graph.size() - 1);
+            graph[left_pos].edges_graph.push_back(false);
         }
         else
         {
-            cout << "test9" << "\n";
             //Make old node point to old node
-            left_point->nexts.push_back(right_point);
-            left_point->visited.push_back(0);
-            cout << "test10" << "\n";
+            graph[left_pos].indices_pointing.push_back(right_pos);
+            graph[left_pos].edges_graph.push_back(false);
         }
-       
     }
+}
+
+bool check_eulerian(vector<Node> graph)
+{
+    /*
+    A directed connected graph is Eulerian if and only if it has at most 2 semi-balanced nodes
+    https://www.cs.jhu.edu/~langmea/resources/lecture_notes/assembly_dbg.pdf
+
+    semi-balanced node - indegree differes from outdegree by 1
+    */
+
+   int semi_balanced = 0;
+
+   for (int i = 0; i < graph.size(); i++)
+   {
+        int in_degree = 0;
+        int out_degree = graph[i].edges_graph.size();
+        //Find the indegrees
+        for (int j = 0; j < graph.size(); j++)
+        {
+            if (i!=j)
+            {
+                for (int k = 0; k < graph[j].indices_pointing.size(); k++)
+                {
+                    if (graph[j].indices_pointing[k] == i)
+                    {
+                        in_degree++;
+                    }
+                }
+            }
+        }
+
+        if (abs(in_degree - out_degree) >= 2)
+        {
+            return false;
+        }
+        else if (abs(in_degree - out_degree) == 1)
+        {
+            semi_balanced++;
+        }
+   }
+   if (semi_balanced > 2)
+   {
+        return false;
+   }
+   else 
+   {
+        return true;
+   }
 
 }
 int main(int argc, char **argv)
@@ -202,39 +223,33 @@ int main(int argc, char **argv)
         kmers.push_back(str);
     }
 
-    //Save the k-1mers in a vector of strings
+    //Construct the graph
     vector<Node> d_graph;
 
-
-    cout << "test-0" << "\n";
     construct_graph(d_graph,kmers);
-    
 
-    // Now create the linked list with vertices as the k-1mers and edges being if they overlap
-    //Directed graph where left is pointing to the right
-
-    cout << "testing2" << "\n";
     for (int i = 0; i < d_graph.size(); i++)
     {
         cout << "original node: " << d_graph[i].k_one_mer << "\n";
-        for (int j = 0; j < d_graph[i].nexts.size(); j++)
-        {
-            Node dummy = *d_graph[i].nexts[j];
-            cout << dummy.k_one_mer << "\n";
 
+        cout << "nextsize: " << d_graph[i].indices_pointing.size() << "\n";
+        cout << "edgessize: " << d_graph[i].edges_graph.size() << "\n";
+        for (int j = 0; j < d_graph[i].indices_pointing.size(); j++)
+        {
+            cout << d_graph[d_graph[i].indices_pointing[j]].k_one_mer << "\n";
         }
 
         cout << "************************\n";
         cout << "************************\n";
+    }
+    
+    //Check to see if a Eulerian walk is possible
 
+    if (!check_eulerian(d_graph))
+    {
+        cout << "An Eulerian walk is not possible with this dataset" << "\n";
+        return 3;
     }
 
-    // cout << "kmers size :  " << kmers.size() << "\n";
-    // cout << "kmers-1 size :" << d_graph.size() << "\n";
-
-    // for (int i = 0; i < d_graph.size(); i++)
-    // {
-    //     cout << d_graph[i] << "\n";
-    // }
 	
 }

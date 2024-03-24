@@ -55,7 +55,8 @@ using namespace std;
 
 struct Node {
     string k_one_mer;
-    vector<int> indices_pointing;
+    vector<Node *> nexts;
+    vector<int> visited;
 };
 
 void construct_graph(vector<Node> &graph, vector<string> Kmers)
@@ -86,29 +87,37 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
         }
         cout << left << "\n";
         cout << right << "\n";
-        //Check if the k-1mer has been created yet and if it has find the index to that node
+        //Check if the k-1mer has been created yet and if it has find the pointer to that node
         bool is_there_left_node = false;
         bool is_there_right_node = false;
-        int left_pos;
-        int right_pos;
+        Node *left_point;
+        Node *right_point;
         for (int j = 0; j < graph.size(); j++)
         {
             if (left == graph[j].k_one_mer)
             {
                 is_there_left_node = true;
-                left_pos = j;
+                left_point = &graph[j];
                 
             }
             if (right == graph[j].k_one_mer)
             {
                 is_there_right_node = true;
-                right_pos = j;
+                right_point = &graph[j]; 
             }
             cout << "is_there_left_node: " << is_there_left_node << "\n";
             cout << "is_there_right_node: " << is_there_right_node << "\n";
         }
         cout << "test" << "\n";
 
+        if (is_there_left_node)
+        {
+            cout << "left_point_string: "<< left_point->k_one_mer << "\n";
+        }
+        if (is_there_right_node)
+        {
+            cout << "right_point_string" << right_point->k_one_mer << "\n";
+        }
         //Figure out how to do this without having the indexing variables
         //Add Nodes and edges to the graph
         Node dummy;
@@ -121,7 +130,8 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
             dummy.k_one_mer = right;
             graph.push_back(dummy);
             //Add pointer from the left to the right and add edge flag
-            graph[graph.size() - 2].indices_pointing.push_back(graph.size() - 1);
+            graph[graph.size() - 2].nexts.push_back(&graph[graph.size() - 1]);
+            graph[graph.size() - 2].visited.push_back(0);
             cout << "test4" << "\n";
         }
         else if ((is_there_left_node == false) && (is_there_right_node == true))
@@ -131,7 +141,8 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
             dummy.k_one_mer = left;
             graph.push_back(dummy);
             //Point the new node to the old right node
-            graph[graph.size() - 1].indices_pointing.push_back(right_pos);
+            graph[graph.size() - 1].nexts.push_back(right_point);
+            graph[graph.size() - 1].visited.push_back(0);
             cout << "test6" << "\n";
 
         }
@@ -143,15 +154,20 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
             graph.push_back(dummy);
             cout << "test7.5" << "\n";
             //Make old node point to new node
-            graph[left_pos].indices_pointing.push_back(graph.size() - 1);
+            left_point->nexts.push_back(&graph[graph.size() - 1]);
+            Node *right_string = left_point->nexts[left_point->nexts.size() - 1];
+            cout << "right_string: " << right_string->k_one_mer << "\n";
             cout << "test7.75" << "\n";
+            left_point->visited.push_back(0);
+            cout << "visited_entry: " << left_point->visited[left_point->visited.size() - 1]; 
             cout << "test8" << "\n";
         }
         else
         {
             cout << "test9" << "\n";
             //Make old node point to old node
-            graph[left_pos].indices_pointing.push_back(right_pos);
+            left_point->nexts.push_back(right_point);
+            left_point->visited.push_back(0);
             cout << "test10" << "\n";
         }
        
@@ -201,11 +217,11 @@ int main(int argc, char **argv)
     for (int i = 0; i < d_graph.size(); i++)
     {
         cout << "original node: " << d_graph[i].k_one_mer << "\n";
-
-        cout << "nextsize: " << d_graph[i].indices_pointing.size() << "\n";
-        for (int j = 0; j < d_graph[i].indices_pointing.size(); j++)
+        for (int j = 0; j < d_graph[i].nexts.size(); j++)
         {
-            cout << d_graph[d_graph[i].indices_pointing[j]].k_one_mer << "\n";
+            Node dummy = *d_graph[i].nexts[j];
+            cout << dummy.k_one_mer << "\n";
+
         }
 
         cout << "************************\n";
