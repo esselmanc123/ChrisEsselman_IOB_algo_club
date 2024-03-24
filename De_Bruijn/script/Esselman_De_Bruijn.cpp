@@ -76,6 +76,7 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
         https://www.youtube.com/watch?v=f-ecmECK7lw
     */
     //Do the splitting of the kmers
+    cout << "Kmerssize: " << Kmers.size() << "\n";
     for (int i = 0; i < Kmers.size(); i++)
     {
         //Split into left and right k-1mers
@@ -146,7 +147,7 @@ void construct_graph(vector<Node> &graph, vector<string> Kmers)
     }
 }
 
-bool check_eulerian(vector<Node> graph)
+bool check_eulerian(vector<Node> graph, vector<int> &locs)
 {
     /*
     A directed connected graph is Eulerian if and only if it has at most 2 semi-balanced nodes
@@ -156,7 +157,10 @@ bool check_eulerian(vector<Node> graph)
     */
 
    int semi_balanced = 0;
-
+   int out_semi_idx;
+   int in_semi_idx;
+   bool out_semi_bool = false; 
+   bool in_semi_bool = false;
    for (int i = 0; i < graph.size(); i++)
    {
         int in_degree = 0;
@@ -180,19 +184,37 @@ bool check_eulerian(vector<Node> graph)
         {
             return false;
         }
-        else if (abs(in_degree - out_degree) == 1)
+        else if (in_degree - out_degree == 1)
         {
             semi_balanced++;
+            in_semi_bool = true;
+            in_semi_idx = i;
+        }
+        else if (in_degree - out_degree == -1)
+        {
+            semi_balanced++;
+            out_semi_bool = true;
+            out_semi_idx = i;
         }
    }
    if (semi_balanced > 2)
    {
         return false;
    }
+   if ((in_semi_bool == true && out_semi_bool == false) || (in_semi_bool == false && out_semi_bool == true))
+   {
+        return false;
+   }
    else 
    {
+
         return true;
    }
+
+}
+
+void eulerian_walk(vector<Node> graph)
+{
 
 }
 int main(int argc, char **argv)
@@ -245,7 +267,8 @@ int main(int argc, char **argv)
     
     //Check to see if a Eulerian walk is possible
 
-    if (!check_eulerian(d_graph))
+    vector<int> location_semieulerians;
+    if (!check_eulerian(d_graph, location_semieulerians))
     {
         cout << "An Eulerian walk is not possible with this dataset" << "\n";
         return 3;

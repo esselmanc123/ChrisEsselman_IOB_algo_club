@@ -87,7 +87,7 @@ int main(int argc, char **argv)
     //Close files
 	fasta1.close();
 
-    for (int i = 0; i < fasta1_length - kmer_length; i++)
+    for (int i = 0; i < (fasta1_length - kmer_length) + 1; i++)
     {
         for (int j = 0; j < kmer_length; j++)
         {
