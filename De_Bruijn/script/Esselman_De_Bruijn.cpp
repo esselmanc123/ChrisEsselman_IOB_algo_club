@@ -159,8 +159,6 @@ bool check_eulerian(vector<Node> graph, vector<int> &locs)
    int semi_balanced = 0;
    int out_semi_idx;
    int in_semi_idx;
-   bool out_semi_bool = false; 
-   bool in_semi_bool = false;
    for (int i = 0; i < graph.size(); i++)
    {
         int in_degree = 0;
@@ -179,7 +177,6 @@ bool check_eulerian(vector<Node> graph, vector<int> &locs)
                 }
             }
         }
-
         if (abs(in_degree - out_degree) >= 2)
         {
             return false;
@@ -187,34 +184,82 @@ bool check_eulerian(vector<Node> graph, vector<int> &locs)
         else if (in_degree - out_degree == 1)
         {
             semi_balanced++;
-            in_semi_bool = true;
             in_semi_idx = i;
         }
         else if (in_degree - out_degree == -1)
         {
             semi_balanced++;
-            out_semi_bool = true;
             out_semi_idx = i;
         }
    }
-   if (semi_balanced > 2)
+   if (semi_balanced > 2 || semi_balanced == 1)
    {
         return false;
    }
-   if ((in_semi_bool == true && out_semi_bool == false) || (in_semi_bool == false && out_semi_bool == true))
+   if (semi_balanced == 2)
    {
-        return false;
+        locs.push_back(out_semi_idx);
+        locs.push_back(in_semi_idx);
+        return true;
    }
    else 
    {
-
         return true;
    }
 
 }
 
-void eulerian_walk(vector<Node> graph)
+int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian)
 {
+    int current = start_node;
+    if (is_semi_eulerian == false)
+    {
+        int w = 1;
+         while (current != start_node || w == 1)
+        {
+            w++;
+            int next_edge = rand()%graph[current].edges_graph.size();
+            if (graph[current].edges_graph[next_edge] == false)
+            {
+                current = graph[current].indices_pointing[next_edge];
+                graph[current].edges_graph[next_edge] = true;
+                cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
+            }
+            else
+            {
+
+                current = start_node + 1;
+
+            }
+        }
+        return current;
+    }
+    return current;
+}
+
+void eulerian_walk(vector<Node> graph, int start_node, bool is_semi_eulerian)
+{
+    bool all_edges_visited = false;
+    int start_node_new = start_node;
+    while (all_edges_visited == false)
+    {
+        bool single_edge_unvisited = false;
+        start_node_new = subtour(graph,start_node_new, is_semi_eulerian);
+        for (int i = 0; i < graph.size(); i++)
+        {
+            for (int j = 0; j < graph[i].edges_graph.size();j++)
+            {
+                if (graph[i].edges_graph[j] == false)
+                {
+                    single_edge_unvisited = true;
+                }
+            }
+        }
+        if (!single_edge_unvisited)
+        {
+            all_edges_visited = true;
+        }
+    }
 
 }
 int main(int argc, char **argv)
@@ -273,6 +318,25 @@ int main(int argc, char **argv)
         cout << "An Eulerian walk is not possible with this dataset" << "\n";
         return 3;
     }
+    bool semi_eulerian = false;
 
-	
+    cout << "Sequence after the walk" << "\n";
+    cout << "**********************" << "\n";
+    cout << "Is Semi_eulerian: " << location_semieulerians.size() << "\n";
+    if (!location_semieulerians.empty())
+    {
+        for (int i = 0; i < d_graph[location_semieulerians[0]].k_one_mer.size() - 1; i++)
+        {
+            cout << d_graph[location_semieulerians[0]].k_one_mer[i];
+        }
+        semi_eulerian = true;
+        eulerian_walk(d_graph,location_semieulerians[0],semi_eulerian);
+        
+    }
+    else
+    {
+        int seed = rand() % d_graph.size(); //Not truly random. Unsure how to fix this
+        eulerian_walk(d_graph,seed,semi_eulerian);
+    }
+    return 0;
 }

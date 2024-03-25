@@ -1,23 +1,40 @@
-original node: ACGCGA
-
+Kmerssize: 6
+left: AT
+right: TG
+left: TG
+right: GA
+left: GA
+right: AT
+left: AT
+right: TA
+left: TA
+right: AT
+left: AT
+right: TG
+original node: AT
+nextsize: 3
+edgessize: 3
+TG
+TA
+TG
 ************************
 ************************
-original node: CGCGAT
-
+original node: TG
+nextsize: 1
+edgessize: 1
+GA
 ************************
 ************************
-original node: GCGATC
-
+original node: GA
+nextsize: 1
+edgessize: 1
+AT
 ************************
 ************************
-original node: CGATCG
-GATCGC
+original node: TA
+nextsize: 1
+edgessize: 1
+AT
 ************************
 ************************
-original node: GATCGC
-ATCGCG
-************************
-************************
-original node: ATCGCG
-************************
-************************
+semi_balanced: 2
