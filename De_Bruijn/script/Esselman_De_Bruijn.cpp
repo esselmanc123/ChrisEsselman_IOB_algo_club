@@ -211,38 +211,50 @@ bool check_eulerian(vector<Node> graph, vector<int> &locs)
 
 int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian)
 {
+    //Do the subtours
     int current = start_node;
+    //Subtour if the graph is eulerian
     if (is_semi_eulerian == false)
     {
+        //variable just to get into the starting node
         int w = 1;
-         while (current != start_node || w == 1)
+        //Keep lopping until reach a cycle
+        while (current != start_node || w == 1)
         {
             w++;
-            int next_edge = rand()%graph[current].edges_graph.size();
-            if (graph[current].edges_graph[next_edge] == false)
+            //Pick a next unvisited edge from the current node
+            bool check_if_visited = true;
+            int next_edge;
+            while (check_if_visited == true)
             {
-                current = graph[current].indices_pointing[next_edge];
-                graph[current].edges_graph[next_edge] = true;
-                cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
+                next_edge = rand()%graph[current].edges_graph.size();
+                if (graph[current].edges_graph[next_edge] == false)
+                {
+                    check_if_visited = false;
+                }
             }
-            else
-            {
-
-                current = start_node + 1;
-
-            }
+            current = graph[current].indices_pointing[next_edge];
+            graph[current].edges_graph[next_edge] = true;
+            cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
         }
+        // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
         return current;
+    }
+    else 
+    {
+
     }
     return current;
 }
 
 void eulerian_walk(vector<Node> graph, int start_node, bool is_semi_eulerian)
 {
+    // Loop through subtours until every edge of the graph is visited
     bool all_edges_visited = false;
     int start_node_new = start_node;
     while (all_edges_visited == false)
     {
+        // Keep checking if a node is unvisited
         bool single_edge_unvisited = false;
         start_node_new = subtour(graph,start_node_new, is_semi_eulerian);
         for (int i = 0; i < graph.size(); i++)
@@ -325,6 +337,7 @@ int main(int argc, char **argv)
     cout << "Is Semi_eulerian: " << location_semieulerians.size() << "\n";
     if (!location_semieulerians.empty())
     {
+        // Case for when the graph is semieulerian
         for (int i = 0; i < d_graph[location_semieulerians[0]].k_one_mer.size() - 1; i++)
         {
             cout << d_graph[location_semieulerians[0]].k_one_mer[i];
@@ -335,6 +348,7 @@ int main(int argc, char **argv)
     }
     else
     {
+        // Case for when the graph is eulerian
         int seed = rand() % d_graph.size(); //Not truly random. Unsure how to fix this
         eulerian_walk(d_graph,seed,semi_eulerian);
     }
