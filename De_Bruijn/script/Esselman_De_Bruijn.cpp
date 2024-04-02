@@ -216,6 +216,9 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian)
     //Subtour if the graph is eulerian
     if (is_semi_eulerian == false)
     {
+        //Vector to save all locations of the subtour
+        vector<int> locs_subtour;
+        locs_subtour.push_back(current);
         //variable just to get into the starting node
         int w = 1;
         //Keep lopping until reach a cycle
@@ -234,14 +237,39 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian)
                 }
             }
             current = graph[current].indices_pointing[next_edge];
+            locs_subtour.push_back(current);
             graph[current].edges_graph[next_edge] = true;
             cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
         }
         // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
-        return current;
+        bool is_all_edge_visited = true;
+        vector<int> unvisit_edge;
+        for (int i = 0; i < locs_subtour.size(); i++)
+        {
+            for (int j = 0; j < graph[locs_subtour[i]].edges_graph.size(); j++)
+            {
+                if (graph[locs_subtour[i]].edges_graph[j] == false)
+                {
+                    is_all_edge_visited = false;
+                    unvisit_edge.push_back(locs_subtour[i]);
+                }
+            }
+        }
+        if (is_all_edge_visited)
+        {
+            return current;
+        }
+        else
+        {
+            int next_node = rand()%unvisit_edge.size();
+            return unvisit_edge[next_node];
+        }
     }
     else 
     {
+        //Subtour for if the graph is semi-eulerian
+        
+
 
     }
     return current;
