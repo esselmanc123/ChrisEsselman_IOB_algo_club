@@ -51,6 +51,8 @@ https://algorithms.discrete.ma.tum.de/graph-algorithms/hierholzer/index_en.html
 #include <cstring> 
 #include <vector>
 #include <cmath>
+#include <cstdlib>
+#include <time.h>
 
 using namespace std;
 
@@ -236,9 +238,9 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian)
                     check_if_visited = false;
                 }
             }
+            graph[current].edges_graph[next_edge] = true;
             current = graph[current].indices_pointing[next_edge];
             locs_subtour.push_back(current);
-            graph[current].edges_graph[next_edge] = true;
             cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
         }
         // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
@@ -284,7 +286,6 @@ void eulerian_walk(vector<Node> graph, int start_node, bool is_semi_eulerian)
     {
         // Keep checking if a node is unvisited
         bool single_edge_unvisited = false;
-        cout << "test1" << "\n";
         start_node_new = subtour(graph,start_node_new, is_semi_eulerian);
         for (int i = 0; i < graph.size(); i++)
         {
@@ -319,6 +320,9 @@ int main(int argc, char **argv)
 		cout << "File 1 is not open \n" << "Usage: ./Esselman_De_Bruijn k-mer_file \n";
 		return 2;
 	}
+
+    //Set seed for rand
+    srand(time(0));
 
     //Save the kmers in a vector of strings
 	vector<string> kmers;
