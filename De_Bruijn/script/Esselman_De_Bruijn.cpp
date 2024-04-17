@@ -211,80 +211,121 @@ bool check_eulerian(vector<Node> graph, vector<int> &locs)
 
 }
 
-int subtour(vector<Node> &graph, int start_node)
+int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian, vector<int> locs_semi)
 {
     //Do the subtours
     int current = start_node;
     //Subtour if the graph is eulerian
-    //Vector to save all locations of the subtour
-    vector<int> locs_subtour;
-    locs_subtour.push_back(current);
-    //variable just to get into the starting node
-    int w = 1;
-    //Keep lopping until reach a cycle
-    while (current != start_node || w == 1)
+    if (is_semi_eulerian == false)
     {
-        w++;
-        //Pick a next unvisited edge from the current node
-        bool check_if_visited = true;
-        int next_edge;
-        while (check_if_visited == true)
-        {
-            next_edge = rand()%graph[current].edges_graph.size();
-            if (graph[current].edges_graph[next_edge] == false)
-            {
-                check_if_visited = false;
-            }
-        }
-        graph[current].edges_graph[next_edge] = true;
-        current = graph[current].indices_pointing[next_edge];
+        //Vector to save all locations of the subtour
+        vector<int> locs_subtour;
         locs_subtour.push_back(current);
-        cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
-        // Keep checking if a node is unvisited
-        bool single_edge_unvisited = false;
-        for (int i = 0; i < graph.size(); i++)
+        //variable just to get into the starting node
+        int w = 1;
+        //Keep lopping until reach a cycle
+        while (current != start_node || w == 1)
         {
-            for (int j = 0; j < graph[i].edges_graph.size();j++)
+            w++;
+            //Pick a next unvisited edge from the current node
+            bool check_if_visited = true;
+            int next_edge;
+            while (check_if_visited == true)
             {
-                if (graph[i].edges_graph[j] == false)
+                next_edge = rand()%graph[current].edges_graph.size();
+                if (graph[current].edges_graph[next_edge] == false)
                 {
-                    single_edge_unvisited = true;
+                    check_if_visited = false;
+                }
+            }
+            graph[current].edges_graph[next_edge] = true;
+            current = graph[current].indices_pointing[next_edge];
+            locs_subtour.push_back(current);
+            cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
+        }
+        // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
+        bool is_all_edge_visited = true;
+        vector<int> unvisit_edge;
+        for (int i = 0; i < locs_subtour.size(); i++)
+        {
+            for (int j = 0; j < graph[locs_subtour[i]].edges_graph.size(); j++)
+            {
+                if (graph[locs_subtour[i]].edges_graph[j] == false)
+                {
+                    is_all_edge_visited = false;
+                    unvisit_edge.push_back(locs_subtour[i]);
                 }
             }
         }
-        if (!single_edge_unvisited)
+        if (is_all_edge_visited)
         {
             return current;
         }
-    }
-    // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
-    bool is_all_edge_visited = true;
-    vector<int> unvisit_edge;
-    for (int i = 0; i < locs_subtour.size(); i++)
-    {
-        for (int j = 0; j < graph[locs_subtour[i]].edges_graph.size(); j++)
+        else
         {
-            if (graph[locs_subtour[i]].edges_graph[j] == false)
-            {
-                is_all_edge_visited = false;
-                unvisit_edge.push_back(locs_subtour[i]);
-            }
+            int next_node = rand()%unvisit_edge.size();
+            return unvisit_edge[next_node];
         }
     }
-    if (is_all_edge_visited)
+    else 
     {
-        return current;
+        //Getting stuck because 
+        //***********
+        //Subtour for if the graph is semi-eulerian
+        //Vector to save all locations of the subtour
+        vector<int> locs_subtour;
+        locs_subtour.push_back(current);
+        //variable just to get into the starting node
+        int w = 1;
+        //Keep lopping until reach a cycle
+        while (current != start_node || w == 1 || current != locs_semi[1])
+        {
+            w++;
+            //Pick a next unvisited edge from the current node
+            bool check_if_visited = true;
+            int next_edge;
+            while (check_if_visited == true)
+            {
+                next_edge = rand()%graph[current].edges_graph.size();
+                if (graph[current].edges_graph[next_edge] == false)
+                {
+                    check_if_visited = false;
+                }
+            }
+            graph[current].edges_graph[next_edge] = true;
+            current = graph[current].indices_pointing[next_edge];
+            locs_subtour.push_back(current);
+            cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1] << "\n";
+        }
+        // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
+        bool is_all_edge_visited = true;
+        vector<int> unvisit_edge;
+        for (int i = 0; i < locs_subtour.size(); i++)
+        {
+            for (int j = 0; j < graph[locs_subtour[i]].edges_graph.size(); j++)
+            {
+                if (graph[locs_subtour[i]].edges_graph[j] == false)
+                {
+                    is_all_edge_visited = false;
+                    unvisit_edge.push_back(locs_subtour[i]);
+                }
+            }
+        }
+        if (is_all_edge_visited)
+        {
+            return current;
+        }
+        else
+        {
+            int next_node = rand()%unvisit_edge.size();
+            return unvisit_edge[next_node];
+        }
     }
-    else
-    {
-        int next_node = rand()%unvisit_edge.size();
-        return unvisit_edge[next_node];
-    }
-    
+    cout << "test 2" << "\n";
     return current;
 }
 
-void eulerian_walk(vector<Node> graph, int start_node)
+void eulerian_walk(vector<Node> graph, int start_node, bool is_semi_eulerian, vector<int> locs_semi)
 {
     // Loop through subtours until every edge of the graph is visited
     bool all_edges_visited = false;
@@ -293,7 +334,7 @@ void eulerian_walk(vector<Node> graph, int start_node)
     {
         // Keep checking if a node is unvisited
         bool single_edge_unvisited = false;
-        start_node_new = subtour(graph,start_node_new);
+        start_node_new = subtour(graph,start_node_new, is_semi_eulerian,locs_semi);
         for (int i = 0; i < graph.size(); i++)
         {
             for (int j = 0; j < graph[i].edges_graph.size();j++)
@@ -382,7 +423,8 @@ int main(int argc, char **argv)
         {
             cout << d_graph[location_semieulerians[0]].k_one_mer[i];
         }
-        eulerian_walk(d_graph,location_semieulerians[0]);
+        semi_eulerian = true;
+        eulerian_walk(d_graph,location_semieulerians[0],semi_eulerian,location_semieulerians);
         
     }
     else
@@ -394,7 +436,7 @@ int main(int argc, char **argv)
         {
             cout << d_graph[seed].k_one_mer[i];
         }
-        eulerian_walk(d_graph,seed);
+        eulerian_walk(d_graph,seed,semi_eulerian,location_semieulerians);
     }
     cout << "\n";
     return 0;
