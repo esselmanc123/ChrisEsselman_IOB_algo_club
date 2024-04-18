@@ -269,18 +269,17 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian, vector<i
     }
     else 
     {
-        //Getting stuck because 
+        //Getting stuck because getting into a loop. Find the node that had one more out edge. Find that out edge
         //***********
         //Subtour for if the graph is semi-eulerian
         //Vector to save all locations of the subtour
         vector<int> locs_subtour;
         locs_subtour.push_back(current);
-        //variable just to get into the starting node
-        int w = 1;
-        //Keep lopping until reach a cycle
-        while (current != start_node || w == 1 || current != locs_semi[1])
+        //Boolean to see if node still has unvisited edges
+        bool more_univisited_edges = true; 
+        //Keep lopping until do not have another edge to go to
+        while (more_univisited_edges)
         {
-            w++;
             //Pick a next unvisited edge from the current node
             bool check_if_visited = true;
             int next_edge;
@@ -295,7 +294,19 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian, vector<i
             graph[current].edges_graph[next_edge] = true;
             current = graph[current].indices_pointing[next_edge];
             locs_subtour.push_back(current);
-            cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1] << "\n";
+            cout << graph[current].k_one_mer[graph[current].k_one_mer.size() - 1];
+            bool single_unvisit = false;
+            for (int i = 0; i < graph[current].edges_graph.size(); i++)
+            {
+                if (graph[current].edges_graph[i] == false)
+                {
+                    single_unvisit = true;
+                }
+            }
+            if (!single_unvisit)
+            {
+                more_univisited_edges = false;
+            }
         }
         // Save the locations of nodes from the previous subtour. Find a node that does not have a visited edge. If no unvisited edges, just return current.
         bool is_all_edge_visited = true;
@@ -321,7 +332,6 @@ int subtour(vector<Node> &graph, int start_node, bool is_semi_eulerian, vector<i
             return unvisit_edge[next_node];
         }
     }
-    cout << "test 2" << "\n";
     return current;
 }
 
