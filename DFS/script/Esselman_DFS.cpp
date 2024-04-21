@@ -43,46 +43,64 @@ void construct_graph(vector<Node> &graph, vector<string> names2)
         istringstream ss(names2[i]);
 
         //Blank string variable to parse with
-        string substr;
+        string origin_node;
         //Get label
-        getline(ss, substr, '-');
+        getline(ss, origin_node, '-');
+        // Boolean to tell if origin node exists
+        bool is_there_origin = false;
+        //Index of origin node
+        int origin_node_int;
+        //Check to see if origin node is already in the graph
+        for (int j = 0; j < graph.size(); j++)
+        {
+            if (graph[j].node_name == origin_node)
+            {
+                is_there_origin = true;
+                origin_node_int = j;
+            }
+        }
+        //If the origin node does not exist add it to the graph
         Node dummy;
-        if ((is_there_left_node == false) && (is_there_right_node == false))
+        if (is_there_origin == false)
         {
-            //Add the two nodes to the graph
-            dummy.node_name = left;
+            dummy.node_name = origin_node;
             graph.push_back(dummy);
-            dummy.node_name = right;
-            graph.push_back(dummy);
-            //Add pointer from the left to the right and add edge flag
-            graph[graph.size() - 2].indices_pointing.push_back(graph.size() - 1);
-            graph[graph.size() - 2].edges_graph.push_back(false);
+            origin_node_int = graph.size() - 1;
         }
-        else if ((is_there_left_node == false) && (is_there_right_node == true))
+        //Save to where the origin node is pointing towards
+        vector<string> nodes_towards;
+        string towards_dummies;
+        while (getline(ss,towards_dummies,','))
         {
-            //Make a new left node
-            dummy.node_name = left;
-            graph.push_back(dummy);
-            //Point the new node to the old right node
-            graph[graph.size() - 1].indices_pointing.push_back(right_pos);
-            graph[graph.size() - 1].edges_graph.push_back(false);
+            nodes_towards.push_back(towards_dummies);
         }
-        else if ((is_there_left_node == true) && (is_there_right_node == false))
+
+        //Add to the graph depending on the size of the pointing ndoes
+        for (int j = 0; j < nodes_towards.size(); j++)
         {
-            //Make a new right node
-            dummy.node_name = right;
-            graph.push_back(dummy);
-            //Make old node point to new node
-            graph[left_pos].indices_pointing.push_back(graph.size() - 1);
-            graph[left_pos].edges_graph.push_back(false);
+            //See if the towards node exists and if it does save the index of its location
+            bool does_towards_node_exist = false;
+            int towards_node_int;
+            for (int k = 0; k < graph.size(); k++)
+            {
+                if (graph[k].node_name == nodes_towards[j])
+                {
+                    does_towards_node_exist = true;
+                    towards_node_int = k;
+                }
+            }
+            // Add it if it does not exist
+            if (does_towards_node_exist == false)
+            {
+                dummy.node_name = nodes_towards[j];
+                graph.push_back(dummy);
+                towards_node_int = graph.size() - 1;
+            }
+            // Make things point to the right thing
+            graph[origin_node_int].indices_pointing.push_back(towards_node_int);
+            graph[origin_node_int].edges_graph.push_back(false);
         }
-        else
-        {
-            //Make old node point to old node
-            graph[left_pos].indices_pointing.push_back(right_pos);
-            graph[left_pos].edges_graph.push_back(false);
-        }
-   }
+    }
 }
 
 int main(int argc, char **argv)
@@ -98,7 +116,7 @@ int main(int argc, char **argv)
 
 	if (!node_file.is_open())
 	{
-		cout << "File 1 is not open \n" << "Usage: ./Esselman_De_Bruijn k-mer_file \n";
+		cout << "File 1 is not open \n" << "Usage: ./Esselman_DFS node_file \n";
 		return 2;
 	}
 
@@ -116,25 +134,20 @@ int main(int argc, char **argv)
     //Construct the graph
     vector<Node> d_graph;
 
-    for (int i = 0; i < names.size(); i++)
+    construct_graph(d_graph,names);
+
+    for (int i = 0; i < d_graph.size(); i++)
     {
-        cout << names[i] << "\n";
+        cout << d_graph[i].node_name << "->";
+        for (int j = 0; j < d_graph[i].indices_pointing.size(); j++)
+        {
+            cout << d_graph[d_graph[i].indices_pointing[j]].node_name;
+            if (j < d_graph[i].indices_pointing.size() - 1)
+            {
+                cout << ",";
+            }
+        }
+        cout << "\n";
     }
-
-    //construct_graph(d_graph,names);
-
-    // for (int i = 0; i < d_graph.size(); i++)
-    // {
-    //     cout << d_graph[i].node_name << "->";
-    //     for (int j = 0; j < d_graph[i].indices_pointing.size(); j++)
-    //     {
-    //         cout << d_graph[d_graph[i].indices_pointing[j]].node_name;
-    //         if (j < d_graph[i].indices_pointing.size() - 1)
-    //         {
-    //             cout << ",";
-    //         }
-    //     }
-    //     cout << "\n";
-    // }
     return 0;
 }
