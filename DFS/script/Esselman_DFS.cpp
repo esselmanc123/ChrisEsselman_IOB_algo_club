@@ -14,7 +14,6 @@ using namespace std;
 struct Node {
     string node_name;
     vector<int> indices_pointing;
-    vector<bool> edges_graph;
 };
 
 void construct_graph(vector<Node> &graph, vector<string> names2)
@@ -98,9 +97,60 @@ void construct_graph(vector<Node> &graph, vector<string> names2)
             }
             // Make things point to the right thing
             graph[origin_node_int].indices_pointing.push_back(towards_node_int);
-            graph[origin_node_int].edges_graph.push_back(false);
         }
     }
+}
+
+void depth_first_search(vector<Node> &graph)
+{
+    /*
+        Psuedocode for Depth first search
+
+        Need two data structures: Stack and already visited vector.
+        Get rid of thing in struct that keep track if the edges have been visited or not
+
+        1. Start from the root node and mark it as visited.
+
+        2. For each unvisited child of the current node, mark it as visited and add it to the stack.
+
+        3. If all children have been visited, pop the top element from the stack and set it as the current node.
+        
+        4. Repeat steps 2 and 3 until all vertices have been visited or the target vertex has been found.
+
+        https://medium.com/@cyberw1ng/understanding-depth-first-search-algorithm-2023-551592ae9b4f
+    */
+
+   // Initalize the two datastructures that I will need and an iterator to keep track of current node
+   vector<int> visited;
+   vector<int> stack;
+   int current = 0;
+   visited.push_back(current);
+   cout << graph[current].node_name << "->";
+   while (visited.size() != graph.size())
+   {
+        // Iterate through each child of the current node
+        for (int i = 0; i < graph[current].indices_pointing.size(); i++)
+        {
+            //Look to see if the child has been visited
+            bool is_node_visited = false;
+            for (int j = 0; j < visited.size(); j++)
+            {
+                if (graph[current].indices_pointing[i] == visited[j])
+                {
+                    is_node_visited = true;
+                }
+            }
+            // If the child is not visited then mark it as visited and add it to the stack
+            if (!is_node_visited)
+            {
+                stack.push_back(graph[current].indices_pointing[i]);
+                visited.push_back(graph[current].indices_pointing[i]);
+                cout << graph[visited[visited.size() - 1]].node_name << "->";
+            }
+        }
+        current = stack[stack.size() - 1];
+        stack.pop_back();
+   }
 }
 
 int main(int argc, char **argv)
@@ -149,5 +199,11 @@ int main(int argc, char **argv)
         }
         cout << "\n";
     }
+
+    cout << "\n\n" << "***************" << "\n\n";
+
+    depth_first_search(d_graph);
+
+    cout << "\n";
     return 0;
 }
