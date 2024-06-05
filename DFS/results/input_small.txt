@@ -1,4 +1,4 @@
-AT->TG,TA
-TG->GA
-GA->AT
-TA->AT
+AT-TG,TA
+TG-GA
+GA-AT
+TA-AT
