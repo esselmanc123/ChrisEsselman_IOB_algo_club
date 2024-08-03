@@ -65,3 +65,7 @@ pprint(Aug_rreduced)
 x = Aug_rreduced[:, -1]
 print("x = ")
 pprint(x)
+
+# Change x to ints and pretty print
+x = x.as_np().astype(int)
+pprint(x)
