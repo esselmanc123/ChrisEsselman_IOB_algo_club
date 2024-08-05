@@ -153,13 +153,19 @@ int main(int argc, char **argv)
     //Read in the headers and the row names
     string col_names_string = argv[3];
     transform(col_names_string.begin(), col_names_string.end(), col_names_string.begin(), ::toupper);
-    if (col_names_string != "TRUE" || col_names_string != "FALSE")
+    if (col_names_string != "TRUE" && col_names_string != "FALSE")
     {
-        if (!is_number(col_names_string) || stoi(col_names_string) != 1 || stoi(col_names_string) != 0)
+        if (!is_number(col_names_string))
         {
             cout << "Please enter true or false or 1 or 0 for col_names\n";
             return 3;
         }
+        else if (stoi(col_names_string) != 1 && stoi(col_names_string) != 0)
+        {
+            cout << "Please enter true or false or 1 or 0 for col_names\n";
+            return 3;
+        }
+        
     }
     // set is_there_colnames
     int is_there_colnames;
@@ -179,13 +185,19 @@ int main(int argc, char **argv)
     //Read in true or false to see if the data has rownames
     string row_names_string = argv[4];
     transform(row_names_string.begin(), row_names_string.end(), row_names_string.begin(), ::toupper);
-    if (row_names_string != "TRUE" || row_names_string != "FALSE")
+    if (row_names_string != "TRUE" && row_names_string != "FALSE")
     {
-        if (!is_number(row_names_string) || stoi(row_names_string) != 1 || stoi(row_names_string) != 0)
+        if (!is_number(row_names_string))
         {
             cout << "Please enter true or false or 1 or 0 for row_names\n";
             return 4;
         }
+        else if (stoi(row_names_string) != 1 && stoi(row_names_string) != 0)
+        {
+            cout << "Please enter true or false or 1 or 0 for row_names\n";
+            return 4;
+        }
+        
     }
     // set is_there_rownames
     int is_there_rownames;
@@ -204,7 +216,7 @@ int main(int argc, char **argv)
 
     string numerical_or_categorical_string =  argv[5];
     transform(numerical_or_categorical_string.begin(), numerical_or_categorical_string.end(), numerical_or_categorical_string.begin(), ::toupper);
-    if (numerical_or_categorical_string != "NUM" || numerical_or_categorical_string != "CAT")
+    if (numerical_or_categorical_string != "NUM" && numerical_or_categorical_string != "CAT")
     {
         cout << "Please enter num or cat for numerical_or_categorical\n";
         return 5;
@@ -390,10 +402,11 @@ int main(int argc, char **argv)
                 }    
             }
             counterX++;
-            cout << the_data.size() << "\n";
         }
     }
     the_data.pop_back();
+
+    cout << "The data:" << the_data <<"\n";
 
     normalize(the_data);
 
