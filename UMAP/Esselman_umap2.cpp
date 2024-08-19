@@ -119,7 +119,7 @@ void euclidean_distance(vector<vector<double> > data, vector<vector<double> >& b
     }
 }
 
-void similarity(vector<vector<double> > dissimilarity_mat, vector<vector<double> >& blank_matrix, double log_nearest_neighbor)
+void similarity(vector<vector<double> > dissimilarity_mat, vector<vector<double> >& blank_matrix, double log_nearest_neighbor, int num_neighbors)
 {
     //Create a vector that hold the nearest neighbor for each row
     //The index is the row and the value is the nearest neighbor
@@ -139,13 +139,15 @@ void similarity(vector<vector<double> > dissimilarity_mat, vector<vector<double>
         }
         nearest_neighbors.push_back(j_index);
     }
-    
+
+
     //Calculate the similarity
-    int sigma = 1;
     for (int i = 0; i < dissimilarity_mat.size(); i++)
     {
         //Push back each row of the similarity matrix
         blank_matrix.push_back(vector<double>());
+        //Initial sigma score
+        int sigma = 1;
         for (int j = 0; j < dissimilarity_mat[i].size(); j++)
         {
             // Make the diagnol elements -1
@@ -499,7 +501,7 @@ int main(int argc, char **argv)
 
     //Make a matrix to hold the nearest neighbors
     vector<vector<double> > similarity_matrix;
-    similarity(dissimilarity_matrix,similarity_matrix,log2_num_neighbors);
+    similarity(dissimilarity_matrix,similarity_matrix,log2_num_neighbors,num_neighbors);
     cout << "The original similarity matrix is:\n";
     for (int i = 0; i < similarity_matrix.size(); i++)
     {
