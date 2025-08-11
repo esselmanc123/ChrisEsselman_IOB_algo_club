@@ -1,0 +1,1428 @@
+PFL1895w	PFI0890c	PF00276	PF00297	5.3	0.808957726955	ribosomal protein L23, putative	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative
+PFL1895w	PFL2180w	PF00276	PF00297	5.3	0.955636388877	ribosomal protein L23, putative	50S ribosomal protein L3, putative
+PFL1895w	PF10_0272	PF00276	PF00297	5.3	0.0054432159741	ribosomal protein L23, putative	ribosomal protein L3, putative
+PFL1895w	PFC0690c	PF00276	PF00096	7.6	0.0119822024484	ribosomal protein L23, putative	hypothetical protein
+PFE0160c	PFE0160c	PF00076	PF00076	14.5	0.999395416906	Ser/Arg-rich splicing factor, putative	Ser/Arg-rich splicing factor, putative
+PFE0160c	PF08_0049	PF00076	PF01423	14.5	0.164141984682	Ser/Arg-rich splicing factor, putative	ribonucleoprotein, putative
+PFE0160c	PF14_0656	PF00076	PF00076	14.5	0.758046907123	Ser/Arg-rich splicing factor, putative	U2 snRNP auxiliary factor, putative
+PFE0160c	PFE0865c	PF00076	PF00076	14.5	0.929317760463	Ser/Arg-rich splicing factor, putative	splicing factor, putative
+PFE0160c	PF13_0142	PF00076	PF01423	14.5	0.709036014271	Ser/Arg-rich splicing factor, putative	u6 snRNA-associated sm-like protein, putative
+PFE0160c	PFE1020w	PF00076	PF01423	14.5	0.435970380699	Ser/Arg-rich splicing factor, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PFE0160c	MAL13P1.120	PF00076	PF00076	14.5	0.680225678748	Ser/Arg-rich splicing factor, putative	splicing factor, putative
+PFE0160c	PF11_0200	PF00076	PF00076	14.5	0.997245724545	Ser/Arg-rich splicing factor, putative	U2 snRNP auxiliary factor, small subunit, putative
+PFE0160c	MAL13P1.253	PF00076	PF01423	14.5	0.0865552006819	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0160c	PF14_0146	PF00076	PF01423	14.5	0.835253508324	Ser/Arg-rich splicing factor, putative	ribonucleoprotein, putative
+PFE0160c	PFL2300w	PF00076	PF01974	3.0	0.987681175646	Ser/Arg-rich splicing factor, putative	hypothetical protein
+PFE0160c	PFB0865w	PF00076	PF01423	14.5	0.97384519382	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0160c	PF14_0026	PF00076	PF06220	6.2	0.989255131725	Ser/Arg-rich splicing factor, putative	hypothetical protein
+PFE0160c	PF11_0524	PF00076	PF01423	14.5	0.966410028612	Ser/Arg-rich splicing factor, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PFE0160c	MAL8P1.9	PF00076	PF01423	14.5	0.145668796616	Ser/Arg-rich splicing factor, putative	u6 snRNA-associated sm-like protein, putative
+PFE0160c	PF14_0194	PF00076	PF00076	14.5	0.428755110736	Ser/Arg-rich splicing factor, putative	spliceosome-associated protein, putative
+PFE0160c	PF14_0514	PF00076	PF01974	3.0	0.985187658327	Ser/Arg-rich splicing factor, putative	tRNA intron endonuclease, putative
+PFE0160c	MAL13P1.338	PF00076	PF00076	14.5	0.741947577906	Ser/Arg-rich splicing factor, putative	u1 small nuclear ribonucleoprotein, putative
+PFE0160c	MAL8P1.48	PF00076	PF01423	14.5	0.51429089152	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0160c	PF14_0057	PF00076	PF00076	14.5	0.75152672465	Ser/Arg-rich splicing factor, putative	RNA binding protein, putative
+PFE0160c	PF10_0079	PF00076	PF02178	5.8	0.978938245361	Ser/Arg-rich splicing factor, putative	hypothetical protein
+PFE0160c	PF11_0266	PF00076	PF01423	14.5	0.975836622386	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein D1, putative
+PFE0160c	PF11_0280	PF00076	PF01423	14.5	0.0553654235783	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein F, putative
+PFE0160c	PF08_0084	PF00076	PF06220	6.2	0.997254037923	Ser/Arg-rich splicing factor, putative	hypothetical protein
+PFE0160c	PFL0460w	PF00076	PF01423	14.5	0.695987519819	Ser/Arg-rich splicing factor, putative	u6 snRNA-associated Sm-like protein, putative
+PFE0160c	PF14_0411	PF00076	PF01423	14.5	0.980009842562	Ser/Arg-rich splicing factor, putative	small nuclear ribonuclear protein, putative
+PFE0160c	MAL13P1.35	PF00076	PF00076	14.5	0.954247678299	Ser/Arg-rich splicing factor, putative	u1 small nuclear ribonucleoprotein a, putative
+PFE0160c	PF11_0255	PF00076	PF01423	14.5	0.161999953166	Ser/Arg-rich splicing factor, putative	hypothetical protein
+PFE0160c	PFI0475w	PF00076	PF01423	14.5	0.60378627488	Ser/Arg-rich splicing factor, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF10_0169	PF11_0202	PF03332	PF00928	5.8	0.0846613480891	phosphomannomutase, putative	clathrin coat assembly protein, putative
+PF10_0169	PF13_0062	PF03332	PF00928	5.8	0.0180470146766	phosphomannomutase, putative	clathrin-adaptor medium chain, putative
+PFF0175c	PF14_0513	PF01388	PF00076	8.0	0.662453057411	hypothetical protein	RNA binding protein, putative
+PFL2215w	PFL2215w	PF00022	PF00022	8.5	0.999395416906	actin	actin
+PFL2215w	PF11_0114	PF00022	PF00022	8.5	0.986419041011	actin	actin, putative
+PFL2215w	PFA0190c	PF00022	PF00022	8.5	0.98198765004	actin	actin
+PFL2215w	PF14_0124	PF00022	PF00022	8.5	0.938313908383	actin	actin II
+PFL2215w	PF07_0077	PF00022	PF00022	8.5	0.544147727878	actin	hypothetical protein
+PFL2215w	PF14_0218	PF00022	PF00022	8.5	0.294635715767	actin	actin, putative
+PFL2215w	PF11_0047	PF00022	PF00022	8.5	0.217658356651	actin	hypothetical protein
+PFL2215w	PF13_0326	PF00022	PF00241	27.2	0.878943577187	actin	actin-depolymerizing factor, putative
+PFL2215w	PFE0255w	PF00022	PF00022	8.5	0.759218678083	actin	actin-related protein, putative
+PFL2215w	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin	actin-like protein, putative
+PFL2215w	PFI0520w	PF00022	PF00022	8.5	0.914399916747	actin	actin-like protein, putative
+PFE0965c	PFE0965c	PF00137	PF00137	4.3	0.999395416906	vacuolar ATP synthetase, putative	vacuolar ATP synthetase, putative
+PFE0965c	MAL13P1.271	PF00137	PF00137	4.3	0.784442465075	vacuolar ATP synthetase, putative	V-type ATPase, putative
+PFE0965c	PF13_0061	PF00137	PF00231	5.2	0.944452881379	vacuolar ATP synthetase, putative	ATP synthase gamma chain, mitochondrial precursor, putative
+PFE0965c	MAL13P1.47	PF00137	PF00213	6.0	0.662453057411	vacuolar ATP synthetase, putative	mitochondrial ATP synthase delta subunit, putative
+PF08_0055	PF08_0055	PF04427	PF04427	4.3	0.999395416906	u3 small nucleolar ribonucleoprotein protein	u3 small nucleolar ribonucleoprotein protein
+PFE0915c	PFE0915c	PF00227	PF00227	103.0	0.999395416906	proteasome subunit beta type 1	proteasome subunit beta type 1
+PFE0915c	PF13_0282	PF00227	PF00227	103.0	0.99800860801	proteasome subunit beta type 1	proteasome subunit, putative
+PFE0915c	PFL1465c	PF00227	PF00227	103.0	0.997872000117	proteasome subunit beta type 1	heat shock protein hslv, putative
+PFE0915c	MAL8P1.142	PF00227	PF00227	103.0	0.99788270115	proteasome subunit beta type 1	proteasome beta-subunit
+PFE0915c	PF13_0156	PF00227	PF00227	103.0	0.99539682304	proteasome subunit beta type 1	proteasome subunit beta type 7 precursor, putative
+PFE0915c	PF07_0112	PF00227	PF00227	103.0	0.997723901784	proteasome subunit beta type 1	proteasome subunit alpha type 5, putative
+PFE0915c	PFI1545c	PF00227	PF00227	103.0	0.99908421738	proteasome subunit beta type 1	proteasome precursor, putative
+PFE0915c	PFC0745c	PF00227	PF00227	103.0	0.99848101324	proteasome subunit beta type 1	proteasome component C8, putative
+PFE0915c	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome subunit beta type 1	proteasome subunit alpha type 2, putative
+PFE0915c	PFA0400c	PF00227	PF00227	103.0	0.998382425991	proteasome subunit beta type 1	beta3 proteasome subunit, putative
+PFE0915c	MAL13P1.270	PF00227	PF00227	103.0	0.998695675452	proteasome subunit beta type 1	proteasome subunit, putative
+PFE0915c	MAL8P1.128	PF00227	PF00227	103.0	0.998957276059	proteasome subunit beta type 1	proteasome subunit alpha, putative
+PFE0915c	PF14_0716	PF00227	PF00227	103.0	0.997836665883	proteasome subunit beta type 1	Proteosome subunit alpha type 1, putative
+PFE0915c	PF14_0676	PF00227	PF00227	103.0	0.996021130297	proteasome subunit beta type 1	20S proteasome beta 4 subunit, putative
+PFE0915c	PF10_0111	PF00227	PF00227	103.0	0.996621695611	proteasome subunit beta type 1	20S proteasome beta subunit, putative
+PFL1425w	PFL1425w	PF00118	PF00118	17.9	0.999395416906	t-complex protein 1, gamma subunit, putative	t-complex protein 1, gamma subunit, putative
+PFL1425w	PFC0400w	PF00118	PF00428	7.3	0.382471292732	t-complex protein 1, gamma subunit, putative	60S Acidic ribosomal protein P2
+PFL1425w	PF10_0264	PF00118	PF00318	4.1	0.543241801604	t-complex protein 1, gamma subunit, putative	40S ribosomal protein, putative
+PFL1425w	PF11_0313	PF00118	PF00428	7.3	0.572045201008	t-complex protein 1, gamma subunit, putative	ribosomal phosphoprotein P0
+PFL1425w	MAL13P1.283	PF00118	PF00118	17.9	0.995536045074	t-complex protein 1, gamma subunit, putative	TCP-1/cpn60 chaperonin family, putative
+PFL1425w	PFC0350c	PF00118	PF00118	17.9	0.997841894313	t-complex protein 1, gamma subunit, putative	T-complex protein eta subunit, putative
+PFL1425w	PFC0900w	PF00118	PF00118	17.9	0.997935406182	t-complex protein 1, gamma subunit, putative	T-complex protein 1 epsilon subunit, putative
+PFL1425w	PF11_0331	PF00118	PF00118	17.9	0.995767258436	t-complex protein 1, gamma subunit, putative	t-complex protein 1, alpha subunit, putative
+PFL1425w	PFC0285c	PF00118	PF00118	17.9	0.998616968091	t-complex protein 1, gamma subunit, putative	T-complex protein beta subunit, putative
+PF13_0282	PF13_0282	PF00227	PF00227	103.0	0.999395416906	proteasome subunit, putative	proteasome subunit, putative
+PF13_0282	PFL1465c	PF00227	PF00227	103.0	0.995123294527	proteasome subunit, putative	heat shock protein hslv, putative
+PF13_0282	MAL8P1.142	PF00227	PF00227	103.0	0.997687047009	proteasome subunit, putative	proteasome beta-subunit
+PF13_0282	PF13_0156	PF00227	PF00227	103.0	0.998701977928	proteasome subunit, putative	proteasome subunit beta type 7 precursor, putative
+PF13_0282	PF07_0112	PF00227	PF00227	103.0	0.995701165362	proteasome subunit, putative	proteasome subunit alpha type 5, putative
+PF13_0282	PFI1545c	PF00227	PF00227	103.0	0.998150443245	proteasome subunit, putative	proteasome precursor, putative
+PF13_0282	PFC0745c	PF00227	PF00227	103.0	0.998142342321	proteasome subunit, putative	proteasome component C8, putative
+PF13_0282	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome subunit, putative	proteasome subunit alpha type 2, putative
+PF13_0282	PFA0400c	PF00227	PF00227	103.0	0.998492311433	proteasome subunit, putative	beta3 proteasome subunit, putative
+PF13_0282	MAL13P1.270	PF00227	PF00227	103.0	0.9988417167	proteasome subunit, putative	proteasome subunit, putative
+PF13_0282	MAL8P1.128	PF00227	PF00227	103.0	0.998624945937	proteasome subunit, putative	proteasome subunit alpha, putative
+PF13_0282	PF14_0716	PF00227	PF00227	103.0	0.998907574264	proteasome subunit, putative	Proteosome subunit alpha type 1, putative
+PF13_0282	PF14_0676	PF00227	PF00227	103.0	0.990639268217	proteasome subunit, putative	20S proteasome beta 4 subunit, putative
+PF13_0282	PF10_0111	PF00227	PF00227	103.0	0.996884258775	proteasome subunit, putative	20S proteasome beta subunit, putative
+PF14_0642	PF07_0100	PF00237	PF00753	5.2	0.72075118464	hypothetical protein	hypothetical protein
+PF14_0642	PF11_0175	PF00237	PF00004	3.2	0.0224306969739	hypothetical protein	heat shock protein 101, putative
+PF14_0642	PFC0290w	PF00237	PF00164	5.8	0.125851638427	hypothetical protein	40S ribosomal protein S23, putative
+PF14_0642	PF14_0616	PF00237	PF00004	3.2	0.356680632248	hypothetical protein	hypothetical protein, conserved
+PF14_0642	PFB0895c	PF00237	PF00004	3.2	0.358203530348	hypothetical protein	replication factor C subunit 1, putative
+PF14_0642	PFD0600c	PF00237	PF00164	5.8	0.693984413119	hypothetical protein	ribosomal protein, putative
+PF14_0642	PF14_0063	PF00237	PF00004	3.2	0.621200703479	hypothetical protein	ATP-dependent Clp protease, putative
+PF14_0642	PF08_0063	PF00237	PF00004	3.2	0.701085128674	hypothetical protein	hypothetical protein
+PF10_0046	PFL0585w	PF00097	PF00240	5.7	0.0796488475442	hypothetical protein	PfpUB Plasmodium falciparum polyubiquitin
+PF10_0046	PFD0770c	PF00097	PF00827	3.2	0.00669833958026	hypothetical protein	ribosomal protein l15, putative
+PF10_0046	PF13_0346	PF00097	PF00240	5.7	0.045620041298	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PF10_0046	PFB0830w	PF00097	PF01283	3.0	0.0219995796704	hypothetical protein	Ribosomal protein S26e, putative
+PF10_0046	PF13_0224	PF00097	PF01775	7.3	0.0439262423896	hypothetical protein	60S ribosomal subunit protein L18, putative
+PF10_0046	PF14_0027	PF00097	PF00240	5.7	0.0168196829679	hypothetical protein	ribosomal S27a, putative
+PF10_0046	PFL2055w	PF00097	PF00833	3.6	0.0104433664535	hypothetical protein	40S ribosomal protein S17, putative
+PFE0140c	PFE0140c	PF02953	PF02953	14.6	0.999395416906	hypothetical protein	hypothetical protein
+PFE0140c	PF14_0328	PF02953	PF02466	10.6	0.145539072782	hypothetical protein	mitochondrial import inner membrane translocase subunit tim17, putative
+PFE0140c	PFI0425w	PF02953	PF00153	6.6	0.887668129498	hypothetical protein	transporter, putative
+PFE0140c	PF10_0366	PF02953	PF00153	6.6	0.814626463616	hypothetical protein	ADP/ATP transporter on adenylate translocase
+PFE0140c	PF14_0208	PF02953	PF02953	14.6	0.305071650783	hypothetical protein	hypothetical protein, conserved
+PFE0140c	PFL0430w	PF02953	PF02953	14.6	0.709724162317	hypothetical protein	tim10 homologue, putative
+PFE0140c	PF08_0031	PF02953	PF00153	6.6	0.947371280304	hypothetical protein	oxoglutarate/malate translocator protein, putative
+PFE0140c	PFL2065c	PF02953	PF02953	14.6	0.997730012456	hypothetical protein	mitochondrial import inner membrane translocase subunit, putative
+PFE0140c	PFL0110c	PF02953	PF00153	6.6	0.858409394705	hypothetical protein	PfmpC
+PFE0140c	PFF1330c	PF02953	PF02466	10.6	0.0733504115574	hypothetical protein	mitochondrial import inner membrane translocase subunit, putative
+PFE0140c	PF13_0300	PF02953	PF02466	10.6	0.435531808677	hypothetical protein	mitochondrial inner membrane translocase, putative
+PFE0140c	PF13_0358	PF02953	PF02953	14.6	0.985098927789	hypothetical protein	mitochondrial import inner membrane translocase, putative
+PFE0140c	PF13_0359	PF02953	PF00153	6.6	0.715394517737	hypothetical protein	mitochondrial carrier protein, putative
+PFE0140c	PFL2000w	PF02953	PF00153	6.6	0.963292728277	hypothetical protein	mitochondrial carrier protein, putative
+PFC0510w	PFL0585w	PF00097	PF00240	5.7	0.926658405468	zinc finger protein, putative	PfpUB Plasmodium falciparum polyubiquitin
+PFC0510w	PFD0770c	PF00097	PF00827	3.2	0.00302969207965	zinc finger protein, putative	ribosomal protein l15, putative
+PFC0510w	PF13_0346	PF00097	PF00240	5.7	0.0181042742358	zinc finger protein, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFC0510w	PFB0830w	PF00097	PF01283	3.0	0.0879808799071	zinc finger protein, putative	Ribosomal protein S26e, putative
+PFC0510w	PF13_0224	PF00097	PF01775	7.3	0.00270476156432	zinc finger protein, putative	60S ribosomal subunit protein L18, putative
+PFC0510w	PF14_0027	PF00097	PF00240	5.7	0.0116839507876	zinc finger protein, putative	ribosomal S27a, putative
+PFC0510w	PFL2055w	PF00097	PF00833	3.6	0.000655977645757	zinc finger protein, putative	40S ribosomal protein S17, putative
+PF14_0244	PF14_0244	PF00005	PF00005	4.9	0.999395416906	ABC transporter, putative	ABC transporter, putative
+PF14_0244	PFD0367w	PF00005	PF00005	4.9	0.662453057411	ABC transporter, putative	hypothetical protein
+PF14_0244	PF14_0133	PF00005	PF00005	4.9	0.266389517571	ABC transporter, putative	ATP-dependent transporter, putative
+PF14_0244	PF11_0225	PF00005	PF00005	4.9	0.187599208042	ABC transporter, putative	PfGCN20
+PF14_0244	PFL1410c	PF00005	PF00005	4.9	0.0449757721227	ABC transporter, putative	hypothetical protein
+PF14_0244	PF13_0218	PF00005	PF00005	4.9	0.95597168591	ABC transporter, putative	ABC transporter, putative
+PF14_0244	PFE1150w	PF00005	PF00005	4.9	0.881964164419	ABC transporter, putative	multidrug resistance protein
+PF14_0244	PFC0125w	PF00005	PF00005	4.9	0.246526116321	ABC transporter, putative	ABC transporter, putative
+PF14_0244	PFL0495c	PF00005	PF00005	4.9	0.849455169187	ABC transporter, putative	ABC transporter, putative
+PF14_0244	PF14_0455	PF00005	PF00005	4.9	0.275759117721	ABC transporter, putative	multidrug resistance protein 2
+PF14_0244	PF13_0271	PF00005	PF00005	4.9	0.925071798867	ABC transporter, putative	ABC transporter, putative
+PF14_0244	PF11_0466	PF00005	PF00005	4.9	0.705795180412	ABC transporter, putative	transport protein, putative
+PFB0480w	PF11_0483	PF05739	PF00432	3.6	0.0858375862618	syntaxin, putative	farnesyltransferase beta subunit, putative
+PFB0480w	PFL0695c	PF05739	PF00432	3.6	0.107728218338	syntaxin, putative	geranylgeranyl transferase type2 beta subunit, putative
+PF13_0051	PF08_0049	PF04410	PF01423	4.7	0.107230896044	snornp protein gar1 homologue, putative	ribonucleoprotein, putative
+PF13_0051	PF13_0142	PF04410	PF01423	4.7	0.0807923204181	snornp protein gar1 homologue, putative	u6 snRNA-associated sm-like protein, putative
+PF13_0051	PFE1020w	PF04410	PF01423	4.7	0.222493827781	snornp protein gar1 homologue, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PF13_0051	MAL13P1.253	PF04410	PF01423	4.7	0.0441732088444	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein, putative
+PF13_0051	PF14_0146	PF04410	PF01423	4.7	0.283332046491	snornp protein gar1 homologue, putative	ribonucleoprotein, putative
+PF13_0051	PFB0865w	PF04410	PF01423	4.7	0.27577569815	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein, putative
+PF13_0051	PF11_0524	PF04410	PF01423	4.7	0.952028313391	snornp protein gar1 homologue, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF13_0051	MAL8P1.9	PF04410	PF01423	4.7	0.0577646577056	snornp protein gar1 homologue, putative	u6 snRNA-associated sm-like protein, putative
+PF13_0051	MAL8P1.48	PF04410	PF01423	4.7	0.965339464322	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein, putative
+PF13_0051	PF14_0068	PF04410	PF01269	6.5	0.778018919787	snornp protein gar1 homologue, putative	fibrillarin, putative
+PF13_0051	PF11_0266	PF04410	PF01423	4.7	0.70025747463	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein D1, putative
+PF13_0051	PF11_0280	PF04410	PF01423	4.7	0.139730898129	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein F, putative
+PF13_0051	PFL0460w	PF04410	PF01423	4.7	0.0966333261726	snornp protein gar1 homologue, putative	u6 snRNA-associated Sm-like protein, putative
+PF13_0051	PF14_0411	PF04410	PF01423	4.7	0.521082143377	snornp protein gar1 homologue, putative	small nuclear ribonuclear protein, putative
+PF13_0051	PF11_0255	PF04410	PF01423	4.7	0.907225523951	snornp protein gar1 homologue, putative	hypothetical protein
+PF13_0051	PF11_0250	PF04410	PF01248	5.8	0.0742610845576	snornp protein gar1 homologue, putative	high mobility group-like protein NHP2, putative
+PF13_0051	PFI0475w	PF04410	PF01423	4.7	0.327931247288	snornp protein gar1 homologue, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF13_0059	PF10_0264	PF00312	PF00318	5.8	0.0159179309463	ribosomal protein S15, mitochondrial precursor, putative	40S ribosomal protein, putative
+PF13_0059	PFI1585c	PF00312	PF01250	6.5	0.0616041393858	ribosomal protein S15, mitochondrial precursor, putative	30S ribosomal protein S6-like protein, putative
+PF14_0078	PF14_0564	PF00026	PF01926	4.1	0.0743857740889	HAP protein	hypothetical protein, conserved
+PFL0375w	PFL0375w	PF00076	PF00076	14.5	0.999395416906	hypothetical protein	hypothetical protein
+PFL0375w	PFA0580c	PF00076	PF01026	3.1	0.893553465566	hypothetical protein	TatD-like deoxyribonuclease, putative
+PFL0375w	PFL2130w	PF00076	PF00076	14.5	0.503863028108	hypothetical protein	hypothetical protein
+PFE1135w	MAL13P1.95	PF01521	PF00111	4.9	0.0981581956216	hypothetical protein, conserved	ferredoxin
+PFF1325c	PFL0585w	PF00097	PF00240	5.7	0.0589899984368	c3h4-type ring finger protein, putative	PfpUB Plasmodium falciparum polyubiquitin
+PFF1325c	PFD0770c	PF00097	PF00827	3.2	0.0589899984368	c3h4-type ring finger protein, putative	ribosomal protein l15, putative
+PFF1325c	PF13_0346	PF00097	PF00240	5.7	0.0589899984368	c3h4-type ring finger protein, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFF1325c	PFB0830w	PF00097	PF01283	3.0	0.0589899984386	c3h4-type ring finger protein, putative	Ribosomal protein S26e, putative
+PFF1325c	PF13_0224	PF00097	PF01775	7.3	0.0589899984378	c3h4-type ring finger protein, putative	60S ribosomal subunit protein L18, putative
+PFF1325c	PF14_0027	PF00097	PF00240	5.7	0.0589899984368	c3h4-type ring finger protein, putative	ribosomal S27a, putative
+PFF1325c	PFL2055w	PF00097	PF00833	3.6	0.0589899984386	c3h4-type ring finger protein, putative	40S ribosomal protein S17, putative
+PFE0880c	PFE1420w	PF01115	PF01267	13.2	0.874471854761	f-actin capping protein beta subunit, putative	F-actin capping protein, alpha subunit, putative
+PF11_0066	PF11_0201	PF00036	PF00632	4.7	0.482855925434	caltractin (centrin), putative	hypothetical protein
+PF11_0066	PF11_0416	PF00036	PF00612	4.4	0.295857456053	caltractin (centrin), putative	myosin heavy chain subunit, putative
+PF11_0066	MAL13P1.148	PF00036	PF00612	4.4	0.48341102303	caltractin (centrin), putative	P. falciparum myosin
+PF11_0483	PFL2070w	PF00432	PF05739	3.6	0.0933328546374	farnesyltransferase beta subunit, putative	t-SNARE, putative
+PF11_0483	MAL13P1.169	PF00432	PF05739	3.6	0.0364437699759	farnesyltransferase beta subunit, putative	syntaxin 5, putative
+PF11_0483	PFL0505c	PF00432	PF05739	3.6	0.156407735224	farnesyltransferase beta subunit, putative	hypothetical protein
+PF11_0483	PF14_0300	PF00432	PF05739	3.6	0.663058244747	farnesyltransferase beta subunit, putative	syntaxin, putative
+PF11_0241	PFE0305w	PF00249	PF00352	4.0	0.0859066111781	hypothetical protein	transcription initiation factor TFiid, TATA-binding protein
+PF11_0241	PF14_0267	PF00249	PF00352	4.0	0.0673503408784	hypothetical protein	transcription initiation TFIID-like, putative
+PF11_0244	PFL0585w	PF00097	PF00240	5.7	0.00451118838137	hypothetical protein	PfpUB Plasmodium falciparum polyubiquitin
+PF11_0244	PFI0215c	PF00097	PF04573	3.3	0.0124348891833	hypothetical protein	signal peptidase, putative
+PF11_0244	PFD0770c	PF00097	PF00827	3.2	0.230063835056	hypothetical protein	ribosomal protein l15, putative
+PF11_0244	PF13_0346	PF00097	PF00240	5.7	0.276663626109	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PF11_0244	PFB0830w	PF00097	PF01283	3.0	0.0155318175479	hypothetical protein	Ribosomal protein S26e, putative
+PF11_0244	PF13_0224	PF00097	PF01775	7.3	0.219120539862	hypothetical protein	60S ribosomal subunit protein L18, putative
+PF11_0244	PF14_0027	PF00097	PF00240	5.7	0.199220512067	hypothetical protein	ribosomal S27a, putative
+PF11_0244	PFL2055w	PF00097	PF00833	3.6	0.312839881414	hypothetical protein	40S ribosomal protein S17, putative
+PFL0705c	PFB0320c	PF00111	PF01521	4.9	0.0244162769737	adrenodoxin-type ferredoxin, putative	hypothetical protein, conserved
+PFL0705c	PFD0725c	PF00111	PF02374	5.0	0.478890203697	adrenodoxin-type ferredoxin, putative	arsenical pump-driving ATPase, putative
+PF11_0114	PF11_0114	PF00022	PF00022	8.5	0.999395416906	actin, putative	actin, putative
+PF11_0114	PFA0190c	PF00022	PF00022	8.5	0.956953414221	actin, putative	actin
+PF11_0114	PF14_0124	PF00022	PF00022	8.5	0.918171263667	actin, putative	actin II
+PF11_0114	PF07_0077	PF00022	PF00022	8.5	0.266863695094	actin, putative	hypothetical protein
+PF11_0114	PF14_0218	PF00022	PF00022	8.5	0.15006128956	actin, putative	actin, putative
+PF11_0114	PF11_0047	PF00022	PF00022	8.5	0.184761876087	actin, putative	hypothetical protein
+PF11_0114	PF13_0326	PF00022	PF00241	27.2	0.361877293575	actin, putative	actin-depolymerizing factor, putative
+PF11_0114	PFE0255w	PF00022	PF00022	8.5	0.798523561881	actin, putative	actin-related protein, putative
+PF11_0114	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin, putative	actin-like protein, putative
+PF11_0114	PFI0520w	PF00022	PF00022	8.5	0.803898400163	actin, putative	actin-like protein, putative
+PF11_0395	PF14_0028	PF00702	PF01805	3.4	0.601666105191	guanylyl cyclase	hypothetical protein, conserved
+PF10_0072	PFL0585w	PF00097	PF00240	5.7	0.106593723577	hypothetical protein	PfpUB Plasmodium falciparum polyubiquitin
+PF10_0072	PFD0770c	PF00097	PF00827	3.2	0.00799266384264	hypothetical protein	ribosomal protein l15, putative
+PF10_0072	PF13_0346	PF00097	PF00240	5.7	0.0257333400623	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PF10_0072	PFB0830w	PF00097	PF01283	3.0	0.00481142406902	hypothetical protein	Ribosomal protein S26e, putative
+PF10_0072	PF13_0224	PF00097	PF01775	7.3	0.014233924545	hypothetical protein	60S ribosomal subunit protein L18, putative
+PF10_0072	PF14_0027	PF00097	PF00240	5.7	0.0107219506633	hypothetical protein	ribosomal S27a, putative
+PF10_0072	PFL2055w	PF00097	PF00833	3.6	0.0132704399927	hypothetical protein	40S ribosomal protein S17, putative
+PF08_0049	PF08_0049	PF01423	PF01423	387.1	0.999395416906	ribonucleoprotein, putative	ribonucleoprotein, putative
+PF08_0049	PF14_0656	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	U2 snRNP auxiliary factor, putative
+PF08_0049	PFE0865c	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	splicing factor, putative
+PF08_0049	PF13_0142	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	u6 snRNA-associated sm-like protein, putative
+PF08_0049	PFE1020w	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PF08_0049	MAL13P1.120	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	splicing factor, putative
+PF08_0049	PF11_0200	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	U2 snRNP auxiliary factor, small subunit, putative
+PF08_0049	MAL13P1.253	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PF08_0049	PF14_0146	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	ribonucleoprotein, putative
+PF08_0049	PFB0865w	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PF08_0049	PF14_0026	PF01423	PF06220	20.3	0.662453057411	ribonucleoprotein, putative	hypothetical protein
+PF08_0049	PFL1520w	PF01423	PF02966	20.3	0.662453057411	ribonucleoprotein, putative	dim1 protein homolog, putative
+PF08_0049	PF11_0524	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF08_0049	MAL8P1.9	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	u6 snRNA-associated sm-like protein, putative
+PF08_0049	PF14_0194	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	spliceosome-associated protein, putative
+PF08_0049	MAL13P1.338	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein, putative
+PF08_0049	MAL8P1.48	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PF08_0049	PF14_0057	PF01423	PF00076	14.5	0.15644667273	ribonucleoprotein, putative	RNA binding protein, putative
+PF08_0049	PF11_0266	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+PF08_0049	PF11_0280	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+PF08_0049	PF08_0084	PF01423	PF06220	20.3	0.662453057411	ribonucleoprotein, putative	hypothetical protein
+PF08_0049	PFL0460w	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+PF08_0049	PF14_0411	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+PF08_0049	MAL13P1.35	PF01423	PF00076	14.5	0.164141984682	ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF08_0049	PF11_0255	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	hypothetical protein
+PF08_0049	PF11_0250	PF01423	PF01248	6.0	0.107230896044	ribonucleoprotein, putative	high mobility group-like protein NHP2, putative
+PF08_0049	PFI0475w	PF01423	PF01423	387.1	0.662453057411	ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFI0955w	PF14_0615	PF00083	PF01992	4.5	0.697635223648	sugar transporter, putative	ATP synthase (C/AC39) subunit, putative
+MAL7P1.158	PFL0160w	PF05486	PF02290	6.5	0.321161062267	signal recognition particle, putative	hypothetical protein conserved
+PF14_0125	PFF0830w	PF01916	PF01602	5.3	0.0589943114795	deoxyhypusine synthase	alpha adaptin-like protein, putative
+MAL7P1.150	MAL7P1.150	PF00266	PF00266	9.2	0.999395416906	cysteine desulfurase, putative	cysteine desulfurase, putative
+MAL7P1.150	PF07_0068	PF00266	PF00266	9.2	0.962001851411	cysteine desulfurase, putative	cysteine desulfurase, putative
+PFL1215c	PFE0305w	PF00249	PF00352	4.0	0.455869691285	hypothetical protein	transcription initiation factor TFiid, TATA-binding protein
+PFL1215c	PF14_0267	PF00249	PF00352	4.0	0.368550078906	hypothetical protein	transcription initiation TFIID-like, putative
+PF14_0656	PF14_0656	PF00076	PF00076	14.5	0.999395416906	U2 snRNP auxiliary factor, putative	U2 snRNP auxiliary factor, putative
+PF14_0656	PFE0865c	PF00076	PF00076	14.5	0.263647275991	U2 snRNP auxiliary factor, putative	splicing factor, putative
+PF14_0656	PF13_0142	PF00076	PF01423	14.5	0.281301384642	U2 snRNP auxiliary factor, putative	u6 snRNA-associated sm-like protein, putative
+PF14_0656	PFE1020w	PF00076	PF01423	14.5	0.46214557729	U2 snRNP auxiliary factor, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PF14_0656	MAL13P1.120	PF00076	PF00076	14.5	0.959269714653	U2 snRNP auxiliary factor, putative	splicing factor, putative
+PF14_0656	PF11_0200	PF00076	PF00076	14.5	0.788626984815	U2 snRNP auxiliary factor, putative	U2 snRNP auxiliary factor, small subunit, putative
+PF14_0656	MAL13P1.253	PF00076	PF01423	14.5	0.102881856823	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein, putative
+PF14_0656	PF14_0146	PF00076	PF01423	14.5	0.124078561255	U2 snRNP auxiliary factor, putative	ribonucleoprotein, putative
+PF14_0656	PFL2300w	PF00076	PF01974	3.0	0.929969820743	U2 snRNP auxiliary factor, putative	hypothetical protein
+PF14_0656	PFB0865w	PF00076	PF01423	14.5	0.0716943413763	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein, putative
+PF14_0656	PF14_0026	PF00076	PF06220	6.2	0.96552552689	U2 snRNP auxiliary factor, putative	hypothetical protein
+PF14_0656	PF11_0524	PF00076	PF01423	14.5	0.820180415447	U2 snRNP auxiliary factor, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF14_0656	MAL8P1.9	PF00076	PF01423	14.5	0.6854111829	U2 snRNP auxiliary factor, putative	u6 snRNA-associated sm-like protein, putative
+PF14_0656	PF14_0194	PF00076	PF00076	14.5	0.993306570218	U2 snRNP auxiliary factor, putative	spliceosome-associated protein, putative
+PF14_0656	PF14_0514	PF00076	PF01974	3.0	0.985965028629	U2 snRNP auxiliary factor, putative	tRNA intron endonuclease, putative
+PF14_0656	MAL13P1.338	PF00076	PF00076	14.5	0.998375885696	U2 snRNP auxiliary factor, putative	u1 small nuclear ribonucleoprotein, putative
+PF14_0656	MAL8P1.48	PF00076	PF01423	14.5	0.9491473685	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein, putative
+PF14_0656	PF14_0057	PF00076	PF00076	14.5	0.916614326071	U2 snRNP auxiliary factor, putative	RNA binding protein, putative
+PF14_0656	PF10_0079	PF00076	PF02178	5.8	0.335378250099	U2 snRNP auxiliary factor, putative	hypothetical protein
+PF14_0656	PF11_0266	PF00076	PF01423	14.5	0.0993675540738	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein D1, putative
+PF14_0656	PF11_0280	PF00076	PF01423	14.5	0.606189117888	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein F, putative
+PF14_0656	PF08_0084	PF00076	PF06220	6.2	0.965782450283	U2 snRNP auxiliary factor, putative	hypothetical protein
+PF14_0656	PFL0460w	PF00076	PF01423	14.5	0.178340976352	U2 snRNP auxiliary factor, putative	u6 snRNA-associated Sm-like protein, putative
+PF14_0656	PF14_0411	PF00076	PF01423	14.5	0.0553856297879	U2 snRNP auxiliary factor, putative	small nuclear ribonuclear protein, putative
+PF14_0656	MAL13P1.35	PF00076	PF00076	14.5	0.985649311578	U2 snRNP auxiliary factor, putative	u1 small nuclear ribonucleoprotein a, putative
+PF14_0656	PF11_0255	PF00076	PF01423	14.5	0.926856302485	U2 snRNP auxiliary factor, putative	hypothetical protein
+PF14_0656	PFI0475w	PF00076	PF01423	14.5	0.408681313038	U2 snRNP auxiliary factor, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFD1165w	PFL1545c	PF00069	PF00118	3.8	0.249263963863	protein kinase, conserved in P. falciparum	chaperonin cpn60
+PFI1570c	PFI1570c	PF02127	PF02127	12.4	0.999395416906	aminopeptidase, putative	aminopeptidase, putative
+MAL13P1.167	MAL13P1.167	PF00717	PF00717	10.3	0.999395416906	signal peptidase, putative	signal peptidase, putative
+PFL2070w	PFL0695c	PF05739	PF00432	3.6	0.471630883043	t-SNARE, putative	geranylgeranyl transferase type2 beta subunit, putative
+MAL13P1.169	PFL0695c	PF05739	PF00432	3.6	0.0328531898274	syntaxin 5, putative	geranylgeranyl transferase type2 beta subunit, putative
+PFC0400w	PFC0400w	PF00428	PF00428	9.3	0.999395416906	60S Acidic ribosomal protein P2	60S Acidic ribosomal protein P2
+PFC0400w	PF11_0313	PF00428	PF00428	9.3	0.998680584314	60S Acidic ribosomal protein P2	ribosomal phosphoprotein P0
+PFC0400w	MAL13P1.283	PF00428	PF00118	7.3	0.851123988133	60S Acidic ribosomal protein P2	TCP-1/cpn60 chaperonin family, putative
+PFC0400w	PF14_0439	PF00428	PF00883	5.0	0.991197400834	60S Acidic ribosomal protein P2	leucine aminopeptidase, putative
+PFC0400w	PFC0350c	PF00428	PF00118	7.3	0.706279173162	60S Acidic ribosomal protein P2	T-complex protein eta subunit, putative
+PFC0400w	PFC0900w	PF00428	PF00118	7.3	0.801965118228	60S Acidic ribosomal protein P2	T-complex protein 1 epsilon subunit, putative
+PFC0400w	PF11_0331	PF00428	PF00118	7.3	0.297775891381	60S Acidic ribosomal protein P2	t-complex protein 1, alpha subunit, putative
+PFC0400w	PFC0285c	PF00428	PF00118	7.3	0.514596646573	60S Acidic ribosomal protein P2	T-complex protein beta subunit, putative
+PFC0400w	PF11_0043	PF00428	PF00428	9.3	0.988981080563	60S Acidic ribosomal protein P2	60S acidic ribosomal protein p1, putative
+PFL0475w	PFL0420w	PF00233	PF01490	5.2	0.530754823265	3',5'-cyclic-nucleotide phosphodiesterase, putative	hypothetical protein
+PFL0475w	PFF1430c	PF00233	PF01490	5.2	0.0589900319561	3',5'-cyclic-nucleotide phosphodiesterase, putative	transmembrane amino acid transporter protein, putative
+PF13_0132	PFI0890c	PF00276	PF00297	5.3	0.026400251751	60S ribosomal protein L23a, putative	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative
+PF13_0132	PFL2180w	PF00276	PF00297	5.3	0.008983654484	60S ribosomal protein L23a, putative	50S ribosomal protein L3, putative
+PF13_0132	PF10_0272	PF00276	PF00297	5.3	0.945131572479	60S ribosomal protein L23a, putative	ribosomal protein L3, putative
+PF13_0132	PFC0690c	PF00276	PF00096	7.6	0.778505162194	60S ribosomal protein L23a, putative	hypothetical protein
+PF14_0328	PF14_0208	PF02466	PF02953	10.6	0.453610160933	mitochondrial import inner membrane translocase subunit tim17, putative	hypothetical protein, conserved
+PF14_0328	PFL0430w	PF02466	PF02953	10.6	0.961568504948	mitochondrial import inner membrane translocase subunit tim17, putative	tim10 homologue, putative
+PF14_0328	PFL2065c	PF02466	PF02953	10.6	0.10216610198	mitochondrial import inner membrane translocase subunit tim17, putative	mitochondrial import inner membrane translocase subunit, putative
+PF14_0328	PF13_0358	PF02466	PF02953	10.6	0.740512988322	mitochondrial import inner membrane translocase subunit tim17, putative	mitochondrial import inner membrane translocase, putative
+PF14_0328	PF14_0301	PF02466	PF01459	5.0	0.843513636637	mitochondrial import inner membrane translocase subunit tim17, putative	hypothetical protein
+PFI0890c	PFL0500w	PF00297	PF00687	5.4	0.534225929198	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	50S ribosomal protein L1, putative
+PFI0890c	PFE0350c	PF00297	PF00573	5.3	0.0135682964972	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	60S ribosomal subunit protein L4/L1, putative
+PFI0890c	PF14_0391	PF00297	PF00687	5.4	0.00989562443962	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	ribosomal protein L1, putative
+PFI0890c	PF14_0289	PF00297	PF01196	6.2	0.902541424906	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	ribosomal protein L17, putative
+PFI0890c	PFE1125w	PF00297	PF01196	6.2	0.206374864516	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	50S ribosomal subunit protein L17, putative
+PFI0890c	PF07_0046	PF00297	PF00687	5.4	0.27290509976	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	50S ribosomal protein L1, putative
+PFI0890c	PF08_0038	PF00297	PF00573	5.3	0.730849635191	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	hypothetical protein
+PFI0890c	PFC0675c	PF00297	PF06984	6.0	0.925769940248	large ribosomal subunit protein L3, prokaryotic (50S)-like, putative	hypothetical protein
+PF10_0038	PF10_0264	PF00338	PF00318	5.4	0.710453098301	ribosomal protein S20e, putative	40S ribosomal protein, putative
+PFL1465c	PFL1465c	PF00227	PF00227	103.0	0.999395416906	heat shock protein hslv, putative	heat shock protein hslv, putative
+PFL1465c	MAL8P1.142	PF00227	PF00227	103.0	0.998523720424	heat shock protein hslv, putative	proteasome beta-subunit
+PFL1465c	PF13_0156	PF00227	PF00227	103.0	0.991292686655	heat shock protein hslv, putative	proteasome subunit beta type 7 precursor, putative
+PFL1465c	PF07_0112	PF00227	PF00227	103.0	0.997323249298	heat shock protein hslv, putative	proteasome subunit alpha type 5, putative
+PFL1465c	PFI1545c	PF00227	PF00227	103.0	0.997866987849	heat shock protein hslv, putative	proteasome precursor, putative
+PFL1465c	PFC0745c	PF00227	PF00227	103.0	0.996598254752	heat shock protein hslv, putative	proteasome component C8, putative
+PFL1465c	PFF0420c	PF00227	PF00227	103.0	0.662453057411	heat shock protein hslv, putative	proteasome subunit alpha type 2, putative
+PFL1465c	PFA0400c	PF00227	PF00227	103.0	0.991652567763	heat shock protein hslv, putative	beta3 proteasome subunit, putative
+PFL1465c	MAL13P1.270	PF00227	PF00227	103.0	0.995881255568	heat shock protein hslv, putative	proteasome subunit, putative
+PFL1465c	MAL8P1.128	PF00227	PF00227	103.0	0.998025139703	heat shock protein hslv, putative	proteasome subunit alpha, putative
+PFL1465c	PF14_0716	PF00227	PF00227	103.0	0.990326890605	heat shock protein hslv, putative	Proteosome subunit alpha type 1, putative
+PFL1465c	PF14_0676	PF00227	PF00227	103.0	0.997106331366	heat shock protein hslv, putative	20S proteasome beta 4 subunit, putative
+PFL1465c	PF10_0111	PF00227	PF00227	103.0	0.997394924732	heat shock protein hslv, putative	20S proteasome beta subunit, putative
+PF08_0009	PF08_0009	PF01008	PF01008	22.3	0.999395416906	translation initiation factor EIF-2b alpha subunit, putative	translation initiation factor EIF-2b alpha subunit, putative
+PF08_0009	PFL2430c	PF01008	PF01008	22.3	0.964978781287	translation initiation factor EIF-2b alpha subunit, putative	eukaryotic translation initiation factor 2b, subunit 2, putative
+PF08_0009	PF10_0136	PF01008	PF01008	22.3	0.624652880151	translation initiation factor EIF-2b alpha subunit, putative	Initiation factor 2 subunit family, putative
+PF08_0009	PF10_0103	PF01008	PF01873	10.7	0.11626482667	translation initiation factor EIF-2b alpha subunit, putative	eukaryotic translation initiation factor 2, beta, putative
+PF10_0081	PF13_0268	PF00004	PF00237	3.2	0.0199346555503	26S proteasome regulatory subunit 4, putative	ribosomal protein L17, putative
+MAL8P1.142	MAL8P1.142	PF00227	PF00227	103.0	0.999395416906	proteasome beta-subunit	proteasome beta-subunit
+MAL8P1.142	PF13_0156	PF00227	PF00227	103.0	0.993818572389	proteasome beta-subunit	proteasome subunit beta type 7 precursor, putative
+MAL8P1.142	PF07_0112	PF00227	PF00227	103.0	0.997289956422	proteasome beta-subunit	proteasome subunit alpha type 5, putative
+MAL8P1.142	PFI1545c	PF00227	PF00227	103.0	0.998245419191	proteasome beta-subunit	proteasome precursor, putative
+MAL8P1.142	PFC0745c	PF00227	PF00227	103.0	0.997943163641	proteasome beta-subunit	proteasome component C8, putative
+MAL8P1.142	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome beta-subunit	proteasome subunit alpha type 2, putative
+MAL8P1.142	PFA0400c	PF00227	PF00227	103.0	0.995078634026	proteasome beta-subunit	beta3 proteasome subunit, putative
+MAL8P1.142	MAL13P1.270	PF00227	PF00227	103.0	0.997010319944	proteasome beta-subunit	proteasome subunit, putative
+MAL8P1.142	MAL8P1.128	PF00227	PF00227	103.0	0.99860847608	proteasome beta-subunit	proteasome subunit alpha, putative
+MAL8P1.142	PF14_0716	PF00227	PF00227	103.0	0.99516625575	proteasome beta-subunit	Proteosome subunit alpha type 1, putative
+MAL8P1.142	PF14_0676	PF00227	PF00227	103.0	0.99775745928	proteasome beta-subunit	20S proteasome beta 4 subunit, putative
+MAL8P1.142	PF10_0111	PF00227	PF00227	103.0	0.998336980705	proteasome beta-subunit	20S proteasome beta subunit, putative
+PFF0355c	PFL0585w	PF00097	PF00240	5.7	0.0589899984368	hypothetical protein, conserved	PfpUB Plasmodium falciparum polyubiquitin
+PFF0355c	PFD0770c	PF00097	PF00827	3.2	0.0589899984368	hypothetical protein, conserved	ribosomal protein l15, putative
+PFF0355c	PF13_0346	PF00097	PF00240	5.7	0.0589899984368	hypothetical protein, conserved	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFF0355c	PFB0830w	PF00097	PF01283	3.0	0.0589899984386	hypothetical protein, conserved	Ribosomal protein S26e, putative
+PFF0355c	PF13_0224	PF00097	PF01775	7.3	0.0589899984378	hypothetical protein, conserved	60S ribosomal subunit protein L18, putative
+PFF0355c	PF14_0027	PF00097	PF00240	5.7	0.0589899984368	hypothetical protein, conserved	ribosomal S27a, putative
+PFF0355c	PFL2055w	PF00097	PF00833	3.6	0.0589899984386	hypothetical protein, conserved	40S ribosomal protein S17, putative
+PFL0585w	PFC0845c	PF00240	PF00097	5.7	0.560505012626	PfpUB Plasmodium falciparum polyubiquitin	ubiquitin--protein ligase, putative
+PFL0585w	PFI0470w	PF00240	PF00097	5.7	0.0538771933602	PfpUB Plasmodium falciparum polyubiquitin	FHA domain protein, putative
+PFL0585w	PFL0275w	PF00240	PF00097	5.7	0.0209393696199	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFE1490c	PF00240	PF00097	5.7	0.308526553248	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PF14_0215	PF00240	PF00097	5.7	0.120283836148	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFL2440w	PF00240	PF00097	5.7	0.0174977886017	PfpUB Plasmodium falciparum polyubiquitin	DNA repair protein rhp16, putative
+PFL0585w	PFB0440c	PF00240	PF00097	5.7	0.000608747168315	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFE0610c	PF00240	PF00097	5.7	0.00471562281495	PfpUB Plasmodium falciparum polyubiquitin	CDK-activating kinase assembly factor, putative
+PFL0585w	MAL7P1.155	PF00240	PF00097	5.7	0.823589466774	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	MAL13P1.216	PF00240	PF00097	5.7	0.0107262385098	PfpUB Plasmodium falciparum polyubiquitin	DNA helicase, putative
+PFL0585w	PFC0610c	PF00240	PF00097	5.7	0.585893660574	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PF10_0276	PF00240	PF00097	5.7	0.446394670331	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PF10_0117	PF00240	PF00097	5.7	0.328732439758	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFD0765w	PF00240	PF00097	5.7	0.0156995614216	PfpUB Plasmodium falciparum polyubiquitin	RING finger protein, putative
+PFL0585w	PFF0165c	PF00240	PF00097	5.7	0.0589899984368	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFL0440c	PF00240	PF00097	5.7	0.1137295059	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein
+PFL0585w	PFC0740c	PF00240	PF00097	5.7	0.0134025095746	PfpUB Plasmodium falciparum polyubiquitin	binding protein, putative
+PFL0585w	PF14_0054	PF00240	PF00097	5.7	0.0117627751401	PfpUB Plasmodium falciparum polyubiquitin	hypothetical protein, conserved
+PFD0367w	PFD0367w	PF00005	PF00005	4.9	0.999395416906	hypothetical protein	hypothetical protein
+PFD0367w	PF14_0133	PF00005	PF00005	4.9	0.108329327543	hypothetical protein	ATP-dependent transporter, putative
+PFD0367w	PF11_0225	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	PfGCN20
+PFD0367w	PFL1410c	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	hypothetical protein
+PFD0367w	PF13_0218	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	ABC transporter, putative
+PFD0367w	PFE1150w	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	multidrug resistance protein
+PFD0367w	PFC0125w	PF00005	PF00005	4.9	0.108329327543	hypothetical protein	ABC transporter, putative
+PFD0367w	PFL0495c	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	ABC transporter, putative
+PFD0367w	PF14_0455	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	multidrug resistance protein 2
+PFD0367w	PF10_0153	PF00005	PF00118	4.3	0.0702371201721	hypothetical protein	hsp60
+PFD0367w	PF13_0271	PF00005	PF00005	4.9	0.108329327543	hypothetical protein	ABC transporter, putative
+PFD0367w	PF11_0466	PF00005	PF00005	4.9	0.662453057411	hypothetical protein	transport protein, putative
+PF08_0039	PF08_0039	PF01776	PF01776	6.5	0.999395416906	ribosomal protein, putative	ribosomal protein, putative
+PF08_0039	PF11_0096	PF01776	PF00069	3.0	0.886520394368	ribosomal protein, putative	casein kinase II, alpha subunit, putative
+PFE0865c	PFE0865c	PF00076	PF00076	14.5	0.999395416906	splicing factor, putative	splicing factor, putative
+PFE0865c	PF13_0142	PF00076	PF01423	14.5	0.587972316262	splicing factor, putative	u6 snRNA-associated sm-like protein, putative
+PFE0865c	PFE1020w	PF00076	PF01423	14.5	0.191411134637	splicing factor, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PFE0865c	MAL13P1.120	PF00076	PF00076	14.5	0.859568005364	splicing factor, putative	splicing factor, putative
+PFE0865c	PF11_0200	PF00076	PF00076	14.5	0.919507451761	splicing factor, putative	U2 snRNP auxiliary factor, small subunit, putative
+PFE0865c	MAL13P1.253	PF00076	PF01423	14.5	0.173265856784	splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0865c	PF14_0146	PF00076	PF01423	14.5	0.279765061481	splicing factor, putative	ribonucleoprotein, putative
+PFE0865c	PFL2300w	PF00076	PF01974	3.0	0.550739656738	splicing factor, putative	hypothetical protein
+PFE0865c	PFB0865w	PF00076	PF01423	14.5	0.776227252963	splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0865c	PF14_0026	PF00076	PF06220	6.2	0.316221340224	splicing factor, putative	hypothetical protein
+PFE0865c	PF11_0524	PF00076	PF01423	14.5	0.140783957666	splicing factor, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PFE0865c	MAL8P1.9	PF00076	PF01423	14.5	0.12572038998	splicing factor, putative	u6 snRNA-associated sm-like protein, putative
+PFE0865c	PF14_0194	PF00076	PF00076	14.5	0.481911246473	splicing factor, putative	spliceosome-associated protein, putative
+PFE0865c	PF14_0514	PF00076	PF01974	3.0	0.393963747974	splicing factor, putative	tRNA intron endonuclease, putative
+PFE0865c	MAL13P1.338	PF00076	PF00076	14.5	0.240458753649	splicing factor, putative	u1 small nuclear ribonucleoprotein, putative
+PFE0865c	MAL8P1.48	PF00076	PF01423	14.5	0.0367698236103	splicing factor, putative	small nuclear ribonucleoprotein, putative
+PFE0865c	PF14_0057	PF00076	PF00076	14.5	0.18555459695	splicing factor, putative	RNA binding protein, putative
+PFE0865c	PF10_0079	PF00076	PF02178	5.8	0.913344835166	splicing factor, putative	hypothetical protein
+PFE0865c	PF11_0266	PF00076	PF01423	14.5	0.76169056919	splicing factor, putative	small nuclear ribonucleoprotein D1, putative
+PFE0865c	PF11_0280	PF00076	PF01423	14.5	0.0628404143317	splicing factor, putative	small nuclear ribonucleoprotein F, putative
+PFE0865c	PF08_0084	PF00076	PF06220	6.2	0.826282485152	splicing factor, putative	hypothetical protein
+PFE0865c	PFL0460w	PF00076	PF01423	14.5	0.722302669341	splicing factor, putative	u6 snRNA-associated Sm-like protein, putative
+PFE0865c	PF14_0411	PF00076	PF01423	14.5	0.71142047676	splicing factor, putative	small nuclear ribonuclear protein, putative
+PFE0865c	MAL13P1.35	PF00076	PF00076	14.5	0.674040577897	splicing factor, putative	u1 small nuclear ribonucleoprotein a, putative
+PFE0865c	PF11_0255	PF00076	PF01423	14.5	0.0185665342913	splicing factor, putative	hypothetical protein
+PFE0865c	PFI0475w	PF00076	PF01423	14.5	0.427657449974	splicing factor, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFA0345w	PF11_0416	PF00036	PF00612	4.4	0.927210466764	centrin, putative	myosin heavy chain subunit, putative
+PFA0345w	MAL13P1.148	PF00036	PF00612	4.4	0.0604576882806	centrin, putative	P. falciparum myosin
+PFC0845c	PFD0770c	PF00097	PF00827	3.2	0.0205593318179	ubiquitin--protein ligase, putative	ribosomal protein l15, putative
+PFC0845c	PFL1775c	PF00097	PF01795	3.6	0.447314389087	ubiquitin--protein ligase, putative	hypothetical protein, conserved
+PFC0845c	PF13_0346	PF00097	PF00240	5.7	0.0167108645638	ubiquitin--protein ligase, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFC0845c	PFB0830w	PF00097	PF01283	3.0	0.23667978961	ubiquitin--protein ligase, putative	Ribosomal protein S26e, putative
+PFC0845c	PF13_0224	PF00097	PF01775	7.3	0.0083507555242	ubiquitin--protein ligase, putative	60S ribosomal subunit protein L18, putative
+PFC0845c	PF14_0027	PF00097	PF00240	5.7	0.0309946044808	ubiquitin--protein ligase, putative	ribosomal S27a, putative
+PFC0845c	PFL2055w	PF00097	PF00833	3.6	0.00293949826092	ubiquitin--protein ligase, putative	40S ribosomal protein S17, putative
+PFC0845c	PF08_0067	PF00097	PF00240	5.7	0.198244427124	ubiquitin--protein ligase, putative	hypothetical protein
+PFD0265w	PF11_0183	PB004580	PF00071	3.7	0.12498402675	pre-mRNA splicing factor, putative	GTP-binding nuclear protein ran/tc4
+PFD0780w	PF14_0031	PF01425	PF02985	5.5	0.803789445303	glutamyl-tRNA(Gln) amidotransferase subunit A, putative	hypothetical protein
+PF14_0133	PF14_0133	PF00005	PF00005	4.9	0.999395416906	ATP-dependent transporter, putative	ATP-dependent transporter, putative
+PF14_0133	PF11_0225	PF00005	PF00005	4.9	0.643344235243	ATP-dependent transporter, putative	PfGCN20
+PF14_0133	PFL1410c	PF00005	PF00005	4.9	0.288278690355	ATP-dependent transporter, putative	hypothetical protein
+PF14_0133	PF13_0218	PF00005	PF00005	4.9	0.943101858497	ATP-dependent transporter, putative	ABC transporter, putative
+PF14_0133	PFE1150w	PF00005	PF00005	4.9	0.157824368503	ATP-dependent transporter, putative	multidrug resistance protein
+PF14_0133	PFC0125w	PF00005	PF00005	4.9	0.983488254804	ATP-dependent transporter, putative	ABC transporter, putative
+PF14_0133	PFL0495c	PF00005	PF00005	4.9	0.810603764324	ATP-dependent transporter, putative	ABC transporter, putative
+PF14_0133	PF14_0455	PF00005	PF00005	4.9	0.902930803328	ATP-dependent transporter, putative	multidrug resistance protein 2
+PF14_0133	PFL1545c	PF00005	PF00118	4.3	0.477340458564	ATP-dependent transporter, putative	chaperonin cpn60
+PF14_0133	PF13_0271	PF00005	PF00005	4.9	0.42806231848	ATP-dependent transporter, putative	ABC transporter, putative
+PF14_0133	PF08_0078	PF00005	PF00005	4.9	0.901528508166	ATP-dependent transporter, putative	hypothetical protein
+PF14_0133	PF11_0466	PF00005	PF00005	4.9	0.948921099672	ATP-dependent transporter, putative	transport protein, putative
+PF14_0132	PF14_0041	PF00380	PF00252	6.2	0.883511371323	ribosomal protein S9, putative	ribosomal protein L16, putative
+PFL2180w	PFL0500w	PF00297	PF00687	5.4	0.532868005903	50S ribosomal protein L3, putative	50S ribosomal protein L1, putative
+PFL2180w	PFE0350c	PF00297	PF00573	5.3	0.00536106070753	50S ribosomal protein L3, putative	60S ribosomal subunit protein L4/L1, putative
+PFL2180w	PF14_0391	PF00297	PF00687	5.4	0.00410384049585	50S ribosomal protein L3, putative	ribosomal protein L1, putative
+PFL2180w	PF14_0289	PF00297	PF01196	6.2	0.937569597553	50S ribosomal protein L3, putative	ribosomal protein L17, putative
+PFL2180w	PFE1125w	PF00297	PF01196	6.2	0.548024238177	50S ribosomal protein L3, putative	50S ribosomal subunit protein L17, putative
+PFL2180w	PF07_0046	PF00297	PF00687	5.4	0.793549304483	50S ribosomal protein L3, putative	50S ribosomal protein L1, putative
+PFL2180w	PF08_0038	PF00297	PF00573	5.3	0.959241198627	50S ribosomal protein L3, putative	hypothetical protein
+PFL2180w	PFC0675c	PF00297	PF06984	6.0	0.892162678918	50S ribosomal protein L3, putative	hypothetical protein
+PF13_0142	PF13_0142	PF01423	PF01423	387.1	0.999395416906	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated sm-like protein, putative
+PF13_0142	PFE1020w	PF01423	PF01423	387.1	0.995367408305	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PF13_0142	MAL13P1.120	PF01423	PF00076	14.5	0.954369417142	u6 snRNA-associated sm-like protein, putative	splicing factor, putative
+PF13_0142	PF11_0200	PF01423	PF00076	14.5	0.912742890846	u6 snRNA-associated sm-like protein, putative	U2 snRNP auxiliary factor, small subunit, putative
+PF13_0142	MAL13P1.253	PF01423	PF01423	387.1	0.721688194968	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein, putative
+PF13_0142	PF14_0146	PF01423	PF01423	387.1	0.750342449373	u6 snRNA-associated sm-like protein, putative	ribonucleoprotein, putative
+PF13_0142	PFB0865w	PF01423	PF01423	387.1	0.99564924461	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein, putative
+PF13_0142	PF14_0026	PF01423	PF06220	20.3	0.427056623009	u6 snRNA-associated sm-like protein, putative	hypothetical protein
+PF13_0142	PFL1520w	PF01423	PF02966	20.3	0.727040918471	u6 snRNA-associated sm-like protein, putative	dim1 protein homolog, putative
+PF13_0142	PF11_0524	PF01423	PF01423	387.1	0.837388619522	u6 snRNA-associated sm-like protein, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF13_0142	MAL8P1.9	PF01423	PF01423	387.1	0.99421930558	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated sm-like protein, putative
+PF13_0142	PF14_0194	PF01423	PF00076	14.5	0.501277227226	u6 snRNA-associated sm-like protein, putative	spliceosome-associated protein, putative
+PF13_0142	MAL13P1.338	PF01423	PF00076	14.5	0.312279479736	u6 snRNA-associated sm-like protein, putative	u1 small nuclear ribonucleoprotein, putative
+PF13_0142	MAL8P1.48	PF01423	PF01423	387.1	0.307662596829	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein, putative
+PF13_0142	PF14_0057	PF01423	PF00076	14.5	0.750034128819	u6 snRNA-associated sm-like protein, putative	RNA binding protein, putative
+PF13_0142	PF11_0266	PF01423	PF01423	387.1	0.932979125992	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein D1, putative
+PF13_0142	PF11_0280	PF01423	PF01423	387.1	0.986107857476	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein F, putative
+PF13_0142	PF08_0084	PF01423	PF06220	20.3	0.926405452216	u6 snRNA-associated sm-like protein, putative	hypothetical protein
+PF13_0142	PFL0460w	PF01423	PF01423	387.1	0.997817973338	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated Sm-like protein, putative
+PF13_0142	PF14_0411	PF01423	PF01423	387.1	0.985951039603	u6 snRNA-associated sm-like protein, putative	small nuclear ribonuclear protein, putative
+PF13_0142	MAL13P1.35	PF01423	PF00076	14.5	0.528309290049	u6 snRNA-associated sm-like protein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF13_0142	PF11_0255	PF01423	PF01423	387.1	0.458222471394	u6 snRNA-associated sm-like protein, putative	hypothetical protein
+PF13_0142	PF11_0250	PF01423	PF01248	6.0	0.94619782547	u6 snRNA-associated sm-like protein, putative	high mobility group-like protein NHP2, putative
+PF13_0142	PFI0475w	PF01423	PF01423	387.1	0.996302509157	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFI0215c	PF14_0215	PF04573	PF00097	3.3	0.211822050974	signal peptidase, putative	hypothetical protein
+PFI0215c	PF10_0276	PF04573	PF00097	3.3	0.554622633027	signal peptidase, putative	hypothetical protein
+PFI0215c	PFL0440c	PF04573	PF00097	3.3	0.0988606274743	signal peptidase, putative	hypothetical protein
+PFI0215c	PF14_0054	PF04573	PF00097	3.3	0.0166677520465	signal peptidase, putative	hypothetical protein, conserved
+PF14_0358	PF14_0358	PF04051	PF04051	5.5	0.999395416906	41-2 protein antigen precursor	41-2 protein antigen precursor
+PFI0470w	PFI0470w	PF00498	PF00498	3.0	0.999395416906	FHA domain protein, putative	FHA domain protein, putative
+PFI0470w	PFD0770c	PF00097	PF00827	3.2	0.0182445119015	FHA domain protein, putative	ribosomal protein l15, putative
+PFI0470w	PFL0275w	PF00498	PF00498	3.0	0.944261743078	FHA domain protein, putative	hypothetical protein
+PFI0470w	PF13_0346	PF00097	PF00240	5.7	0.0493621153214	FHA domain protein, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFI0470w	PFB0830w	PF00097	PF01283	3.0	0.00526547315726	FHA domain protein, putative	Ribosomal protein S26e, putative
+PFI0470w	PF13_0224	PF00097	PF01775	7.3	0.0604035374178	FHA domain protein, putative	60S ribosomal subunit protein L18, putative
+PFI0470w	PF14_0027	PF00097	PF00240	5.7	0.0253705126697	FHA domain protein, putative	ribosomal S27a, putative
+PFI0470w	PFL2055w	PF00097	PF00833	3.6	0.0218515083565	FHA domain protein, putative	40S ribosomal protein S17, putative
+PFI0425w	PF14_0208	PF00153	PF02953	6.6	0.980890967379	transporter, putative	hypothetical protein, conserved
+PFI0425w	PFL0430w	PF00153	PF02953	6.6	0.959868166337	transporter, putative	tim10 homologue, putative
+PFI0425w	PFL2065c	PF00153	PF02953	6.6	0.481120834033	transporter, putative	mitochondrial import inner membrane translocase subunit, putative
+PFI0425w	PF13_0358	PF00153	PF02953	6.6	0.996787164917	transporter, putative	mitochondrial import inner membrane translocase, putative
+PF07_0054	PF07_0054	PF00125	PF00125	11.6	0.999395416906	histone h2b, putative	histone h2b, putative
+PF07_0054	PFL0185c	PF00125	PF00956	14.5	0.956970060243	histone h2b, putative	nucleosome assembly protein 1, putative
+PF07_0054	PF11_0061	PF00125	PF00125	11.6	0.985624517506	histone h2b, putative	histone H4, putative
+PF07_0054	PF11_0062	PF00125	PF00125	11.6	0.753846473651	histone h2b, putative	histone H2B
+PF07_0054	PF13_0185	PF00125	PF00125	11.6	0.247453204302	histone h2b, putative	histone h3, putative
+PF07_0054	PFL2440w	PF00125	PF00097	12.8	0.0884447962369	histone h2b, putative	DNA repair protein rhp16, putative
+PF07_0054	PFC0920w	PF00125	PF00125	11.6	0.998841093069	histone h2b, putative	histone H2A variant, putative
+PF07_0054	PFF0865w	PF00125	PF00125	11.6	0.662453057411	histone h2b, putative	histone h3
+PF07_0054	PFI0930c	PF00125	PF00956	14.5	0.952171985059	histone h2b, putative	Nucleosome assembly protein
+PF07_0054	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone h2b, putative	histone H3, putative
+PF07_0054	PF11_0477	PF00125	PF00808	3.3	0.995176937077	histone h2b, putative	CCAAT-box DNA binding protein subunit B
+PF07_0054	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone h2b, putative	histone h2a
+PFD0770c	PFL0275w	PF00827	PF00097	3.2	0.0206717689459	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFE1490c	PF00827	PF00097	3.2	0.179764016996	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PF14_0215	PF00827	PF00097	3.2	0.0063542594929	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFL2440w	PF00827	PF00097	3.2	0.241693227456	ribosomal protein l15, putative	DNA repair protein rhp16, putative
+PFD0770c	PFB0440c	PF00827	PF00097	3.2	0.248460178877	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFE0610c	PF00827	PF00097	3.2	0.763309559879	ribosomal protein l15, putative	CDK-activating kinase assembly factor, putative
+PFD0770c	MAL7P1.155	PF00827	PF00097	3.2	0.00123730849663	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	MAL13P1.216	PF00827	PF00097	3.2	0.204878451926	ribosomal protein l15, putative	DNA helicase, putative
+PFD0770c	PFC0610c	PF00827	PF00097	3.2	0.0173950199005	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PF10_0276	PF00827	PF00097	3.2	0.0026758443164	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PF10_0117	PF00827	PF00097	3.2	0.00347047167068	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFD0765w	PF00827	PF00097	3.2	0.0194195041136	ribosomal protein l15, putative	RING finger protein, putative
+PFD0770c	PFF0165c	PF00827	PF00097	3.2	0.0589899984368	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFL0440c	PF00827	PF00097	3.2	0.00182006726206	ribosomal protein l15, putative	hypothetical protein
+PFD0770c	PFC0740c	PF00827	PF00097	3.2	0.125970255879	ribosomal protein l15, putative	binding protein, putative
+PFD0770c	PF14_0054	PF00827	PF00097	3.2	0.00907405922514	ribosomal protein l15, putative	hypothetical protein, conserved
+PFF1265w	PFF1265w	PF00106	PF00106	7.6	0.999395416906	oxidoreductase, short-chain dehydrogenase family, putative	oxidoreductase, short-chain dehydrogenase family, putative
+PFF1265w	PFL0420w	PF00106	PF01490	3.2	0.0619453107387	oxidoreductase, short-chain dehydrogenase family, putative	hypothetical protein
+PFF1265w	PFF1430c	PF00106	PF01490	3.2	0.0619453107387	oxidoreductase, short-chain dehydrogenase family, putative	transmembrane amino acid transporter protein, putative
+PFF1265w	PF14_0615	PF00106	PF01992	15.1	0.0612264416532	oxidoreductase, short-chain dehydrogenase family, putative	ATP synthase (C/AC39) subunit, putative
+PF11_0225	PF11_0225	PF00005	PF00005	4.9	0.999395416906	PfGCN20	PfGCN20
+PF11_0225	PFL1410c	PF00005	PF00005	4.9	0.991531260639	PfGCN20	hypothetical protein
+PF11_0225	PF13_0218	PF00005	PF00005	4.9	0.796369226742	PfGCN20	ABC transporter, putative
+PF11_0225	PFE1150w	PF00005	PF00005	4.9	0.496167161167	PfGCN20	multidrug resistance protein
+PF11_0225	PFC0125w	PF00005	PF00005	4.9	0.954587617443	PfGCN20	ABC transporter, putative
+PF11_0225	PFL0495c	PF00005	PF00005	4.9	0.877481405114	PfGCN20	ABC transporter, putative
+PF11_0225	PF14_0455	PF00005	PF00005	4.9	0.984799362128	PfGCN20	multidrug resistance protein 2
+PF11_0225	PF13_0271	PF00005	PF00005	4.9	0.660688486103	PfGCN20	ABC transporter, putative
+PF11_0225	PF11_0466	PF00005	PF00005	4.9	0.953198245431	PfGCN20	transport protein, putative
+PFL0080c	PFL1545c	PF00069	PF00118	3.8	0.928136189528	serine/threonine-protein kinase Nek1, putative	chaperonin cpn60
+PFL0500w	PF10_0272	PF00687	PF00297	5.4	0.206430064425	50S ribosomal protein L1, putative	ribosomal protein L3, putative
+PFE1225w	PFE1225w	PF00542	PF00542	6.0	0.999395416906	50S ribosomal subunit protein L12, putative	50S ribosomal subunit protein L12, putative
+PFE1225w	PFB0545c	PF00542	PF00542	6.0	0.725044554522	50S ribosomal subunit protein L12, putative	ribosomal protein L7/L12, putative
+PFA0190c	PFA0190c	PF00022	PF00022	8.5	0.999395416906	actin	actin
+PFA0190c	PF14_0124	PF00022	PF00022	8.5	0.998934149504	actin	actin II
+PFA0190c	PF07_0077	PF00022	PF00022	8.5	0.849351769281	actin	hypothetical protein
+PFA0190c	PF14_0218	PF00022	PF00022	8.5	0.217142626693	actin	actin, putative
+PFA0190c	PF11_0047	PF00022	PF00022	8.5	0.162526944943	actin	hypothetical protein
+PFA0190c	PF13_0326	PF00022	PF00241	27.2	0.25136169839	actin	actin-depolymerizing factor, putative
+PFA0190c	PFE0255w	PF00022	PF00022	8.5	0.893232685314	actin	actin-related protein, putative
+PFA0190c	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin	actin-like protein, putative
+PFA0190c	PFI0520w	PF00022	PF00022	8.5	0.83843157768	actin	actin-like protein, putative
+PFL0630w	PFB0320c	PF00111	PF01521	4.9	0.926931393902	iron-sulfur subunit of succinate dehydrogenase	hypothetical protein, conserved
+PFL0145c	PF14_0122	PF00505	PF02136	3.4	0.683509434435	high mobility group protein	nuclear transport factor 2, putative
+PFL0145c	PF14_0207	PF00505	PF05158	4.6	0.0919905250625	high mobility group protein	RNA polymerase subunit, putative
+PFE1020w	PFE1020w	PF01423	PF01423	387.1	0.999395416906	u6 snRNA-associated sm-like protein Lsm2, putative	u6 snRNA-associated sm-like protein Lsm2, putative
+PFE1020w	MAL13P1.120	PF01423	PF00076	14.5	0.954807423819	u6 snRNA-associated sm-like protein Lsm2, putative	splicing factor, putative
+PFE1020w	PF11_0200	PF01423	PF00076	14.5	0.825560452177	u6 snRNA-associated sm-like protein Lsm2, putative	U2 snRNP auxiliary factor, small subunit, putative
+PFE1020w	MAL13P1.253	PF01423	PF01423	387.1	0.56217752794	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein, putative
+PFE1020w	PF14_0146	PF01423	PF01423	387.1	0.582077881503	u6 snRNA-associated sm-like protein Lsm2, putative	ribonucleoprotein, putative
+PFE1020w	PFB0865w	PF01423	PF01423	387.1	0.977205468685	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein, putative
+PFE1020w	PF14_0026	PF01423	PF06220	20.3	0.466896612359	u6 snRNA-associated sm-like protein Lsm2, putative	hypothetical protein
+PFE1020w	PFL1520w	PF01423	PF02966	20.3	0.800703810805	u6 snRNA-associated sm-like protein Lsm2, putative	dim1 protein homolog, putative
+PFE1020w	PF11_0524	PF01423	PF01423	387.1	0.929344304095	u6 snRNA-associated sm-like protein Lsm2, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PFE1020w	MAL8P1.9	PF01423	PF01423	387.1	0.995793580765	u6 snRNA-associated sm-like protein Lsm2, putative	u6 snRNA-associated sm-like protein, putative
+PFE1020w	PF14_0194	PF01423	PF00076	14.5	0.894329089589	u6 snRNA-associated sm-like protein Lsm2, putative	spliceosome-associated protein, putative
+PFE1020w	MAL13P1.338	PF01423	PF00076	14.5	0.604784952969	u6 snRNA-associated sm-like protein Lsm2, putative	u1 small nuclear ribonucleoprotein, putative
+PFE1020w	MAL8P1.48	PF01423	PF01423	387.1	0.80346264709	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein, putative
+PFE1020w	PF14_0057	PF01423	PF00076	14.5	0.954128648333	u6 snRNA-associated sm-like protein Lsm2, putative	RNA binding protein, putative
+PFE1020w	PF11_0266	PF01423	PF01423	387.1	0.765358116237	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein D1, putative
+PFE1020w	PF11_0280	PF01423	PF01423	387.1	0.997016537867	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein F, putative
+PFE1020w	PF08_0084	PF01423	PF06220	20.3	0.94503659832	u6 snRNA-associated sm-like protein Lsm2, putative	hypothetical protein
+PFE1020w	PFL0460w	PF01423	PF01423	387.1	0.995498770973	u6 snRNA-associated sm-like protein Lsm2, putative	u6 snRNA-associated Sm-like protein, putative
+PFE1020w	PF14_0411	PF01423	PF01423	387.1	0.92850374152	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonuclear protein, putative
+PFE1020w	MAL13P1.35	PF01423	PF00076	14.5	0.682703351037	u6 snRNA-associated sm-like protein Lsm2, putative	u1 small nuclear ribonucleoprotein a, putative
+PFE1020w	PF11_0255	PF01423	PF01423	387.1	0.925467705419	u6 snRNA-associated sm-like protein Lsm2, putative	hypothetical protein
+PFE1020w	PF11_0250	PF01423	PF01248	6.0	0.960302434733	u6 snRNA-associated sm-like protein Lsm2, putative	high mobility group-like protein NHP2, putative
+PFE1020w	PFI0475w	PF01423	PF01423	387.1	0.995291630107	u6 snRNA-associated sm-like protein Lsm2, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0454	PF10_0264	PF01249	PF00318	6.2	0.618816209686	Ribosomal protein, 40S subunit, putative	40S ribosomal protein, putative
+PFF0830w	PFB0805c	PF01602	PF01217	9.4	0.0589903113472	alpha adaptin-like protein, putative	clathrin coat assembly protein, putative
+PF14_0232	PF14_0232	PF00378	PF00378	11.2	0.999395416906	hypothetical protein, conserved	hypothetical protein, conserved
+PF14_0232	PF14_0581	PF00378	PF00338	4.7	0.837134654687	hypothetical protein, conserved	ribosomal protein S10, putative
+PF07_0088	PF10_0264	PF00177	PF00318	5.4	0.959549261083	40S ribosomal protein S5, putative	40S ribosomal protein, putative
+PFL0185c	PF11_0061	PF00956	PF00125	14.5	0.466360123259	nucleosome assembly protein 1, putative	histone H4, putative
+PFL0185c	PF11_0062	PF00956	PF00125	14.5	0.199336962182	nucleosome assembly protein 1, putative	histone H2B
+PFL0185c	PF13_0185	PF00956	PF00125	14.5	0.101316760899	nucleosome assembly protein 1, putative	histone h3, putative
+PFL0185c	PFC0920w	PF00956	PF00125	14.5	0.876864515783	nucleosome assembly protein 1, putative	histone H2A variant, putative
+PFL0185c	PFF0865w	PF00956	PF00125	14.5	0.662453057411	nucleosome assembly protein 1, putative	histone h3
+PFL0185c	PFF0510w	PF00956	PF00125	14.5	0.662453057411	nucleosome assembly protein 1, putative	histone H3, putative
+PFL0185c	PFF0860c	PF00956	PF00125	14.5	0.662453057411	nucleosome assembly protein 1, putative	histone h2a
+PF14_0122	PF14_0122	PF02136	PF02136	4.5	0.999395416906	nuclear transport factor 2, putative	nuclear transport factor 2, putative
+PF14_0122	PFL0290w	PF02136	PF00505	3.4	0.735672848093	nuclear transport factor 2, putative	hypothetical protein
+PF14_0122	PF13_0326	PF02136	PF00241	4.4	0.0147901709702	nuclear transport factor 2, putative	actin-depolymerizing factor, putative
+PF14_0122	MAL8P1.72	PF02136	PF00505	3.4	0.00497560282432	nuclear transport factor 2, putative	high mobility group protein, putative
+PF14_0122	PFE0165w	PF02136	PF00241	4.4	0.140766146617	nuclear transport factor 2, putative	actin depolymerizing factor, putative
+PF14_0124	PF14_0124	PF00022	PF00022	8.5	0.999395416906	actin II	actin II
+PF14_0124	PF07_0077	PF00022	PF00022	8.5	0.885609949916	actin II	hypothetical protein
+PF14_0124	PF14_0218	PF00022	PF00022	8.5	0.318614869133	actin II	actin, putative
+PF14_0124	PF11_0047	PF00022	PF00022	8.5	0.137560504057	actin II	hypothetical protein
+PF14_0124	PF13_0326	PF00022	PF00241	27.2	0.106336021424	actin II	actin-depolymerizing factor, putative
+PF14_0124	PFE0255w	PF00022	PF00022	8.5	0.8853572182	actin II	actin-related protein, putative
+PF14_0124	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin II	actin-like protein, putative
+PF14_0124	PFI0520w	PF00022	PF00022	8.5	0.705613310865	actin II	actin-like protein, putative
+PF13_0156	PF13_0156	PF00227	PF00227	103.0	0.999395416906	proteasome subunit beta type 7 precursor, putative	proteasome subunit beta type 7 precursor, putative
+PF13_0156	PF07_0112	PF00227	PF00227	103.0	0.994425769283	proteasome subunit beta type 7 precursor, putative	proteasome subunit alpha type 5, putative
+PF13_0156	PFI1545c	PF00227	PF00227	103.0	0.996138435357	proteasome subunit beta type 7 precursor, putative	proteasome precursor, putative
+PF13_0156	PFC0745c	PF00227	PF00227	103.0	0.996417324376	proteasome subunit beta type 7 precursor, putative	proteasome component C8, putative
+PF13_0156	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome subunit beta type 7 precursor, putative	proteasome subunit alpha type 2, putative
+PF13_0156	PFA0400c	PF00227	PF00227	103.0	0.998288420274	proteasome subunit beta type 7 precursor, putative	beta3 proteasome subunit, putative
+PF13_0156	MAL13P1.270	PF00227	PF00227	103.0	0.998478252273	proteasome subunit beta type 7 precursor, putative	proteasome subunit, putative
+PF13_0156	MAL8P1.128	PF00227	PF00227	103.0	0.997731842464	proteasome subunit beta type 7 precursor, putative	proteasome subunit alpha, putative
+PF13_0156	PF14_0716	PF00227	PF00227	103.0	0.998602942468	proteasome subunit beta type 7 precursor, putative	Proteosome subunit alpha type 1, putative
+PF13_0156	PF14_0676	PF00227	PF00227	103.0	0.978797512055	proteasome subunit beta type 7 precursor, putative	20S proteasome beta 4 subunit, putative
+PF13_0156	PF10_0111	PF00227	PF00227	103.0	0.996399002226	proteasome subunit beta type 7 precursor, putative	20S proteasome beta subunit, putative
+PF13_0157	PF13_0157	PF00156	PF00156	3.0	0.999395416906	ribose-phosphate pyrophosphokinase, putative	ribose-phosphate pyrophosphokinase, putative
+PF07_0112	PF07_0112	PF00227	PF00227	103.0	0.999395416906	proteasome subunit alpha type 5, putative	proteasome subunit alpha type 5, putative
+PF07_0112	PFI1545c	PF00227	PF00227	103.0	0.998661722545	proteasome subunit alpha type 5, putative	proteasome precursor, putative
+PF07_0112	PFC0745c	PF00227	PF00227	103.0	0.997167293112	proteasome subunit alpha type 5, putative	proteasome component C8, putative
+PF07_0112	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 5, putative	proteasome subunit alpha type 2, putative
+PF07_0112	PFA0400c	PF00227	PF00227	103.0	0.994727273143	proteasome subunit alpha type 5, putative	beta3 proteasome subunit, putative
+PF07_0112	MAL13P1.270	PF00227	PF00227	103.0	0.996712094638	proteasome subunit alpha type 5, putative	proteasome subunit, putative
+PF07_0112	MAL8P1.128	PF00227	PF00227	103.0	0.998593891619	proteasome subunit alpha type 5, putative	proteasome subunit alpha, putative
+PF07_0112	PF14_0716	PF00227	PF00227	103.0	0.991713127221	proteasome subunit alpha type 5, putative	Proteosome subunit alpha type 1, putative
+PF07_0112	PF14_0676	PF00227	PF00227	103.0	0.998082702963	proteasome subunit alpha type 5, putative	20S proteasome beta 4 subunit, putative
+PF07_0112	PF10_0111	PF00227	PF00227	103.0	0.998357652989	proteasome subunit alpha type 5, putative	20S proteasome beta subunit, putative
+PF07_0115	PF14_0028	PF00702	PF01805	3.4	0.975501705146	integral membrane protein, putative	hypothetical protein, conserved
+PFB0210c	PF14_0615	PF00083	PF01992	4.5	0.0155360034244	monosaccharide transporter, putative	ATP synthase (C/AC39) subunit, putative
+PFC0250c	PFE0435c	PF03372	PF00436	5.1	0.688942495379	AP endonuclease (DNA-(apurinic or apyrimidinic site) lyase), putative	single-strand binding protein, putative
+PF07_0065	PF07_0065	PF01545	PF01545	5.5	0.999395416906	zinc transporter, putative	zinc transporter, putative
+PFL1410c	PFL1410c	PF00005	PF00005	4.9	0.999395416906	hypothetical protein	hypothetical protein
+PFL1410c	PF13_0218	PF00005	PF00005	4.9	0.150147224261	hypothetical protein	ABC transporter, putative
+PFL1410c	PFE1150w	PF00005	PF00005	4.9	0.684139660931	hypothetical protein	multidrug resistance protein
+PFL1410c	PFC0125w	PF00005	PF00005	4.9	0.559655802437	hypothetical protein	ABC transporter, putative
+PFL1410c	PFL0495c	PF00005	PF00005	4.9	0.231988514745	hypothetical protein	ABC transporter, putative
+PFL1410c	PF14_0455	PF00005	PF00005	4.9	0.899573942902	hypothetical protein	multidrug resistance protein 2
+PFL1410c	PF13_0271	PF00005	PF00005	4.9	0.356405302126	hypothetical protein	ABC transporter, putative
+PFL1410c	PF11_0466	PF00005	PF00005	4.9	0.547153704752	hypothetical protein	transport protein, putative
+PFE0350c	PF10_0272	PF00573	PF00297	5.3	0.944534700463	60S ribosomal subunit protein L4/L1, putative	ribosomal protein L3, putative
+PFC0490w	PF11_0171	PF04597	PF00400	7.0	0.924707659568	hypothetical protein	hypothetical protein
+PFC0490w	PF11_0173	PF04597	PF02516	6.5	0.501513522392	hypothetical protein	oligosacharyl transferase STT3 subunit, putative
+PFC0490w	PF14_0314	PF04597	PF00400	7.0	0.0668356095128	hypothetical protein	chromatin assembly factor 1 p55 subunit, putative
+PFC0490w	PF11_0400	PF04597	PF00400	7.0	0.0971458382648	hypothetical protein	hypothetical protein
+PF10_0366	PF14_0208	PF00153	PF02953	6.6	0.953345274026	ADP/ATP transporter on adenylate translocase	hypothetical protein, conserved
+PF10_0366	PFL0430w	PF00153	PF02953	6.6	0.996124417853	ADP/ATP transporter on adenylate translocase	tim10 homologue, putative
+PF10_0366	PFL2065c	PF00153	PF02953	6.6	0.860597498458	ADP/ATP transporter on adenylate translocase	mitochondrial import inner membrane translocase subunit, putative
+PF10_0366	PF13_0358	PF00153	PF02953	6.6	0.908715791346	ADP/ATP transporter on adenylate translocase	mitochondrial import inner membrane translocase, putative
+PFI1545c	PFI1545c	PF00227	PF00227	103.0	0.999395416906	proteasome precursor, putative	proteasome precursor, putative
+PFI1545c	PFC0745c	PF00227	PF00227	103.0	0.998750978967	proteasome precursor, putative	proteasome component C8, putative
+PFI1545c	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome precursor, putative	proteasome subunit alpha type 2, putative
+PFI1545c	PFA0400c	PF00227	PF00227	103.0	0.99802447576	proteasome precursor, putative	beta3 proteasome subunit, putative
+PFI1545c	MAL13P1.270	PF00227	PF00227	103.0	0.998678541252	proteasome precursor, putative	proteasome subunit, putative
+PFI1545c	MAL8P1.128	PF00227	PF00227	103.0	0.999075548198	proteasome precursor, putative	proteasome subunit alpha, putative
+PFI1545c	PF14_0716	PF00227	PF00227	103.0	0.99748825433	proteasome precursor, putative	Proteosome subunit alpha type 1, putative
+PFI1545c	PF14_0676	PF00227	PF00227	103.0	0.996612611545	proteasome precursor, putative	20S proteasome beta 4 subunit, putative
+PFI1545c	PF10_0111	PF00227	PF00227	103.0	0.997793046252	proteasome precursor, putative	20S proteasome beta subunit, putative
+PFL1550w	PFL1550w	PF00070	PF00070	3.0	0.999395416906	lipoamide dehydrogenase	lipoamide dehydrogenase
+PFL1550w	PF14_0192	PF00070	PF00070	3.0	0.908833065375	lipoamide dehydrogenase	glutathione reductase
+PFL1550w	PFI1170c	PF00070	PF00070	3.0	0.988993552751	lipoamide dehydrogenase	Thioredoxin reductase
+PFL1550w	PF08_0066	PF00070	PF00070	3.0	0.998973013709	lipoamide dehydrogenase	lipoamide dehydrogenase, putative
+MAL7P1.164	PFB0805c	PF01602	PF01217	9.4	0.0147414183888	adapter-related protein, putative	clathrin coat assembly protein, putative
+MAL7P1.164	PF11_0202	PF01602	PF00928	15.2	0.718532464879	adapter-related protein, putative	clathrin coat assembly protein, putative
+MAL7P1.164	PFL0885w	PF01602	PF00928	15.2	0.108549753202	adapter-related protein, putative	hypothetical protein
+MAL7P1.164	PF11_0187	PF01602	PF01217	9.4	0.0974253814455	adapter-related protein, putative	clathrin assembly protein AP19, putative
+MAL7P1.164	PFD0745c	PF01602	PF01217	9.4	0.451265030774	adapter-related protein, putative	nonclathrin coat protein zeta2-cop-related protein, putative
+MAL7P1.164	PFD1090c	PF01602	PF01217	9.4	0.118156721575	adapter-related protein, putative	clathrin assembly protein, putative
+MAL7P1.164	PFL2425w	PF01602	PF01217	9.4	0.166849033334	adapter-related protein, putative	adaptor-related protein complex 3, sigma 2 subunit, putative
+MAL7P1.164	PF14_0386	PF01602	PF00928	15.2	0.404832306651	adapter-related protein, putative	hypothetical protein
+MAL7P1.164	PF13_0062	PF01602	PF00928	15.2	0.121072947321	adapter-related protein, putative	clathrin-adaptor medium chain, putative
+PFC0745c	PFC0745c	PF00227	PF00227	103.0	0.999395416906	proteasome component C8, putative	proteasome component C8, putative
+PFC0745c	PFF0420c	PF00227	PF00227	103.0	0.662453057411	proteasome component C8, putative	proteasome subunit alpha type 2, putative
+PFC0745c	PFA0400c	PF00227	PF00227	103.0	0.997425720962	proteasome component C8, putative	beta3 proteasome subunit, putative
+PFC0745c	MAL13P1.270	PF00227	PF00227	103.0	0.998753581201	proteasome component C8, putative	proteasome subunit, putative
+PFC0745c	MAL8P1.128	PF00227	PF00227	103.0	0.998869359831	proteasome component C8, putative	proteasome subunit alpha, putative
+PFC0745c	PF14_0716	PF00227	PF00227	103.0	0.998203877705	proteasome component C8, putative	Proteosome subunit alpha type 1, putative
+PFC0745c	PF14_0676	PF00227	PF00227	103.0	0.995823103664	proteasome component C8, putative	20S proteasome beta 4 subunit, putative
+PFC0745c	PF10_0111	PF00227	PF00227	103.0	0.996758780675	proteasome component C8, putative	20S proteasome beta subunit, putative
+PF14_0076	PF14_0564	PF00026	PF01926	4.1	0.0113424326067	plasmepsin 1 precursor	hypothetical protein, conserved
+MAL13P1.120	MAL13P1.120	PF00076	PF00076	14.5	0.999395416906	splicing factor, putative	splicing factor, putative
+MAL13P1.120	PF11_0200	PF00076	PF00076	14.5	0.950109331358	splicing factor, putative	U2 snRNP auxiliary factor, small subunit, putative
+MAL13P1.120	MAL13P1.253	PF00076	PF01423	14.5	0.19954612128	splicing factor, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.120	PF14_0146	PF00076	PF01423	14.5	0.0361263690036	splicing factor, putative	ribonucleoprotein, putative
+MAL13P1.120	PFL2300w	PF00076	PF01974	3.0	0.256903584098	splicing factor, putative	hypothetical protein
+MAL13P1.120	PFB0865w	PF00076	PF01423	14.5	0.586012654979	splicing factor, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.120	PF14_0026	PF00076	PF06220	6.2	0.187773796498	splicing factor, putative	hypothetical protein
+MAL13P1.120	PF11_0524	PF00076	PF01423	14.5	0.246844661142	splicing factor, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+MAL13P1.120	MAL8P1.9	PF00076	PF01423	14.5	0.97907592185	splicing factor, putative	u6 snRNA-associated sm-like protein, putative
+MAL13P1.120	PF14_0194	PF00076	PF00076	14.5	0.995750189311	splicing factor, putative	spliceosome-associated protein, putative
+MAL13P1.120	PF14_0514	PF00076	PF01974	3.0	0.498103730129	splicing factor, putative	tRNA intron endonuclease, putative
+MAL13P1.120	MAL13P1.338	PF00076	PF00076	14.5	0.975799352075	splicing factor, putative	u1 small nuclear ribonucleoprotein, putative
+MAL13P1.120	MAL8P1.48	PF00076	PF01423	14.5	0.236342627834	splicing factor, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.120	PF14_0057	PF00076	PF00076	14.5	0.967565826612	splicing factor, putative	RNA binding protein, putative
+MAL13P1.120	PF10_0079	PF00076	PF02178	5.8	0.975010811872	splicing factor, putative	hypothetical protein
+MAL13P1.120	PF11_0266	PF00076	PF01423	14.5	0.184817151797	splicing factor, putative	small nuclear ribonucleoprotein D1, putative
+MAL13P1.120	PF11_0280	PF00076	PF01423	14.5	0.96724021692	splicing factor, putative	small nuclear ribonucleoprotein F, putative
+MAL13P1.120	PF08_0084	PF00076	PF06220	6.2	0.890089909615	splicing factor, putative	hypothetical protein
+MAL13P1.120	PFL0460w	PF00076	PF01423	14.5	0.96864407828	splicing factor, putative	u6 snRNA-associated Sm-like protein, putative
+MAL13P1.120	PF14_0411	PF00076	PF01423	14.5	0.287939471164	splicing factor, putative	small nuclear ribonuclear protein, putative
+MAL13P1.120	MAL13P1.35	PF00076	PF00076	14.5	0.986500915544	splicing factor, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL13P1.120	PF11_0255	PF00076	PF01423	14.5	0.439916611653	splicing factor, putative	hypothetical protein
+MAL13P1.120	PFI0475w	PF00076	PF01423	14.5	0.958342404641	splicing factor, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFB0805c	PF11_0202	PF01217	PF00928	21.7	0.0137884155014	clathrin coat assembly protein, putative	clathrin coat assembly protein, putative
+PFB0805c	PFL0885w	PF01217	PF00928	21.7	0.201682474763	clathrin coat assembly protein, putative	hypothetical protein
+PFB0805c	PFF0655c	PF01217	PF01602	9.4	0.0693779412846	clathrin coat assembly protein, putative	adapter-related protein, putative
+PFB0805c	PF14_0529	PF01217	PF01602	9.4	0.177665231917	clathrin coat assembly protein, putative	gamma-adaptin, putative
+PFB0805c	PF14_0386	PF01217	PF00928	21.7	0.042235410062	clathrin coat assembly protein, putative	hypothetical protein
+PFB0805c	PF13_0062	PF01217	PF00928	21.7	0.0871103615597	clathrin coat assembly protein, putative	clathrin-adaptor medium chain, putative
+PF14_0207	PFL0290w	PF05158	PF00505	4.6	0.146683709206	RNA polymerase subunit, putative	hypothetical protein
+PF14_0207	MAL8P1.72	PF05158	PF00505	4.6	0.00301832116639	RNA polymerase subunit, putative	high mobility group protein, putative
+PF14_0208	PF14_0208	PF02953	PF02953	14.6	0.999395416906	hypothetical protein, conserved	hypothetical protein, conserved
+PF14_0208	PFL0430w	PF02953	PF02953	14.6	0.97792777782	hypothetical protein, conserved	tim10 homologue, putative
+PF14_0208	PF08_0031	PF02953	PF00153	6.6	0.94097244403	hypothetical protein, conserved	oxoglutarate/malate translocator protein, putative
+PF14_0208	PFL2065c	PF02953	PF02953	14.6	0.102742380428	hypothetical protein, conserved	mitochondrial import inner membrane translocase subunit, putative
+PF14_0208	PFL0110c	PF02953	PF00153	6.6	0.47072124075	hypothetical protein, conserved	PfmpC
+PF14_0208	PFF1330c	PF02953	PF02466	10.6	0.0733504115574	hypothetical protein, conserved	mitochondrial import inner membrane translocase subunit, putative
+PF14_0208	PF13_0300	PF02953	PF02466	10.6	0.380966534101	hypothetical protein, conserved	mitochondrial inner membrane translocase, putative
+PF14_0208	PF13_0358	PF02953	PF02953	14.6	0.966139042175	hypothetical protein, conserved	mitochondrial import inner membrane translocase, putative
+PF14_0208	PF13_0359	PF02953	PF00153	6.6	0.65932807642	hypothetical protein, conserved	mitochondrial carrier protein, putative
+PF14_0208	PFL2000w	PF02953	PF00153	6.6	0.47305463906	hypothetical protein, conserved	mitochondrial carrier protein, putative
+PF11_0418	PF11_0418	PF00385	PF00385	3.4	0.999395416906	hypothetical protein	hypothetical protein
+PF11_0418	PFL1005c	PF00385	PF00385	3.4	0.766601819524	hypothetical protein	chromodomain protein
+PF11_0418	PF10_0232	PF00385	PF00385	3.4	0.956964512252	hypothetical protein	hypothetical protein
+PFL0275w	PFL0275w	PF00498	PF00498	3.0	0.999395416906	hypothetical protein	hypothetical protein
+PFL0275w	PF13_0346	PF00097	PF00240	5.7	0.560234034613	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFL0275w	PFB0830w	PF00097	PF01283	3.0	0.00517453000262	hypothetical protein	Ribosomal protein S26e, putative
+PFL0275w	PF13_0224	PF00097	PF01775	7.3	0.0925594925091	hypothetical protein	60S ribosomal subunit protein L18, putative
+PFL0275w	PF14_0027	PF00097	PF00240	5.7	0.0401802027288	hypothetical protein	ribosomal S27a, putative
+PFL0275w	PFL2055w	PF00097	PF00833	3.6	0.173576923342	hypothetical protein	40S ribosomal protein S17, putative
+PFE1490c	PF13_0346	PF00097	PF00240	5.7	0.0774982431338	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFE1490c	PFB0830w	PF00097	PF01283	3.0	0.401129431701	hypothetical protein	Ribosomal protein S26e, putative
+PFE1490c	PF13_0224	PF00097	PF01775	7.3	0.0235042594408	hypothetical protein	60S ribosomal subunit protein L18, putative
+PFE1490c	PF14_0027	PF00097	PF00240	5.7	0.132790157674	hypothetical protein	ribosomal S27a, putative
+PFE1490c	PFL2055w	PF00097	PF00833	3.6	0.0725314257117	hypothetical protein	40S ribosomal protein S17, putative
+PFB0320c	PFB0830w	PF01521	PF01283	12.1	0.00667689144277	hypothetical protein, conserved	Ribosomal protein S26e, putative
+PF14_0114	PF13_0133	PF01926	PF00026	4.1	0.490039558669	GTP-binding protein, putative	aspartyl (acid) protease, putative
+PF11_0061	PF11_0061	PF00125	PF00125	11.6	0.999395416906	histone H4, putative	histone H4, putative
+PF11_0061	PF11_0062	PF00125	PF00125	11.6	0.995190175102	histone H4, putative	histone H2B
+PF11_0061	PF13_0185	PF00125	PF00125	11.6	0.987962354892	histone H4, putative	histone h3, putative
+PF11_0061	PFL2440w	PF00125	PF00097	12.8	0.133012369602	histone H4, putative	DNA repair protein rhp16, putative
+PF11_0061	PFC0920w	PF00125	PF00125	11.6	0.989155871566	histone H4, putative	histone H2A variant, putative
+PF11_0061	PFF0865w	PF00125	PF00125	11.6	0.662453057411	histone H4, putative	histone h3
+PF11_0061	PFI0930c	PF00125	PF00956	14.5	0.977433914582	histone H4, putative	Nucleosome assembly protein
+PF11_0061	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone H4, putative	histone H3, putative
+PF11_0061	PF11_0477	PF00125	PF00808	3.3	0.981380907409	histone H4, putative	CCAAT-box DNA binding protein subunit B
+PF11_0061	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone H4, putative	histone h2a
+PF11_0062	PF11_0062	PF00125	PF00125	11.6	0.999395416906	histone H2B	histone H2B
+PF11_0062	PF13_0185	PF00125	PF00125	11.6	0.995694528679	histone H2B	histone h3, putative
+PF11_0062	PFL2440w	PF00125	PF00097	12.8	0.221209540233	histone H2B	DNA repair protein rhp16, putative
+PF11_0062	PFC0920w	PF00125	PF00125	11.6	0.710486829872	histone H2B	histone H2A variant, putative
+PF11_0062	PFF0865w	PF00125	PF00125	11.6	0.662453057411	histone H2B	histone h3
+PF11_0062	PFI0930c	PF00125	PF00956	14.5	0.930959137724	histone H2B	Nucleosome assembly protein
+PF11_0062	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone H2B	histone H3, putative
+PF11_0062	PF11_0477	PF00125	PF00808	3.3	0.880128674673	histone H2B	CCAAT-box DNA binding protein subunit B
+PF11_0062	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone H2B	histone h2a
+PFL0430w	PFL0430w	PF02953	PF02953	14.6	0.999395416906	tim10 homologue, putative	tim10 homologue, putative
+PFL0430w	PF08_0031	PF02953	PF00153	6.6	0.994846045724	tim10 homologue, putative	oxoglutarate/malate translocator protein, putative
+PFL0430w	PFL2065c	PF02953	PF02953	14.6	0.754058906431	tim10 homologue, putative	mitochondrial import inner membrane translocase subunit, putative
+PFL0430w	PFL0110c	PF02953	PF00153	6.6	0.913296840775	tim10 homologue, putative	PfmpC
+PFL0430w	PFF1330c	PF02953	PF02466	10.6	0.0733504115574	tim10 homologue, putative	mitochondrial import inner membrane translocase subunit, putative
+PFL0430w	PF13_0300	PF02953	PF02466	10.6	0.942132570896	tim10 homologue, putative	mitochondrial inner membrane translocase, putative
+PFL0430w	PF13_0358	PF02953	PF02953	14.6	0.972180448117	tim10 homologue, putative	mitochondrial import inner membrane translocase, putative
+PFL0430w	PF13_0359	PF02953	PF00153	6.6	0.79468181187	tim10 homologue, putative	mitochondrial carrier protein, putative
+PFL0430w	PFL2000w	PF02953	PF00153	6.6	0.91660402832	tim10 homologue, putative	mitochondrial carrier protein, putative
+PF11_0208	PF11_0208	PF00300	PF00300	3.1	0.999395416906	phosphoglycerate mutase, putative	phosphoglycerate mutase, putative
+PF11_0200	PF11_0200	PF00076	PF00076	14.5	0.999395416906	U2 snRNP auxiliary factor, small subunit, putative	U2 snRNP auxiliary factor, small subunit, putative
+PF11_0200	MAL13P1.253	PF00076	PF01423	14.5	0.0693803798931	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein, putative
+PF11_0200	PF14_0146	PF00076	PF01423	14.5	0.897501036093	U2 snRNP auxiliary factor, small subunit, putative	ribonucleoprotein, putative
+PF11_0200	PFL2300w	PF00076	PF01974	3.0	0.959870761097	U2 snRNP auxiliary factor, small subunit, putative	hypothetical protein
+PF11_0200	PFB0865w	PF00076	PF01423	14.5	0.983124983213	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein, putative
+PF11_0200	PF14_0026	PF00076	PF06220	6.2	0.979108399469	U2 snRNP auxiliary factor, small subunit, putative	hypothetical protein
+PF11_0200	PF11_0524	PF00076	PF01423	14.5	0.927070645933	U2 snRNP auxiliary factor, small subunit, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF11_0200	MAL8P1.9	PF00076	PF01423	14.5	0.539924750259	U2 snRNP auxiliary factor, small subunit, putative	u6 snRNA-associated sm-like protein, putative
+PF11_0200	PF14_0194	PF00076	PF00076	14.5	0.852394529221	U2 snRNP auxiliary factor, small subunit, putative	spliceosome-associated protein, putative
+PF11_0200	PF14_0514	PF00076	PF01974	3.0	0.959274978112	U2 snRNP auxiliary factor, small subunit, putative	tRNA intron endonuclease, putative
+PF11_0200	MAL13P1.338	PF00076	PF00076	14.5	0.864289325273	U2 snRNP auxiliary factor, small subunit, putative	u1 small nuclear ribonucleoprotein, putative
+PF11_0200	MAL8P1.48	PF00076	PF01423	14.5	0.385113041959	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein, putative
+PF11_0200	PF14_0057	PF00076	PF00076	14.5	0.913818153118	U2 snRNP auxiliary factor, small subunit, putative	RNA binding protein, putative
+PF11_0200	PF10_0079	PF00076	PF02178	5.8	0.996102512036	U2 snRNP auxiliary factor, small subunit, putative	hypothetical protein
+PF11_0200	PF11_0266	PF00076	PF01423	14.5	0.895330695462	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein D1, putative
+PF11_0200	PF11_0280	PF00076	PF01423	14.5	0.276724921449	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein F, putative
+PF11_0200	PF08_0084	PF00076	PF06220	6.2	0.997201148804	U2 snRNP auxiliary factor, small subunit, putative	hypothetical protein
+PF11_0200	PFL0460w	PF00076	PF01423	14.5	0.954457340642	U2 snRNP auxiliary factor, small subunit, putative	u6 snRNA-associated Sm-like protein, putative
+PF11_0200	PF14_0411	PF00076	PF01423	14.5	0.968971806348	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonuclear protein, putative
+PF11_0200	MAL13P1.35	PF00076	PF00076	14.5	0.985321727789	U2 snRNP auxiliary factor, small subunit, putative	u1 small nuclear ribonucleoprotein a, putative
+PF11_0200	PF11_0255	PF00076	PF01423	14.5	0.13986571821	U2 snRNP auxiliary factor, small subunit, putative	hypothetical protein
+PF11_0200	PFI0475w	PF00076	PF01423	14.5	0.885851620231	U2 snRNP auxiliary factor, small subunit, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0201	PF10_0177	PF00632	PF00036	4.7	0.506488117364	hypothetical protein	erythrocyte membrane-associated antigen
+PF11_0201	PF10_0271	PF00632	PF00036	4.7	0.752847213171	hypothetical protein	centrin, putative
+PF11_0202	PFF0655c	PF00928	PF01602	15.2	0.0730788856434	clathrin coat assembly protein, putative	adapter-related protein, putative
+PF11_0202	PF14_0529	PF00928	PF01602	15.2	0.240072190059	clathrin coat assembly protein, putative	gamma-adaptin, putative
+PF11_0202	PF11_0187	PF00928	PF01217	21.7	0.146860332795	clathrin coat assembly protein, putative	clathrin assembly protein AP19, putative
+PF11_0202	PFD0745c	PF00928	PF01217	21.7	0.347725367839	clathrin coat assembly protein, putative	nonclathrin coat protein zeta2-cop-related protein, putative
+PF11_0202	PFD1090c	PF00928	PF01217	21.7	0.591405675658	clathrin coat assembly protein, putative	clathrin assembly protein, putative
+PF11_0202	PFL2425w	PF00928	PF01217	21.7	0.267577338641	clathrin coat assembly protein, putative	adaptor-related protein complex 3, sigma 2 subunit, putative
+PF07_0077	PF07_0077	PF00022	PF00022	8.5	0.999395416906	hypothetical protein	hypothetical protein
+PF07_0077	PF14_0218	PF00022	PF00022	8.5	0.996209295499	hypothetical protein	actin, putative
+PF07_0077	PF11_0047	PF00022	PF00022	8.5	0.989445337365	hypothetical protein	hypothetical protein
+PF07_0077	PF13_0326	PF00022	PF00241	27.2	0.115477795348	hypothetical protein	actin-depolymerizing factor, putative
+PF07_0077	PFE0255w	PF00022	PF00022	8.5	0.991724191649	hypothetical protein	actin-related protein, putative
+PF07_0077	PFD0487c	PF00022	PF00022	8.5	0.662453057411	hypothetical protein	actin-like protein, putative
+PF07_0077	PFI0520w	PF00022	PF00022	8.5	0.968183678837	hypothetical protein	actin-like protein, putative
+PF07_0078	PF14_0615	PF03381	PF01992	6.0	0.743854680882	hypothetical protein, conserved	ATP synthase (C/AC39) subunit, putative
+PFL1005c	PFL1005c	PF00385	PF00385	3.4	0.999395416906	chromodomain protein	chromodomain protein
+PFL1005c	PF10_0232	PF00385	PF00385	3.4	0.950923574641	chromodomain protein	hypothetical protein
+PF13_0185	PF13_0185	PF00125	PF00125	11.6	0.999395416906	histone h3, putative	histone h3, putative
+PF13_0185	PFL2440w	PF00125	PF00097	12.8	0.105696580724	histone h3, putative	DNA repair protein rhp16, putative
+PF13_0185	PFC0920w	PF00125	PF00125	11.6	0.331784342751	histone h3, putative	histone H2A variant, putative
+PF13_0185	PFF0865w	PF00125	PF00125	11.6	0.662453057411	histone h3, putative	histone h3
+PF13_0185	PFI0930c	PF00125	PF00956	14.5	0.845123628009	histone h3, putative	Nucleosome assembly protein
+PF13_0185	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone h3, putative	histone H3, putative
+PF13_0185	PF11_0477	PF00125	PF00808	3.3	0.822361135224	histone h3, putative	CCAAT-box DNA binding protein subunit B
+PF13_0185	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone h3, putative	histone h2a
+PFA0580c	PFL2130w	PF01026	PF00076	3.1	0.992417374631	TatD-like deoxyribonuclease, putative	hypothetical protein
+PF11_0370	PFL2325c	PF02544	PF01027	5.1	0.0171067595849	hypothetical protein	P. falciparum homologue of Drosophila nmda1 protein, putative
+PFF0420c	PFF0420c	PF00227	PF00227	103.0	0.999395416906	proteasome subunit alpha type 2, putative	proteasome subunit alpha type 2, putative
+PFF0420c	PFA0400c	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	beta3 proteasome subunit, putative
+PFF0420c	MAL13P1.270	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	proteasome subunit, putative
+PFF0420c	MAL8P1.128	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	proteasome subunit alpha, putative
+PFF0420c	PF14_0716	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	Proteosome subunit alpha type 1, putative
+PFF0420c	PF14_0676	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	20S proteasome beta 4 subunit, putative
+PFF0420c	PF10_0111	PF00227	PF00227	103.0	0.662453057411	proteasome subunit alpha type 2, putative	20S proteasome beta subunit, putative
+PFE0435c	PFC0850c	PF00436	PF03372	5.1	0.796394562383	single-strand binding protein, putative	hypothetical protein
+PF10_0264	PF14_0581	PF00318	PF00338	5.4	0.00311727264988	40S ribosomal protein, putative	ribosomal protein S10, putative
+PF10_0264	MAL13P1.92	PF00318	PF00203	6.0	0.905897946484	40S ribosomal protein, putative	40S ribosomal protein S15, putative
+PF10_0264	MAL13P1.283	PF00318	PF00118	4.1	0.960074699848	40S ribosomal protein, putative	TCP-1/cpn60 chaperonin family, putative
+PF10_0264	PFC0775w	PF00318	PF00366	5.3	0.579725646135	40S ribosomal protein, putative	40S ribosomal protein S11, putative
+PF10_0264	PFC0350c	PF00318	PF00118	4.1	0.818568798991	40S ribosomal protein, putative	T-complex protein eta subunit, putative
+PF10_0264	PFC0900w	PF00318	PF00118	4.1	0.836199965234	40S ribosomal protein, putative	T-complex protein 1 epsilon subunit, putative
+PF10_0264	MAL13P1.327	PF00318	PF00366	5.3	0.0961483096046	40S ribosomal protein, putative	Ribosomal protein S17 homologue, putative
+PF10_0264	PF11_0331	PF00318	PF00118	4.1	0.324076494035	40S ribosomal protein, putative	t-complex protein 1, alpha subunit, putative
+PF10_0264	PF13_0316	PF00318	PF00312	5.8	0.0589913403274	40S ribosomal protein, putative	40S ribosomal protein S13
+PF10_0264	PFC0285c	PF00318	PF00118	4.1	0.778109391862	40S ribosomal protein, putative	T-complex protein beta subunit, putative
+PF10_0264	PF11_0072	PF00318	PF00312	5.8	0.00221845245107	40S ribosomal protein, putative	hypothetical protein
+PF14_0585	PF14_0585	PF01200	PF01200	6.5	0.999395416906	ribosomal protein S28e, putative	ribosomal protein S28e, putative
+PF14_0215	PF13_0346	PF00097	PF00240	5.7	0.0709124877735	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PF14_0215	PFB0830w	PF00097	PF01283	3.0	0.00814197381231	hypothetical protein	Ribosomal protein S26e, putative
+PF14_0215	PF13_0224	PF00097	PF01775	7.3	0.0273945339655	hypothetical protein	60S ribosomal subunit protein L18, putative
+PF14_0215	PF14_0027	PF00097	PF00240	5.7	0.0196413645187	hypothetical protein	ribosomal S27a, putative
+PF14_0215	PFL2055w	PF00097	PF00833	3.6	0.0078084053529	hypothetical protein	40S ribosomal protein S17, putative
+PF14_0218	PF14_0218	PF00022	PF00022	8.5	0.999395416906	actin, putative	actin, putative
+PF14_0218	PF11_0047	PF00022	PF00022	8.5	0.984367913619	actin, putative	hypothetical protein
+PF14_0218	PF13_0326	PF00022	PF00241	27.2	0.0605525573227	actin, putative	actin-depolymerizing factor, putative
+PF14_0218	PFE0255w	PF00022	PF00022	8.5	0.919037555059	actin, putative	actin-related protein, putative
+PF14_0218	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin, putative	actin-like protein, putative
+PF14_0218	PFI0520w	PF00022	PF00022	8.5	0.905676256222	actin, putative	actin-like protein, putative
+PF13_0214	PF13_0214	PF00043	PF02798	3.1	0.999395416906	elongation factor 1-gamma, putative	elongation factor 1-gamma, putative
+PF11_0047	PF11_0047	PF00022	PF00022	8.5	0.999395416906	hypothetical protein	hypothetical protein
+PF11_0047	PF13_0326	PF00022	PF00241	27.2	0.114251892631	hypothetical protein	actin-depolymerizing factor, putative
+PF11_0047	PFE0255w	PF00022	PF00022	8.5	0.990920462952	hypothetical protein	actin-related protein, putative
+PF11_0047	PFD0487c	PF00022	PF00022	8.5	0.662453057411	hypothetical protein	actin-like protein, putative
+PF11_0047	PFI0520w	PF00022	PF00022	8.5	0.988372664195	hypothetical protein	actin-like protein, putative
+PF14_0361	PFL0615w	PF03839	PF00515	4.3	0.141783400219	translocation protein sec62, putative	hypothetical protein
+PF14_0562	PFL2130w	PF05832	PF00076	3.7	0.0539672086707	hypothetical protein	hypothetical protein
+PF14_0562	PF14_0028	PF05832	PF00076	3.7	0.209749111071	hypothetical protein	hypothetical protein, conserved
+PF14_0562	PF14_0689	PF05832	PF04893	6.2	0.275246612384	hypothetical protein	hypothetical protein
+PF14_0564	PF10_0329	PF01926	PF00026	4.1	0.381422203997	hypothetical protein, conserved	aspartyl protease, putative
+PF14_0564	PF13_0133	PF01926	PF00026	4.1	0.160503266239	hypothetical protein, conserved	aspartyl (acid) protease, putative
+PF14_0564	PF14_0077	PF01926	PF00026	4.1	0.0508652624926	hypothetical protein, conserved	plasmepsin 2
+PF14_0564	PF14_0075	PF01926	PF00026	4.1	0.00843060894415	hypothetical protein, conserved	plasmepsin, putative
+PFL0420w	PF14_0672	PF01490	PF00233	5.2	0.773320727712	hypothetical protein	cyclic nucleotide phosphodiesterase, putative
+PFL2440w	PF13_0346	PF00097	PF00240	5.7	0.106734933889	DNA repair protein rhp16, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFL2440w	PFB0830w	PF00097	PF01283	3.0	0.13919218832	DNA repair protein rhp16, putative	Ribosomal protein S26e, putative
+PFL2440w	PFC0920w	PF00097	PF00125	12.8	0.0407370887075	DNA repair protein rhp16, putative	histone H2A variant, putative
+PFL2440w	PF13_0224	PF00097	PF01775	7.3	0.250225301807	DNA repair protein rhp16, putative	60S ribosomal subunit protein L18, putative
+PFL2440w	PF14_0027	PF00097	PF00240	5.7	0.200588798152	DNA repair protein rhp16, putative	ribosomal S27a, putative
+PFL2440w	PFF0865w	PF00097	PF00125	12.8	0.0794497119746	DNA repair protein rhp16, putative	histone h3
+PFL2440w	PF10_0114	PF00097	PF00240	5.7	0.802306669365	DNA repair protein rhp16, putative	DNA repair protein RAD23, putative
+PFL2440w	PFF0510w	PF00097	PF00125	12.8	0.0794497119746	DNA repair protein rhp16, putative	histone H3, putative
+PFL2440w	PFL2055w	PF00097	PF00833	3.6	0.123266161858	DNA repair protein rhp16, putative	40S ribosomal protein S17, putative
+PFL2440w	PFF0860c	PF00097	PF00125	12.8	0.0794497119746	DNA repair protein rhp16, putative	histone h2a
+MAL13P1.253	MAL13P1.253	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.253	PF14_0146	PF01423	PF01423	387.1	0.288541356237	small nuclear ribonucleoprotein, putative	ribonucleoprotein, putative
+MAL13P1.253	PFB0865w	PF01423	PF01423	387.1	0.433430363121	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.253	PF14_0026	PF01423	PF06220	20.3	0.410042128288	small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.253	PFL1520w	PF01423	PF02966	20.3	0.360743301382	small nuclear ribonucleoprotein, putative	dim1 protein homolog, putative
+MAL13P1.253	PF11_0524	PF01423	PF01423	387.1	0.467433178028	small nuclear ribonucleoprotein, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+MAL13P1.253	MAL8P1.9	PF01423	PF01423	387.1	0.833508650644	small nuclear ribonucleoprotein, putative	u6 snRNA-associated sm-like protein, putative
+MAL13P1.253	PF14_0194	PF01423	PF00076	14.5	0.207782656572	small nuclear ribonucleoprotein, putative	spliceosome-associated protein, putative
+MAL13P1.253	MAL13P1.338	PF01423	PF00076	14.5	0.15214749786	small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein, putative
+MAL13P1.253	MAL8P1.48	PF01423	PF01423	387.1	0.670910102762	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.253	PF14_0057	PF01423	PF00076	14.5	0.0880912621589	small nuclear ribonucleoprotein, putative	RNA binding protein, putative
+MAL13P1.253	PF11_0266	PF01423	PF01423	387.1	0.461133619316	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+MAL13P1.253	PF11_0280	PF01423	PF01423	387.1	0.730847398103	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+MAL13P1.253	PF08_0084	PF01423	PF06220	20.3	0.457018680805	small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.253	PFL0460w	PF01423	PF01423	387.1	0.77159002962	small nuclear ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+MAL13P1.253	PF14_0411	PF01423	PF01423	387.1	0.489163216977	small nuclear ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+MAL13P1.253	MAL13P1.35	PF01423	PF00076	14.5	0.048114857652	small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL13P1.253	PF11_0255	PF01423	PF01423	387.1	0.52482569282	small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.253	PF11_0250	PF01423	PF01248	6.0	0.168747183955	small nuclear ribonucleoprotein, putative	high mobility group-like protein NHP2, putative
+MAL13P1.253	PFI0475w	PF01423	PF01423	387.1	0.623546678436	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFI0755c	PFI0755c	PF00365	PF00365	5.7	0.999395416906	6-phosphofructokinase, putative	6-phosphofructokinase, putative
+PF08_0031	PFL2065c	PF00153	PF02953	6.6	0.897739691553	oxoglutarate/malate translocator protein, putative	mitochondrial import inner membrane translocase subunit, putative
+PF08_0031	PF13_0358	PF00153	PF02953	6.6	0.991676510428	oxoglutarate/malate translocator protein, putative	mitochondrial import inner membrane translocase, putative
+PF11_0416	PF10_0271	PF00612	PF00036	4.4	0.498224406991	myosin heavy chain subunit, putative	centrin, putative
+PF13_0218	PF13_0218	PF00005	PF00005	4.9	0.999395416906	ABC transporter, putative	ABC transporter, putative
+PF13_0218	PFE1150w	PF00005	PF00005	4.9	0.942626483303	ABC transporter, putative	multidrug resistance protein
+PF13_0218	PFC0125w	PF00005	PF00005	4.9	0.961712706144	ABC transporter, putative	ABC transporter, putative
+PF13_0218	PFL0495c	PF00005	PF00005	4.9	0.996900535885	ABC transporter, putative	ABC transporter, putative
+PF13_0218	PF14_0455	PF00005	PF00005	4.9	0.967866762747	ABC transporter, putative	multidrug resistance protein 2
+PF13_0218	PF13_0271	PF00005	PF00005	4.9	0.993754935443	ABC transporter, putative	ABC transporter, putative
+PF13_0218	PF11_0466	PF00005	PF00005	4.9	0.992833919114	ABC transporter, putative	transport protein, putative
+PF10_0232	PF10_0232	PF00385	PF00385	3.4	0.999395416906	hypothetical protein	hypothetical protein
+PFE1150w	PFE1150w	PF00005	PF00005	4.9	0.999395416906	multidrug resistance protein	multidrug resistance protein
+PFE1150w	PFC0125w	PF00005	PF00005	4.9	0.373560874476	multidrug resistance protein	ABC transporter, putative
+PFE1150w	PFL0495c	PF00005	PF00005	4.9	0.698341953819	multidrug resistance protein	ABC transporter, putative
+PFE1150w	PF14_0455	PF00005	PF00005	4.9	0.69592412995	multidrug resistance protein	multidrug resistance protein 2
+PFE1150w	PF13_0271	PF00005	PF00005	4.9	0.991349482199	multidrug resistance protein	ABC transporter, putative
+PFE1150w	PF11_0466	PF00005	PF00005	4.9	0.646506445463	multidrug resistance protein	transport protein, putative
+PFB0440c	PF13_0346	PF00097	PF00240	5.7	0.116148366344	hypothetical protein	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFB0440c	PFB0830w	PF00097	PF01283	3.0	0.003040086553	hypothetical protein	Ribosomal protein S26e, putative
+PFB0440c	PF13_0224	PF00097	PF01775	7.3	0.332758263944	hypothetical protein	60S ribosomal subunit protein L18, putative
+PFB0440c	PF14_0027	PF00097	PF00240	5.7	0.1824312415	hypothetical protein	ribosomal S27a, putative
+PFB0440c	PFL2055w	PF00097	PF00833	3.6	0.463011658392	hypothetical protein	40S ribosomal protein S17, putative
+PF14_0146	PF14_0146	PF01423	PF01423	387.1	0.999395416906	ribonucleoprotein, putative	ribonucleoprotein, putative
+PF14_0146	PFB0865w	PF01423	PF01423	387.1	0.97331948384	ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PF14_0146	PF14_0026	PF01423	PF06220	20.3	0.991532391831	ribonucleoprotein, putative	hypothetical protein
+PF14_0146	PFL1520w	PF01423	PF02966	20.3	0.934235872419	ribonucleoprotein, putative	dim1 protein homolog, putative
+PF14_0146	PF11_0524	PF01423	PF01423	387.1	0.955142108753	ribonucleoprotein, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF14_0146	MAL8P1.9	PF01423	PF01423	387.1	0.116223306005	ribonucleoprotein, putative	u6 snRNA-associated sm-like protein, putative
+PF14_0146	PF14_0194	PF01423	PF00076	14.5	0.0467634248574	ribonucleoprotein, putative	spliceosome-associated protein, putative
+PF14_0146	MAL13P1.338	PF01423	PF00076	14.5	0.103755537364	ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein, putative
+PF14_0146	MAL8P1.48	PF01423	PF01423	387.1	0.793613648152	ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PF14_0146	PF14_0057	PF01423	PF00076	14.5	0.11141741553	ribonucleoprotein, putative	RNA binding protein, putative
+PF14_0146	PF11_0266	PF01423	PF01423	387.1	0.949116643878	ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+PF14_0146	PF11_0280	PF01423	PF01423	387.1	0.0543051263289	ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+PF14_0146	PF08_0084	PF01423	PF06220	20.3	0.975954755284	ribonucleoprotein, putative	hypothetical protein
+PF14_0146	PFL0460w	PF01423	PF01423	387.1	0.839741271451	ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+PF14_0146	PF14_0411	PF01423	PF01423	387.1	0.97651885671	ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+PF14_0146	MAL13P1.35	PF01423	PF00076	14.5	0.562466780128	ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF14_0146	PF11_0255	PF01423	PF01423	387.1	0.525480802456	ribonucleoprotein, putative	hypothetical protein
+PF14_0146	PF11_0250	PF01423	PF01248	6.0	0.0470005657031	ribonucleoprotein, putative	high mobility group-like protein NHP2, putative
+PF14_0146	PFI0475w	PF01423	PF01423	387.1	0.737694777535	ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFE0610c	PF13_0346	PF00097	PF00240	5.7	0.361367475522	CDK-activating kinase assembly factor, putative	ubiquitin/ribosomal fusion protein uba52 homologue, putative
+PFE0610c	PFB0830w	PF00097	PF01283	3.0	0.0744810091605	CDK-activating kinase assembly factor, putative	Ribosomal protein S26e, putative
+PFE0610c	PF13_0224	PF00097	PF01775	7.3	0.438982718809	CDK-activating kinase assembly factor, putative	60S ribosomal subunit protein L18, putative
+PFE0610c	PF14_0027	PF00097	PF00240	5.7	0.751667151643	CDK-activating kinase assembly factor, putative	ribosomal S27a, putative
+PFE0610c	PFL2055w	PF00097	PF00833	3.6	0.699223377865	CDK-activating kinase assembly factor, putative	40S ribosomal protein S17, putative
+MAL13P1.135	PF11_0119	PF00957	PF05008	5.2	0.118155888466	snare protein homologue, putative	hypothetical protein
+PFD0530c	PF13_0133	PF01926	PF00026	4.1	0.0246190841628	Hypothetical GTP-binding protein	aspartyl (acid) protease, putative
+PFL0885w	PFF0655c	PF00928	PF01602	15.2	0.0738956720142	hypothetical protein	adapter-related protein, putative
+PFL0885w	PF14_0529	PF00928	PF01602	15.2	0.0994954557448	hypothetical protein	gamma-adaptin, putative
+PFL0885w	PF11_0187	PF00928	PF01217	21.7	0.0354382795032	hypothetical protein	clathrin assembly protein AP19, putative
+PFL0885w	PFD0745c	PF00928	PF01217	21.7	0.0859813347308	hypothetical protein	nonclathrin coat protein zeta2-cop-related protein, putative
+PFL0885w	PFD1090c	PF00928	PF01217	21.7	0.0406334455324	hypothetical protein	clathrin assembly protein, putative
+PFL0885w	PFL2425w	PF00928	PF01217	21.7	0.0535981459123	hypothetical protein	adaptor-related protein complex 3, sigma 2 subunit, putative
+PF13_0208	PF13_0208	PF00929	PF00929	8.1	0.999395416906	hypothetical protein	hypothetical protein
+PF13_0208	PF13_0326	PF00929	PF00241	4.1	0.0326961348012	hypothetical protein	actin-depolymerizing factor, putative
+PF13_0208	PF08_0075	PF00929	PF01294	5.2	0.900922877834	hypothetical protein	60S ribosomal protein L13, putative
+PF13_0208	PFE0165w	PF00929	PF00241	4.1	0.00619192429943	hypothetical protein	actin depolymerizing factor, putative
+PF14_0391	PF10_0272	PF00687	PF00297	5.4	0.955197400096	ribosomal protein L1, putative	ribosomal protein L3, putative
+PF13_0346	MAL7P1.155	PF00240	PF00097	5.7	0.0116242078402	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	MAL13P1.216	PF00240	PF00097	5.7	0.116355982196	ubiquitin/ribosomal fusion protein uba52 homologue, putative	DNA helicase, putative
+PF13_0346	PFC0610c	PF00240	PF00097	5.7	0.0506754231619	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	PF10_0276	PF00240	PF00097	5.7	0.0137937112644	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	PF10_0117	PF00240	PF00097	5.7	0.00330871202834	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	PFD0765w	PF00240	PF00097	5.7	0.0864791719027	ubiquitin/ribosomal fusion protein uba52 homologue, putative	RING finger protein, putative
+PF13_0346	PFF0165c	PF00240	PF00097	5.7	0.0589899984368	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	PFL0440c	PF00240	PF00097	5.7	0.0128784615374	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein
+PF13_0346	PFC0740c	PF00240	PF00097	5.7	0.052377258665	ubiquitin/ribosomal fusion protein uba52 homologue, putative	binding protein, putative
+PF13_0346	PF14_0054	PF00240	PF00097	5.7	0.0252017158248	ubiquitin/ribosomal fusion protein uba52 homologue, putative	hypothetical protein, conserved
+PFA0400c	PFA0400c	PF00227	PF00227	103.0	0.999395416906	beta3 proteasome subunit, putative	beta3 proteasome subunit, putative
+PFA0400c	MAL13P1.270	PF00227	PF00227	103.0	0.998672750284	beta3 proteasome subunit, putative	proteasome subunit, putative
+PFA0400c	MAL8P1.128	PF00227	PF00227	103.0	0.998381773146	beta3 proteasome subunit, putative	proteasome subunit alpha, putative
+PFA0400c	PF14_0716	PF00227	PF00227	103.0	0.998784388853	beta3 proteasome subunit, putative	Proteosome subunit alpha type 1, putative
+PFA0400c	PF14_0676	PF00227	PF00227	103.0	0.987960752568	beta3 proteasome subunit, putative	20S proteasome beta 4 subunit, putative
+PFA0400c	PF10_0111	PF00227	PF00227	103.0	0.993783714656	beta3 proteasome subunit, putative	20S proteasome beta subunit, putative
+PFL2430c	PFL2430c	PF01008	PF01008	22.3	0.999395416906	eukaryotic translation initiation factor 2b, subunit 2, putative	eukaryotic translation initiation factor 2b, subunit 2, putative
+PFL2430c	PF10_0136	PF01008	PF01008	22.3	0.603327764459	eukaryotic translation initiation factor 2b, subunit 2, putative	Initiation factor 2 subunit family, putative
+PFL2430c	PF10_0103	PF01008	PF01873	10.7	0.584190220955	eukaryotic translation initiation factor 2b, subunit 2, putative	eukaryotic translation initiation factor 2, beta, putative
+PFC0590c	PF08_0067	PF04511	PF00240	3.7	0.442830632502	hypothetical protein	hypothetical protein
+PFC0125w	PFC0125w	PF00005	PF00005	4.9	0.999395416906	ABC transporter, putative	ABC transporter, putative
+PFC0125w	PFL0495c	PF00005	PF00005	4.9	0.841391510615	ABC transporter, putative	ABC transporter, putative
+PFC0125w	PF14_0455	PF00005	PF00005	4.9	0.996029663733	ABC transporter, putative	multidrug resistance protein 2
+PFC0125w	PFL1545c	PF00005	PF00118	4.3	0.926804590348	ABC transporter, putative	chaperonin cpn60
+PFC0125w	PF13_0271	PF00005	PF00005	4.9	0.795592548151	ABC transporter, putative	ABC transporter, putative
+PFC0125w	PF08_0078	PF00005	PF00005	4.9	0.989784527607	ABC transporter, putative	hypothetical protein
+PFC0125w	PF11_0466	PF00005	PF00005	4.9	0.996782631504	ABC transporter, putative	transport protein, putative
+PF11_0171	PFD1015w	PF00400	PF01105	3.7	0.0622986322822	hypothetical protein	hypothetical protein
+PF14_0041	PF08_0076	PF00252	PF00380	6.2	0.0325012336777	ribosomal protein L16, putative	40S ribosomal protein S16, putative
+PF14_0041	PF11_0382	PF00252	PF00380	6.2	0.842994842966	ribosomal protein L16, putative	ribosomal protein S9, putative
+PFD0750w	PFD0750w	PF00076	PF00076	14.5	0.999395416906	nuclear cap-binding protein, putative	nuclear cap-binding protein, putative
+PFD0750w	PF14_0057	PF00076	PF00076	14.5	0.605743388893	nuclear cap-binding protein, putative	RNA binding protein, putative
+PFD0750w	PFC0635c	PF00076	PF01652	8.3	0.994002028773	nuclear cap-binding protein, putative	translation initiation factor E4, putative
+PF11_0313	PF11_0313	PF00428	PF00428	9.3	0.999395416906	ribosomal phosphoprotein P0	ribosomal phosphoprotein P0
+PF11_0313	MAL13P1.283	PF00428	PF00118	7.3	0.951971351005	ribosomal phosphoprotein P0	TCP-1/cpn60 chaperonin family, putative
+PF11_0313	PF14_0439	PF00428	PF00883	5.0	0.996860104913	ribosomal phosphoprotein P0	leucine aminopeptidase, putative
+PF11_0313	PFC0350c	PF00428	PF00118	7.3	0.87946422169	ribosomal phosphoprotein P0	T-complex protein eta subunit, putative
+PF11_0313	PFC0900w	PF00428	PF00118	7.3	0.918483123707	ribosomal phosphoprotein P0	T-complex protein 1 epsilon subunit, putative
+PF11_0313	PF11_0331	PF00428	PF00118	7.3	0.589135036666	ribosomal phosphoprotein P0	t-complex protein 1, alpha subunit, putative
+PF11_0313	PF10_0153	PF00428	PF00118	7.3	0.325260402076	ribosomal phosphoprotein P0	hsp60
+PF11_0313	PFC0285c	PF00428	PF00118	7.3	0.758956625155	ribosomal phosphoprotein P0	T-complex protein beta subunit, putative
+PF11_0313	PF11_0043	PF00428	PF00428	9.3	0.992789692559	ribosomal phosphoprotein P0	60S acidic ribosomal protein p1, putative
+PF11_0119	MAL8P1.121	PF05008	PF04733	5.8	0.476755522188	hypothetical protein	hypothetical protein
+PF14_0289	PF10_0217	PF01196	PF00076	3.7	0.0518414102995	ribosomal protein L17, putative	pre-mRNA splicing factor, putative
+PF14_0289	PFL1200c	PF01196	PF00076	3.7	0.356314385563	ribosomal protein L17, putative	hypothetical protein, conserved
+PF14_0289	PF10_0272	PF01196	PF00297	6.2	0.018200319204	ribosomal protein L17, putative	ribosomal protein L3, putative
+PF14_0289	PF14_0513	PF01196	PF00076	3.7	0.787503737561	ribosomal protein L17, putative	RNA binding protein, putative
+PF11_0464	PFL1545c	PF00069	PF00118	3.8	0.942971591081	hypothetical protein	chaperonin cpn60
+MAL7P1.155	PFB0830w	PF00097	PF01283	3.0	0.0254310938437	hypothetical protein	Ribosomal protein S26e, putative
+MAL7P1.155	PF13_0224	PF00097	PF01775	7.3	0.00325036343685	hypothetical protein	60S ribosomal subunit protein L18, putative
+MAL7P1.155	PF14_0027	PF00097	PF00240	5.7	0.00385223706298	hypothetical protein	ribosomal S27a, putative
+MAL7P1.155	PFL2055w	PF00097	PF00833	3.6	0.000463591963993	hypothetical protein	40S ribosomal protein S17, putative
+PF14_0329	PF14_0083	PF02330	PF01201	6.0	0.854941951155	hypothetical protein, conserved	ribosomal protein S8e, putative
+PFB0830w	MAL13P1.216	PF01283	PF00097	3.0	0.0690536738324	Ribosomal protein S26e, putative	DNA helicase, putative
+PFB0830w	PFC0610c	PF01283	PF00097	3.0	0.0688202020625	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PF10_0276	PF01283	PF00097	3.0	0.0305705594586	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PF10_0117	PF01283	PF00097	3.0	0.0343803331961	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PFD0765w	PF01283	PF00097	3.0	0.00229267278672	Ribosomal protein S26e, putative	RING finger protein, putative
+PFB0830w	PFF0165c	PF01283	PF00097	3.0	0.0589899984386	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PFC0690c	PF01283	PF00096	5.1	0.00901523669479	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PFL0440c	PF01283	PF00097	3.0	0.0112255873418	Ribosomal protein S26e, putative	hypothetical protein
+PFB0830w	PF11_0280	PF01283	PF01423	3.8	0.823321275584	Ribosomal protein S26e, putative	small nuclear ribonucleoprotein F, putative
+PFB0830w	PFC0740c	PF01283	PF00097	3.0	0.085811003037	Ribosomal protein S26e, putative	binding protein, putative
+PFB0830w	PF14_0054	PF01283	PF00097	3.0	0.0023817198346	Ribosomal protein S26e, putative	hypothetical protein, conserved
+PFD0665c	PF13_0268	PF00004	PF00237	3.2	0.0602646326855	26s proteasome aaa-ATPase subunit Rpt3, putative	ribosomal protein L17, putative
+PFL2065c	PFL2065c	PF02953	PF02953	14.6	0.999395416906	mitochondrial import inner membrane translocase subunit, putative	mitochondrial import inner membrane translocase subunit, putative
+PFL2065c	PFL0110c	PF02953	PF00153	6.6	0.955997195851	mitochondrial import inner membrane translocase subunit, putative	PfmpC
+PFL2065c	PFF1330c	PF02953	PF02466	10.6	0.0733504115574	mitochondrial import inner membrane translocase subunit, putative	mitochondrial import inner membrane translocase subunit, putative
+PFL2065c	PF13_0300	PF02953	PF02466	10.6	0.337829571486	mitochondrial import inner membrane translocase subunit, putative	mitochondrial inner membrane translocase, putative
+PFL2065c	PF13_0358	PF02953	PF02953	14.6	0.91308324118	mitochondrial import inner membrane translocase subunit, putative	mitochondrial import inner membrane translocase, putative
+PFL2065c	PF13_0359	PF02953	PF00153	6.6	0.622296702334	mitochondrial import inner membrane translocase subunit, putative	mitochondrial carrier protein, putative
+PFL2065c	PFL2000w	PF02953	PF00153	6.6	0.984752907406	mitochondrial import inner membrane translocase subunit, putative	mitochondrial carrier protein, putative
+PFC0920w	PFC0920w	PF00125	PF00125	11.6	0.999395416906	histone H2A variant, putative	histone H2A variant, putative
+PFC0920w	PFF0865w	PF00125	PF00125	11.6	0.662453057411	histone H2A variant, putative	histone h3
+PFC0920w	PFI0930c	PF00125	PF00956	14.5	0.956056664225	histone H2A variant, putative	Nucleosome assembly protein
+PFC0920w	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone H2A variant, putative	histone H3, putative
+PFC0920w	PF11_0477	PF00125	PF00808	3.3	0.994768799562	histone H2A variant, putative	CCAAT-box DNA binding protein subunit B
+PFC0920w	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone H2A variant, putative	histone h2a
+PFI0980w	PFI0535w	PF01151	PF06432	6.2	0.0287369944738	hypothetical protein	hypothetical protein
+PF14_0498	PF08_0067	PF04511	PF00240	3.7	0.814482976119	hypothetical protein	hypothetical protein
+PF13_0232	PF13_0232	PF01214	PF01214	32.0	0.999395416906	Casein kinase II regulatory subunit, putative	Casein kinase II regulatory subunit, putative
+PF13_0232	PF11_0096	PF01214	PF00069	16.2	0.958016935462	Casein kinase II regulatory subunit, putative	casein kinase II, alpha subunit, putative
+PF13_0232	PF13_0224	PF01214	PF01775	6.2	0.620957230159	Casein kinase II regulatory subunit, putative	60S ribosomal subunit protein L18, putative
+PF13_0232	PF11_0048	PF01214	PF01214	32.0	0.998458473685	Casein kinase II regulatory subunit, putative	casein kinase II beta chain, putative
+PF14_0381	PF14_0381	PF00490	PF00490	6.5	0.999395416906	delta-aminolevulinic acid dehydratase	delta-aminolevulinic acid dehydratase
+PFI0230c	PFI0230c	PF00216	PF00216	22.5	0.999395416906	hypothetical protein, conserved	hypothetical protein, conserved
+MAL13P1.271	MAL13P1.271	PF00137	PF00137	4.3	0.999395416906	V-type ATPase, putative	V-type ATPase, putative
+MAL13P1.271	PF13_0061	PF00137	PF00231	5.2	0.972495697553	V-type ATPase, putative	ATP synthase gamma chain, mitochondrial precursor, putative
+MAL13P1.271	MAL13P1.47	PF00137	PF00213	6.0	0.662453057411	V-type ATPase, putative	mitochondrial ATP synthase delta subunit, putative
+MAL13P1.270	MAL13P1.270	PF00227	PF00227	103.0	0.999395416906	proteasome subunit, putative	proteasome subunit, putative
+MAL13P1.270	MAL8P1.128	PF00227	PF00227	103.0	0.998945634241	proteasome subunit, putative	proteasome subunit alpha, putative
+MAL13P1.270	PF14_0716	PF00227	PF00227	103.0	0.999011992607	proteasome subunit, putative	Proteosome subunit alpha type 1, putative
+MAL13P1.270	PF14_0676	PF00227	PF00227	103.0	0.990986285451	proteasome subunit, putative	20S proteasome beta 4 subunit, putative
+MAL13P1.270	PF10_0111	PF00227	PF00227	103.0	0.996933660017	proteasome subunit, putative	20S proteasome beta subunit, putative
+PFL2130w	PFL2130w	PF00076	PF00076	14.5	0.999395416906	hypothetical protein	hypothetical protein
+PFL2130w	PF14_0028	PF00076	PF00076	14.5	0.254303608186	hypothetical protein	hypothetical protein, conserved
+MAL7P1.93	PF13_0326	PF00410	PF00241	5.2	0.0295499770299	mitochondrial ribosomal protein S8, putative	actin-depolymerizing factor, putative
+MAL7P1.93	PFE0165w	PF00410	PF00241	5.2	0.314144882329	mitochondrial ribosomal protein S8, putative	actin depolymerizing factor, putative
+PF11_0096	PF11_0048	PF00069	PF01214	16.2	0.913157357343	casein kinase II, alpha subunit, putative	casein kinase II beta chain, putative
+PF11_0412	PF13_0227	PF01990	PF01813	5.8	0.894776470209	Vacuolar ATP synthase subunit F, putative	vacuolar ATP synthase subunit D, putative
+PF11_0412	PF14_0615	PF01990	PF01992	6.2	0.253090938132	Vacuolar ATP synthase subunit F, putative	ATP synthase (C/AC39) subunit, putative
+PF11_0412	PFI1670c	PF01990	PF01991	6.0	0.796927836748	Vacuolar ATP synthase subunit F, putative	vacuolar ATP synthase subunit E, putative
+PF10_0143	PFE0305w	PF00249	PF00352	4.0	0.0184732368438	transcriptional activator ADA2, putative	transcription initiation factor TFiid, TATA-binding protein
+PF10_0143	PF14_0267	PF00249	PF00352	4.0	0.00794265966673	transcriptional activator ADA2, putative	transcription initiation TFIID-like, putative
+MAL8P1.128	MAL8P1.128	PF00227	PF00227	103.0	0.999395416906	proteasome subunit alpha, putative	proteasome subunit alpha, putative
+MAL8P1.128	PF14_0716	PF00227	PF00227	103.0	0.998455983382	proteasome subunit alpha, putative	Proteosome subunit alpha type 1, putative
+MAL8P1.128	PF14_0676	PF00227	PF00227	103.0	0.997291776383	proteasome subunit alpha, putative	20S proteasome beta 4 subunit, putative
+MAL8P1.128	PF10_0111	PF00227	PF00227	103.0	0.998462408465	proteasome subunit alpha, putative	20S proteasome beta subunit, putative
+PF10_0327	PFE0305w	PF00249	PF00352	4.0	0.175270414925	Myb2 protein	transcription initiation factor TFiid, TATA-binding protein
+PF10_0327	PF14_0267	PF00249	PF00352	4.0	0.192914857924	Myb2 protein	transcription initiation TFIID-like, putative
+PFF0655c	PF11_0187	PF01602	PF01217	9.4	0.0700399668969	adapter-related protein, putative	clathrin assembly protein AP19, putative
+PFF0655c	PFD0745c	PF01602	PF01217	9.4	0.0700399668969	adapter-related protein, putative	nonclathrin coat protein zeta2-cop-related protein, putative
+PFF0655c	PFD1090c	PF01602	PF01217	9.4	0.0700399668969	adapter-related protein, putative	clathrin assembly protein, putative
+PFF0655c	PFL2425w	PF01602	PF01217	9.4	0.0700399668969	adapter-related protein, putative	adaptor-related protein complex 3, sigma 2 subunit, putative
+PFF0655c	PF14_0386	PF01602	PF00928	15.2	0.0738956720142	adapter-related protein, putative	hypothetical protein
+PFF0655c	PF13_0062	PF01602	PF00928	15.2	0.0730788856434	adapter-related protein, putative	clathrin-adaptor medium chain, putative
+PFL0110c	PF13_0358	PF00153	PF02953	6.6	0.429431677402	PfmpC	mitochondrial import inner membrane translocase, putative
+PFL2300w	PF14_0194	PF01974	PF00076	3.0	0.517563882628	hypothetical protein	spliceosome-associated protein, putative
+PFL2300w	MAL13P1.338	PF01974	PF00076	3.0	0.937801168829	hypothetical protein	u1 small nuclear ribonucleoprotein, putative
+PFL2300w	PF14_0057	PF01974	PF00076	3.0	0.686464026927	hypothetical protein	RNA binding protein, putative
+PFL2300w	MAL13P1.35	PF01974	PF00076	3.0	0.886690496959	hypothetical protein	u1 small nuclear ribonucleoprotein a, putative
+PF10_0217	PF10_0217	PF00076	PF00076	14.5	0.999395416906	pre-mRNA splicing factor, putative	pre-mRNA splicing factor, putative
+PF10_0217	PFL1200c	PF00076	PF00076	14.5	0.0532222675202	pre-mRNA splicing factor, putative	hypothetical protein, conserved
+PF10_0217	PFE1125w	PF00076	PF01196	3.7	0.123265794845	pre-mRNA splicing factor, putative	50S ribosomal subunit protein L17, putative
+PF10_0217	PFL2055w	PF00076	PF00833	3.1	0.940026628844	pre-mRNA splicing factor, putative	40S ribosomal protein S17, putative
+PF10_0217	PF11_0280	PF00076	PF01423	14.5	0.0496071803464	pre-mRNA splicing factor, putative	small nuclear ribonucleoprotein F, putative
+PF10_0218	PF10_0218	PF00285	PF00285	5.1	0.999395416906	citrate synthase, mitochondrial precursor, putative	citrate synthase, mitochondrial precursor, putative
+PFL0590c	PF14_0028	PF00702	PF01805	3.4	0.9935250867	p-type ATPase, putative	hypothetical protein, conserved
+PFI1585c	PF13_0316	PF01250	PF00312	6.5	0.0589900319561	30S ribosomal protein S6-like protein, putative	40S ribosomal protein S13
+PFI1585c	PF11_0072	PF01250	PF00312	6.5	0.60441019219	30S ribosomal protein S6-like protein, putative	hypothetical protein
+PF14_0716	PF14_0716	PF00227	PF00227	103.0	0.999395416906	Proteosome subunit alpha type 1, putative	Proteosome subunit alpha type 1, putative
+PF14_0716	PF14_0676	PF00227	PF00227	103.0	0.974460093558	Proteosome subunit alpha type 1, putative	20S proteasome beta 4 subunit, putative
+PF14_0716	PF10_0111	PF00227	PF00227	103.0	0.991826391699	Proteosome subunit alpha type 1, putative	20S proteasome beta subunit, putative
+PFL0505c	PFL0695c	PF05739	PF00432	3.6	0.150941416829	hypothetical protein	geranylgeranyl transferase type2 beta subunit, putative
+PFE0100w	PFC0290w	PB000017	PF00164	3.7	0.677276111034	hypothetical protein	40S ribosomal protein S23, putative
+PFE0100w	PFD0600c	PB000017	PF00164	3.7	0.597107789948	hypothetical protein	ribosomal protein, putative
+PF14_0508	PF14_0508	PF02233	PF02233	6.5	0.999395416906	pyridine nucleotide transhydrogenase, putative	pyridine nucleotide transhydrogenase, putative
+PF13_0224	MAL13P1.216	PF01775	PF00097	7.3	0.403348350135	60S ribosomal subunit protein L18, putative	DNA helicase, putative
+PF13_0224	PFC0610c	PF01775	PF00097	7.3	0.0195133641726	60S ribosomal subunit protein L18, putative	hypothetical protein
+PF13_0224	PF10_0276	PF01775	PF00097	7.3	0.00768209214971	60S ribosomal subunit protein L18, putative	hypothetical protein
+PF13_0224	PF10_0117	PF01775	PF00097	7.3	0.00535890498348	60S ribosomal subunit protein L18, putative	hypothetical protein
+PF13_0224	PFD0765w	PF01775	PF00097	7.3	0.0164331249688	60S ribosomal subunit protein L18, putative	RING finger protein, putative
+PF13_0224	PFF0165c	PF01775	PF00097	7.3	0.0589899984378	60S ribosomal subunit protein L18, putative	hypothetical protein
+PF13_0224	PFL0440c	PF01775	PF00097	7.3	0.0117073093098	60S ribosomal subunit protein L18, putative	hypothetical protein
+PF13_0224	PF11_0048	PF01775	PF01214	6.2	0.828518650645	60S ribosomal subunit protein L18, putative	casein kinase II beta chain, putative
+PF13_0224	PFC0740c	PF01775	PF00097	7.3	0.0948658152271	60S ribosomal subunit protein L18, putative	binding protein, putative
+PF13_0224	PF14_0054	PF01775	PF00097	7.3	0.0307788605988	60S ribosomal subunit protein L18, putative	hypothetical protein, conserved
+PFB0130w	PFB0130w	PF00348	PF00348	4.5	0.999395416906	polyprenyl synthetase, putative	polyprenyl synthetase, putative
+PFL0290w	PFE0305w	PF00249	PF00352	4.0	0.0751992646494	hypothetical protein	transcription initiation factor TFiid, TATA-binding protein
+PFL0290w	PF14_0267	PF00249	PF00352	4.0	0.0378211558046	hypothetical protein	transcription initiation TFIID-like, putative
+PF13_0326	PFE0255w	PF00241	PF00022	27.2	0.216444374982	actin-depolymerizing factor, putative	actin-related protein, putative
+PF13_0326	PFD0487c	PF00241	PF00022	27.2	0.0943280228966	actin-depolymerizing factor, putative	actin-like protein, putative
+PF13_0326	PFI0520w	PF00241	PF00022	27.2	0.411264018368	actin-depolymerizing factor, putative	actin-like protein, putative
+PF13_0326	PFC0735w	PF00241	PF00410	5.2	0.00257744143819	actin-depolymerizing factor, putative	40S ribosomal protein S15A, putative
+PF13_0326	PFL0660w	PF00241	PF01221	4.9	0.0881420863037	actin-depolymerizing factor, putative	dynein light chain 1, putative
+PF13_0323	PF13_0323	PF05185	PF05185	6.2	0.999395416906	binding protein, putative	binding protein, putative
+PF14_0028	PF14_0028	PF00076	PF00076	14.5	0.999395416906	hypothetical protein, conserved	hypothetical protein, conserved
+PF14_0028	PFA0310c	PF01805	PF00702	3.4	0.964942339759	hypothetical protein, conserved	calcium-transporting ATPase
+PF14_0028	PFI0240c	PF01805	PF00702	3.4	0.960373678306	hypothetical protein, conserved	E1-E2_ATPase/hydrolase, putative
+PFB0865w	PFB0865w	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PFB0865w	PF14_0026	PF01423	PF06220	20.3	0.888791613952	small nuclear ribonucleoprotein, putative	hypothetical protein
+PFB0865w	PFL1520w	PF01423	PF02966	20.3	0.817276802435	small nuclear ribonucleoprotein, putative	dim1 protein homolog, putative
+PFB0865w	PF11_0524	PF01423	PF01423	387.1	0.965083347443	small nuclear ribonucleoprotein, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PFB0865w	MAL8P1.9	PF01423	PF01423	387.1	0.886466967103	small nuclear ribonucleoprotein, putative	u6 snRNA-associated sm-like protein, putative
+PFB0865w	PF14_0194	PF01423	PF00076	14.5	0.0839239351506	small nuclear ribonucleoprotein, putative	spliceosome-associated protein, putative
+PFB0865w	MAL13P1.338	PF01423	PF00076	14.5	0.0658852445225	small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein, putative
+PFB0865w	MAL8P1.48	PF01423	PF01423	387.1	0.418459574919	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+PFB0865w	PF14_0057	PF01423	PF00076	14.5	0.473584881232	small nuclear ribonucleoprotein, putative	RNA binding protein, putative
+PFB0865w	PF11_0266	PF01423	PF01423	387.1	0.991481339586	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+PFB0865w	PF11_0280	PF01423	PF01423	387.1	0.774814797005	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+PFB0865w	PF08_0084	PF01423	PF06220	20.3	0.98936554829	small nuclear ribonucleoprotein, putative	hypothetical protein
+PFB0865w	PFL0460w	PF01423	PF01423	387.1	0.995429117816	small nuclear ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+PFB0865w	PF14_0411	PF01423	PF01423	387.1	0.998043639955	small nuclear ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+PFB0865w	MAL13P1.35	PF01423	PF00076	14.5	0.534398205786	small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+PFB0865w	PF11_0255	PF01423	PF01423	387.1	0.266692402413	small nuclear ribonucleoprotein, putative	hypothetical protein
+PFB0865w	PF11_0250	PF01423	PF01248	6.0	0.72511481426	small nuclear ribonucleoprotein, putative	high mobility group-like protein NHP2, putative
+PFB0865w	PFI0475w	PF01423	PF01423	387.1	0.987239144419	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+MAL13P1.283	MAL13P1.283	PF00118	PF00118	17.9	0.999395416906	TCP-1/cpn60 chaperonin family, putative	TCP-1/cpn60 chaperonin family, putative
+MAL13P1.283	PFC0350c	PF00118	PF00118	17.9	0.997615711338	TCP-1/cpn60 chaperonin family, putative	T-complex protein eta subunit, putative
+MAL13P1.283	PFC0900w	PF00118	PF00118	17.9	0.998303774078	TCP-1/cpn60 chaperonin family, putative	T-complex protein 1 epsilon subunit, putative
+MAL13P1.283	PF11_0331	PF00118	PF00118	17.9	0.98057146197	TCP-1/cpn60 chaperonin family, putative	t-complex protein 1, alpha subunit, putative
+MAL13P1.283	PFC0285c	PF00118	PF00118	17.9	0.997060296175	TCP-1/cpn60 chaperonin family, putative	T-complex protein beta subunit, putative
+PF07_0068	PF07_0068	PF00266	PF00266	9.2	0.999395416906	cysteine desulfurase, putative	cysteine desulfurase, putative
+MAL13P1.262	PF13_0133	PF01926	PF00026	4.1	0.730092253564	hypothetical protein	aspartyl (acid) protease, putative
+PF13_0033	PF13_0268	PF00004	PF00237	3.2	0.10493400209	26S proteasome regulatory subunit, putative	ribosomal protein L17, putative
+PF13_0034	PF13_0227	PF03224	PF01813	5.8	0.685548441057	vacuolar ATP synthase subunit h, putative	vacuolar ATP synthase subunit D, putative
+PFA0455c	PFI0535w	PF01151	PF06432	6.2	0.0375590845366	integral membrane protein, GNS1/SUR4 family, putative	hypothetical protein
+PFE0255w	PFE0255w	PF00022	PF00022	8.5	0.999395416906	actin-related protein, putative	actin-related protein, putative
+PFE0255w	PFD0487c	PF00022	PF00022	8.5	0.662453057411	actin-related protein, putative	actin-like protein, putative
+PFE0255w	PFI0520w	PF00022	PF00022	8.5	0.991161476588	actin-related protein, putative	actin-like protein, putative
+PF13_0042	PF13_0042	PF00498	PF00498	3.0	0.999395416906	fork head domain protein, putative	fork head domain protein, putative
+PFF1430c	PF14_0672	PF01490	PF00233	5.2	0.0589900319561	transmembrane amino acid transporter protein, putative	cyclic nucleotide phosphodiesterase, putative
+MAL8P1.131	PF11_0192	PF03366	PF01853	5.6	0.482499910514	Gas41 homologue, putative	hypothetical protein
+PFA0520c	PFL1180w	PF00400	PF04729	3.1	0.878077453685	chromatin assembly factor 1 protein WD40 domain, putative	Chromatin assembly protein (ASF1), putative
+PFI1125c	PFI1125c	PF00106	PF00106	7.6	0.999395416906	3-oxoacyl-(acyl-carrier protein) reductase, putative	3-oxoacyl-(acyl-carrier protein) reductase, putative
+PF14_0439	PF14_0439	PF00883	PF00883	5.2	0.999395416906	leucine aminopeptidase, putative	leucine aminopeptidase, putative
+PF14_0439	PF11_0043	PF00883	PF00428	5.0	0.993622714854	leucine aminopeptidase, putative	60S acidic ribosomal protein p1, putative
+PFF1330c	PF13_0358	PF02466	PF02953	10.6	0.0733504115574	mitochondrial import inner membrane translocase subunit, putative	mitochondrial import inner membrane translocase, putative
+PFF1330c	PF14_0301	PF02466	PF01459	5.0	0.0589900001814	mitochondrial import inner membrane translocase subunit, putative	hypothetical protein
+PF14_0027	MAL13P1.216	PF00240	PF00097	5.7	0.338345100385	ribosomal S27a, putative	DNA helicase, putative
+PF14_0027	PFC0610c	PF00240	PF00097	5.7	0.0258128339985	ribosomal S27a, putative	hypothetical protein
+PF14_0027	PF10_0276	PF00240	PF00097	5.7	0.00788655034706	ribosomal S27a, putative	hypothetical protein
+PF14_0027	PF10_0117	PF00240	PF00097	5.7	0.00379909775868	ribosomal S27a, putative	hypothetical protein
+PF14_0027	PFD0765w	PF00240	PF00097	5.7	0.0172049208106	ribosomal S27a, putative	RING finger protein, putative
+PF14_0027	PFF0165c	PF00240	PF00097	5.7	0.0589899984368	ribosomal S27a, putative	hypothetical protein
+PF14_0027	PFL0440c	PF00240	PF00097	5.7	0.00308844388214	ribosomal S27a, putative	hypothetical protein
+PF14_0027	PFC0740c	PF00240	PF00097	5.7	0.0746669602584	ribosomal S27a, putative	binding protein, putative
+PF14_0027	PF14_0054	PF00240	PF00097	5.7	0.00849931486428	ribosomal S27a, putative	hypothetical protein, conserved
+PF14_0026	PF11_0524	PF06220	PF01423	20.3	0.995046864164	hypothetical protein	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF14_0026	MAL8P1.9	PF06220	PF01423	20.3	0.229299099895	hypothetical protein	u6 snRNA-associated sm-like protein, putative
+PF14_0026	PF14_0194	PF06220	PF00076	6.2	0.619776006792	hypothetical protein	spliceosome-associated protein, putative
+PF14_0026	MAL13P1.338	PF06220	PF00076	6.2	0.937276532443	hypothetical protein	u1 small nuclear ribonucleoprotein, putative
+PF14_0026	MAL8P1.48	PF06220	PF01423	20.3	0.988689578611	hypothetical protein	small nuclear ribonucleoprotein, putative
+PF14_0026	PF14_0057	PF06220	PF00076	6.2	0.746397492906	hypothetical protein	RNA binding protein, putative
+PF14_0026	PF11_0266	PF06220	PF01423	20.3	0.909655730339	hypothetical protein	small nuclear ribonucleoprotein D1, putative
+PF14_0026	PF11_0280	PF06220	PF01423	20.3	0.124581309412	hypothetical protein	small nuclear ribonucleoprotein F, putative
+PF14_0026	PFL0460w	PF06220	PF01423	20.3	0.395943674731	hypothetical protein	u6 snRNA-associated Sm-like protein, putative
+PF14_0026	PF14_0411	PF06220	PF01423	20.3	0.920843344917	hypothetical protein	small nuclear ribonuclear protein, putative
+PF14_0026	MAL13P1.35	PF06220	PF00076	6.2	0.950838627569	hypothetical protein	u1 small nuclear ribonucleoprotein a, putative
+PF14_0026	PF11_0255	PF06220	PF01423	20.3	0.923981352356	hypothetical protein	hypothetical protein
+PF14_0026	PFI0475w	PF06220	PF01423	20.3	0.43184303998	hypothetical protein	small nuclear ribonucleoprotein (snRNP), putative
+PFL1520w	PF11_0524	PF02966	PF01423	20.3	0.957938649949	dim1 protein homolog, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PFL1520w	MAL8P1.9	PF02966	PF01423	20.3	0.37885650176	dim1 protein homolog, putative	u6 snRNA-associated sm-like protein, putative
+PFL1520w	MAL8P1.48	PF02966	PF01423	20.3	0.973761942295	dim1 protein homolog, putative	small nuclear ribonucleoprotein, putative
+PFL1520w	PF11_0266	PF02966	PF01423	20.3	0.886079964442	dim1 protein homolog, putative	small nuclear ribonucleoprotein D1, putative
+PFL1520w	PF11_0280	PF02966	PF01423	20.3	0.705179357665	dim1 protein homolog, putative	small nuclear ribonucleoprotein F, putative
+PFL1520w	PFL0460w	PF02966	PF01423	20.3	0.49673970263	dim1 protein homolog, putative	u6 snRNA-associated Sm-like protein, putative
+PFL1520w	PF14_0411	PF02966	PF01423	20.3	0.900802558482	dim1 protein homolog, putative	small nuclear ribonuclear protein, putative
+PFL1520w	PF11_0255	PF02966	PF01423	20.3	0.987401894407	dim1 protein homolog, putative	hypothetical protein
+PFL1520w	PFI0475w	PF02966	PF01423	20.3	0.876339887372	dim1 protein homolog, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFD0725c	PFD0725c	PF02374	PF02374	5.8	0.999395416906	arsenical pump-driving ATPase, putative	arsenical pump-driving ATPase, putative
+PF10_0062	PFE0305w	PF04153	PF00352	6.1	0.804844430337	hypothetical protein	transcription initiation factor TFiid, TATA-binding protein
+PF10_0062	PF14_0267	PF04153	PF00352	6.1	0.935321084697	hypothetical protein	transcription initiation TFIID-like, putative
+PFC0350c	PFC0350c	PF00118	PF00118	17.9	0.999395416906	T-complex protein eta subunit, putative	T-complex protein eta subunit, putative
+PFC0350c	PFC0900w	PF00118	PF00118	17.9	0.998375339481	T-complex protein eta subunit, putative	T-complex protein 1 epsilon subunit, putative
+PFC0350c	PF11_0331	PF00118	PF00118	17.9	0.995121986757	T-complex protein eta subunit, putative	t-complex protein 1, alpha subunit, putative
+PFC0350c	PFC0285c	PF00118	PF00118	17.9	0.998660191205	T-complex protein eta subunit, putative	T-complex protein beta subunit, putative
+PFL1200c	PFL1200c	PF00076	PF00076	14.5	0.999395416906	hypothetical protein, conserved	hypothetical protein, conserved
+PFL1200c	PFE1125w	PF00076	PF01196	3.7	0.112660799089	hypothetical protein, conserved	50S ribosomal subunit protein L17, putative
+PFL1200c	PFL2055w	PF00076	PF00833	3.1	0.00063085554731	hypothetical protein, conserved	40S ribosomal protein S17, putative
+PFL1200c	PF11_0280	PF00076	PF01423	14.5	0.73110151886	hypothetical protein, conserved	small nuclear ribonucleoprotein F, putative
+PF14_0689	PF14_0689	PF04893	PF04893	11.9	0.999395416906	hypothetical protein	hypothetical protein
+PFF0865w	PFF0865w	PF00125	PF00125	11.6	0.999395416906	histone h3	histone h3
+PFF0865w	PFI0930c	PF00125	PF00956	14.5	0.662453057411	histone h3	Nucleosome assembly protein
+PFF0865w	PFF0510w	PF00125	PF00125	11.6	0.662453057411	histone h3	histone H3, putative
+PFF0865w	PF11_0477	PF00125	PF00808	3.3	0.662453057411	histone h3	CCAAT-box DNA binding protein subunit B
+PFF0865w	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone h3	histone h2a
+PFL0495c	PFL0495c	PF00005	PF00005	4.9	0.999395416906	ABC transporter, putative	ABC transporter, putative
+PFL0495c	PF14_0455	PF00005	PF00005	4.9	0.991116515161	ABC transporter, putative	multidrug resistance protein 2
+PFL0495c	PF10_0153	PF00005	PF00118	4.3	0.831218229494	ABC transporter, putative	hsp60
+PFL0495c	PF13_0271	PF00005	PF00005	4.9	0.73430231542	ABC transporter, putative	ABC transporter, putative
+PFL0495c	PF11_0466	PF00005	PF00005	4.9	0.997174893887	ABC transporter, putative	transport protein, putative
+PFC0900w	PFC0900w	PF00118	PF00118	17.9	0.999395416906	T-complex protein 1 epsilon subunit, putative	T-complex protein 1 epsilon subunit, putative
+PFC0900w	PF11_0331	PF00118	PF00118	17.9	0.995854645443	T-complex protein 1 epsilon subunit, putative	t-complex protein 1, alpha subunit, putative
+PFC0900w	PFC0285c	PF00118	PF00118	17.9	0.997446392951	T-complex protein 1 epsilon subunit, putative	T-complex protein beta subunit, putative
+PF13_0133	PFL0835w	PF00026	PF01926	4.1	0.654089884157	aspartyl (acid) protease, putative	GTP-binding protein, putative
+PF14_0529	PF11_0187	PF01602	PF01217	9.4	0.944729422276	gamma-adaptin, putative	clathrin assembly protein AP19, putative
+PF14_0529	PFD0745c	PF01602	PF01217	9.4	0.580347088616	gamma-adaptin, putative	nonclathrin coat protein zeta2-cop-related protein, putative
+PF14_0529	PFD1090c	PF01602	PF01217	9.4	0.612358460605	gamma-adaptin, putative	clathrin assembly protein, putative
+PF14_0529	PFL2425w	PF01602	PF01217	9.4	0.0528920831386	gamma-adaptin, putative	adaptor-related protein complex 3, sigma 2 subunit, putative
+PF14_0529	PF14_0386	PF01602	PF00928	15.2	0.0831873818479	gamma-adaptin, putative	hypothetical protein
+PF14_0529	PF13_0062	PF01602	PF00928	15.2	0.0634775288751	gamma-adaptin, putative	clathrin-adaptor medium chain, putative
+MAL13P1.216	PFL2055w	PF00097	PF00833	3.6	0.230684885288	DNA helicase, putative	40S ribosomal protein S17, putative
+PF14_0455	PF14_0455	PF00005	PF00005	4.9	0.999395416906	multidrug resistance protein 2	multidrug resistance protein 2
+PF14_0455	PF13_0271	PF00005	PF00005	4.9	0.926621012257	multidrug resistance protein 2	ABC transporter, putative
+PF14_0455	PF11_0466	PF00005	PF00005	4.9	0.996063351447	multidrug resistance protein 2	transport protein, putative
+PF11_0524	PF11_0524	PF01423	PF01423	387.1	0.999395416906	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative
+PF11_0524	MAL8P1.9	PF01423	PF01423	387.1	0.810915831967	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	u6 snRNA-associated sm-like protein, putative
+PF11_0524	PF14_0194	PF01423	PF00076	14.5	0.494440295771	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	spliceosome-associated protein, putative
+PF11_0524	MAL13P1.338	PF01423	PF00076	14.5	0.850121101689	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	u1 small nuclear ribonucleoprotein, putative
+PF11_0524	MAL8P1.48	PF01423	PF01423	387.1	0.996410344015	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	small nuclear ribonucleoprotein, putative
+PF11_0524	PF14_0057	PF01423	PF00076	14.5	0.510220182724	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	RNA binding protein, putative
+PF11_0524	PF11_0266	PF01423	PF01423	387.1	0.980480137715	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	small nuclear ribonucleoprotein D1, putative
+PF11_0524	PF11_0280	PF01423	PF01423	387.1	0.724412951832	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	small nuclear ribonucleoprotein F, putative
+PF11_0524	PF08_0084	PF01423	PF06220	20.3	0.998669890042	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	hypothetical protein
+PF11_0524	PFL0460w	PF01423	PF01423	387.1	0.895201548523	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	u6 snRNA-associated Sm-like protein, putative
+PF11_0524	PF14_0411	PF01423	PF01423	387.1	0.979959042781	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	small nuclear ribonuclear protein, putative
+PF11_0524	MAL13P1.35	PF01423	PF00076	14.5	0.887422376903	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	u1 small nuclear ribonucleoprotein a, putative
+PF11_0524	PF11_0255	PF01423	PF01423	387.1	0.974668816012	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	hypothetical protein
+PF11_0524	PF11_0250	PF01423	PF01248	6.0	0.123894080844	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	high mobility group-like protein NHP2, putative
+PF11_0524	PFI0475w	PF01423	PF01423	387.1	0.904216114456	U6 snRNA associated Sm-like protein Ls; U6 snRNA associated Sm-like protein LsM4, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF14_0676	PF14_0676	PF00227	PF00227	103.0	0.999395416906	20S proteasome beta 4 subunit, putative	20S proteasome beta 4 subunit, putative
+PF14_0676	PF10_0111	PF00227	PF00227	103.0	0.997998407491	20S proteasome beta 4 subunit, putative	20S proteasome beta subunit, putative
+PF13_0227	PFI1670c	PF01813	PF01991	5.8	0.249754080907	vacuolar ATP synthase subunit D, putative	vacuolar ATP synthase subunit E, putative
+PF10_0121	PF10_0121	PF00156	PF00156	3.0	0.999395416906	hypoxanthine phosphoribosyltransferase	hypoxanthine phosphoribosyltransferase
+PF11_0187	PF14_0386	PF01217	PF00928	21.7	0.0644162177832	clathrin assembly protein AP19, putative	hypothetical protein
+PF11_0187	PF13_0062	PF01217	PF00928	21.7	0.0707924793822	clathrin assembly protein AP19, putative	clathrin-adaptor medium chain, putative
+MAL13P1.76	MAL13P1.68	PF04056	PF00254	4.7	0.0104758392806	hypothetical protein	hypothetical protein
+PFC0610c	PFL2055w	PF00097	PF00833	3.6	0.00679539123162	hypothetical protein	40S ribosomal protein S17, putative
+PF10_0058	PF10_0058	PF00096	PF00096	8.2	0.999395416906	hypothetical protein	hypothetical protein
+PF10_0058	PF11_0192	PF00096	PF00096	8.2	0.591904417647	hypothetical protein	hypothetical protein
+PF10_0058	PFC0690c	PF00096	PF00096	8.2	0.853313352454	hypothetical protein	hypothetical protein
+PF10_0058	PFB0875c	PF00226	PF02731	4.0	0.891456805285	hypothetical protein	hypothetical protein
+PFD0487c	PFD0487c	PF00022	PF00022	8.5	0.999395416906	actin-like protein, putative	actin-like protein, putative
+PFD0487c	PFI0520w	PF00022	PF00022	8.5	0.662453057411	actin-like protein, putative	actin-like protein, putative
+PF10_0276	PFL2055w	PF00097	PF00833	3.6	0.00154131470131	hypothetical protein	40S ribosomal protein S17, putative
+PF10_0272	PFE1125w	PF00297	PF01196	6.2	0.0326823305097	ribosomal protein L3, putative	50S ribosomal subunit protein L17, putative
+PF10_0272	PF07_0046	PF00297	PF00687	5.4	0.155167213618	ribosomal protein L3, putative	50S ribosomal protein L1, putative
+PF10_0272	PF08_0038	PF00297	PF00573	5.3	0.0119944312535	ribosomal protein L3, putative	hypothetical protein
+PF10_0272	PFC0675c	PF00297	PF06984	6.0	0.0395852276821	ribosomal protein L3, putative	hypothetical protein
+PF10_0271	MAL13P1.148	PF00036	PF00612	4.4	0.237972196563	centrin, putative	P. falciparum myosin
+PFL0695c	PF14_0300	PF00432	PF05739	3.6	0.744994865319	geranylgeranyl transferase type2 beta subunit, putative	syntaxin, putative
+PFI0930c	PFF0510w	PF00956	PF00125	14.5	0.662453057411	Nucleosome assembly protein	histone H3, putative
+PFI0930c	PFF0860c	PF00956	PF00125	14.5	0.662453057411	Nucleosome assembly protein	histone h2a
+MAL8P1.9	MAL8P1.9	PF01423	PF01423	387.1	0.999395416906	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated sm-like protein, putative
+MAL8P1.9	PF14_0194	PF01423	PF00076	14.5	0.917242593822	u6 snRNA-associated sm-like protein, putative	spliceosome-associated protein, putative
+MAL8P1.9	MAL13P1.338	PF01423	PF00076	14.5	0.774184769179	u6 snRNA-associated sm-like protein, putative	u1 small nuclear ribonucleoprotein, putative
+MAL8P1.9	MAL8P1.48	PF01423	PF01423	387.1	0.682974006323	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein, putative
+MAL8P1.9	PF14_0057	PF01423	PF00076	14.5	0.753002729043	u6 snRNA-associated sm-like protein, putative	RNA binding protein, putative
+MAL8P1.9	PF11_0266	PF01423	PF01423	387.1	0.526471698329	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein D1, putative
+MAL8P1.9	PF11_0280	PF01423	PF01423	387.1	0.99824435702	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein F, putative
+MAL8P1.9	PF08_0084	PF01423	PF06220	20.3	0.819827987127	u6 snRNA-associated sm-like protein, putative	hypothetical protein
+MAL8P1.9	PFL0460w	PF01423	PF01423	387.1	0.99314247928	u6 snRNA-associated sm-like protein, putative	u6 snRNA-associated Sm-like protein, putative
+MAL8P1.9	PF14_0411	PF01423	PF01423	387.1	0.74248888398	u6 snRNA-associated sm-like protein, putative	small nuclear ribonuclear protein, putative
+MAL8P1.9	MAL13P1.35	PF01423	PF00076	14.5	0.516444410808	u6 snRNA-associated sm-like protein, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL8P1.9	PF11_0255	PF01423	PF01423	387.1	0.74658870561	u6 snRNA-associated sm-like protein, putative	hypothetical protein
+MAL8P1.9	PF11_0250	PF01423	PF01248	6.0	0.928571827132	u6 snRNA-associated sm-like protein, putative	high mobility group-like protein NHP2, putative
+MAL8P1.9	PFI0475w	PF01423	PF01423	387.1	0.986915224936	u6 snRNA-associated sm-like protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFL0815w	PFE0305w	PF00249	PF00352	4.0	0.00567518360113	DNA-binding chaperone, putative	transcription initiation factor TFiid, TATA-binding protein
+PFL0815w	PF14_0267	PF00249	PF00352	4.0	0.00373990640426	DNA-binding chaperone, putative	transcription initiation TFIID-like, putative
+PFL0815w	PFB0875c	PF00226	PF02731	4.0	0.415661847472	DNA-binding chaperone, putative	hypothetical protein
+PFD0745c	PF14_0386	PF01217	PF00928	21.7	0.187520894512	nonclathrin coat protein zeta2-cop-related protein, putative	hypothetical protein
+PFD0745c	PF13_0062	PF01217	PF00928	21.7	0.0318078078852	nonclathrin coat protein zeta2-cop-related protein, putative	clathrin-adaptor medium chain, putative
+PFI0520w	PFI0520w	PF00022	PF00022	8.5	0.999395416906	actin-like protein, putative	actin-like protein, putative
+PFL1545c	PFL1545c	PF00118	PF00118	17.9	0.999395416906	chaperonin cpn60	chaperonin cpn60
+PFL1545c	PF13_0180	PF00118	PF00166	5.0	0.970006932793	chaperonin cpn60	chaperonin, putative
+PFL1545c	MAL13P1.196	PF00118	PF00069	3.8	0.95705873525	chaperonin cpn60	protein kinase, putative
+PFL1545c	PF13_0271	PF00118	PF00005	4.3	0.796370615222	chaperonin cpn60	ABC transporter, putative
+PFL1545c	PF08_0078	PF00118	PF00005	4.3	0.997034118584	chaperonin cpn60	hypothetical protein
+PFL1545c	PF11_0466	PF00118	PF00005	4.3	0.890827569553	chaperonin cpn60	transport protein, putative
+PF13_0180	PF13_0180	PF00166	PF00166	12.9	0.999395416906	chaperonin, putative	chaperonin, putative
+PF13_0242	PF13_0242	PF00180	PF00180	8.3	0.999395416906	isocitrate dehydrogenase (NADP), mitochondrial precursor	isocitrate dehydrogenase (NADP), mitochondrial precursor
+PF14_0194	PF14_0194	PF00076	PF00076	14.5	0.999395416906	spliceosome-associated protein, putative	spliceosome-associated protein, putative
+PF14_0194	PF14_0514	PF00076	PF01974	3.0	0.851774762533	spliceosome-associated protein, putative	tRNA intron endonuclease, putative
+PF14_0194	MAL13P1.338	PF00076	PF00076	14.5	0.996360367828	spliceosome-associated protein, putative	u1 small nuclear ribonucleoprotein, putative
+PF14_0194	MAL8P1.48	PF00076	PF01423	14.5	0.857732165501	spliceosome-associated protein, putative	small nuclear ribonucleoprotein, putative
+PF14_0194	PF14_0057	PF00076	PF00076	14.5	0.974136230351	spliceosome-associated protein, putative	RNA binding protein, putative
+PF14_0194	PF10_0079	PF00076	PF02178	5.8	0.742372952282	spliceosome-associated protein, putative	hypothetical protein
+PF14_0194	PF11_0266	PF00076	PF01423	14.5	0.0818907049646	spliceosome-associated protein, putative	small nuclear ribonucleoprotein D1, putative
+PF14_0194	PF11_0280	PF00076	PF01423	14.5	0.948226825078	spliceosome-associated protein, putative	small nuclear ribonucleoprotein F, putative
+PF14_0194	PF08_0084	PF00076	PF06220	6.2	0.90482114611	spliceosome-associated protein, putative	hypothetical protein
+PF14_0194	PFL0460w	PF00076	PF01423	14.5	0.67635172506	spliceosome-associated protein, putative	u6 snRNA-associated Sm-like protein, putative
+PF14_0194	PF14_0411	PF00076	PF01423	14.5	0.0809987407342	spliceosome-associated protein, putative	small nuclear ribonuclear protein, putative
+PF14_0194	MAL13P1.35	PF00076	PF00076	14.5	0.988297333997	spliceosome-associated protein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF14_0194	PF11_0255	PF00076	PF01423	14.5	0.928782486757	spliceosome-associated protein, putative	hypothetical protein
+PF14_0194	PFI0475w	PF00076	PF01423	14.5	0.80788610166	spliceosome-associated protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF14_0192	PF14_0192	PF00070	PF00070	3.0	0.999395416906	glutathione reductase	glutathione reductase
+PF14_0192	PFI1170c	PF00070	PF00070	3.0	0.987868263723	glutathione reductase	Thioredoxin reductase
+PF14_0192	PF08_0066	PF00070	PF00070	3.0	0.921108080346	glutathione reductase	lipoamide dehydrogenase, putative
+PF13_0300	PF13_0358	PF02466	PF02953	10.6	0.827218063086	mitochondrial inner membrane translocase, putative	mitochondrial import inner membrane translocase, putative
+PF13_0300	PF14_0301	PF02466	PF01459	5.0	0.790999520504	mitochondrial inner membrane translocase, putative	hypothetical protein
+PF14_0513	PF14_0513	PF00076	PF00076	14.5	0.999395416906	RNA binding protein, putative	RNA binding protein, putative
+PF14_0513	PFE1125w	PF00076	PF01196	3.7	0.908599279895	RNA binding protein, putative	50S ribosomal subunit protein L17, putative
+PF14_0513	PFL2055w	PF00076	PF00833	3.1	0.0578719313984	RNA binding protein, putative	40S ribosomal protein S17, putative
+PF14_0514	MAL13P1.338	PF01974	PF00076	3.0	0.984053889808	tRNA intron endonuclease, putative	u1 small nuclear ribonucleoprotein, putative
+PF14_0514	PF14_0057	PF01974	PF00076	3.0	0.909694474096	tRNA intron endonuclease, putative	RNA binding protein, putative
+PF14_0514	MAL13P1.35	PF01974	PF00076	3.0	0.961593472277	tRNA intron endonuclease, putative	u1 small nuclear ribonucleoprotein a, putative
+PF11_0338	PF11_0338	PF00230	PF00230	5.2	0.999395416906	Aquaglyceroporin	Aquaglyceroporin
+PF10_0136	PF10_0136	PF01008	PF01008	22.3	0.999395416906	Initiation factor 2 subunit family, putative	Initiation factor 2 subunit family, putative
+PF10_0136	PF10_0103	PF01008	PF01873	10.7	0.921601061435	Initiation factor 2 subunit family, putative	eukaryotic translation initiation factor 2, beta, putative
+PF11_0331	PF11_0331	PF00118	PF00118	17.9	0.999395416906	t-complex protein 1, alpha subunit, putative	t-complex protein 1, alpha subunit, putative
+PF11_0331	PFC0285c	PF00118	PF00118	17.9	0.99514124102	t-complex protein 1, alpha subunit, putative	T-complex protein beta subunit, putative
+MAL13P1.338	MAL13P1.338	PF00076	PF00076	14.5	0.999395416906	u1 small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein, putative
+MAL13P1.338	MAL8P1.48	PF00076	PF01423	14.5	0.957242309629	u1 small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+MAL13P1.338	PF14_0057	PF00076	PF00076	14.5	0.918171263667	u1 small nuclear ribonucleoprotein, putative	RNA binding protein, putative
+MAL13P1.338	PF10_0079	PF00076	PF02178	5.8	0.449273556571	u1 small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.338	PF11_0266	PF00076	PF01423	14.5	0.0991026192333	u1 small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+MAL13P1.338	PF11_0280	PF00076	PF01423	14.5	0.746317317389	u1 small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+MAL13P1.338	PF08_0084	PF00076	PF06220	6.2	0.971880105008	u1 small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.338	PFL0460w	PF00076	PF01423	14.5	0.227677605408	u1 small nuclear ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+MAL13P1.338	PF14_0411	PF00076	PF01423	14.5	0.0561303852021	u1 small nuclear ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+MAL13P1.338	MAL13P1.35	PF00076	PF00076	14.5	0.992960282159	u1 small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL13P1.338	PF11_0255	PF00076	PF01423	14.5	0.950546379902	u1 small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL13P1.338	PFI0475w	PF00076	PF01423	14.5	0.472625592724	u1 small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFC0290w	PFC0690c	PF00164	PF00096	8.1	0.509096773929	40S ribosomal protein S23, putative	hypothetical protein
+PFC0290w	PF13_0268	PF00164	PF00237	5.8	0.935324818653	40S ribosomal protein S23, putative	ribosomal protein L17, putative
+PF10_0111	PF10_0111	PF00227	PF00227	103.0	0.999395416906	20S proteasome beta subunit, putative	20S proteasome beta subunit, putative
+PF10_0117	PFL2055w	PF00097	PF00833	3.6	0.00144551996286	hypothetical protein	40S ribosomal protein S17, putative
+PF11_0192	PF11_0192	PF00096	PF00096	8.2	0.999395416906	hypothetical protein	hypothetical protein
+PF11_0192	PFC0690c	PF00096	PF00096	8.2	0.50949828723	hypothetical protein	hypothetical protein
+PFF0290w	PFI0535w	PF01151	PF06432	6.2	0.0589964765442	long chain polyunsaturated fatty acid elongation enzyme, putative	hypothetical protein
+PFD0765w	PFL2055w	PF00097	PF00833	3.6	0.06466754083	RING finger protein, putative	40S ribosomal protein S17, putative
+PFF0165c	PFL2055w	PF00097	PF00833	3.6	0.0589899984386	hypothetical protein	40S ribosomal protein S17, putative
+PF13_0061	MAL13P1.47	PF00231	PF00213	6.2	0.0669408171678	ATP synthase gamma chain, mitochondrial precursor, putative	mitochondrial ATP synthase delta subunit, putative
+PFF1000w	PFL1180w	PF00400	PF04729	3.1	0.0589986473439	cleavage stimulation factor subunit 1-like protein, putative	Chromatin assembly protein (ASF1), putative
+PFC0735w	PFE0165w	PF00410	PF00241	5.2	0.0112728025281	40S ribosomal protein S15A, putative	actin depolymerizing factor, putative
+PF13_0149	PFL1180w	PF00400	PF04729	3.1	0.561007952909	chromatin assembly factor 1 subunit, putative	Chromatin assembly protein (ASF1), putative
+PFD1090c	PF14_0386	PF01217	PF00928	21.7	0.432080562666	clathrin assembly protein, putative	hypothetical protein
+PFD1090c	PF13_0062	PF01217	PF00928	21.7	0.68084228307	clathrin assembly protein, putative	clathrin-adaptor medium chain, putative
+PF10_0153	PF10_0153	PF00118	PF00118	17.9	0.999395416906	hsp60	hsp60
+PF10_0153	PF11_0466	PF00118	PF00005	4.3	0.861032802186	hsp60	transport protein, putative
+PFC0690c	PFC0690c	PF00096	PF00096	8.2	0.999395416906	hypothetical protein	hypothetical protein
+PFC0690c	PFD0600c	PF00096	PF00164	8.1	0.445939858463	hypothetical protein	ribosomal protein, putative
+PFC0690c	PFE0185c	PF00096	PF01198	12.7	0.994436214569	hypothetical protein	60S ribosomal subunit protein L31, putative
+PFL0415w	PFL0415w	PF00550	PF00550	4.8	0.999395416906	acyl carrier protein, mitochondrial precursor, putative	acyl carrier protein, mitochondrial precursor, putative
+PFF0510w	PFF0510w	PF00125	PF00125	11.6	0.999395416906	histone H3, putative	histone H3, putative
+PFF0510w	PF11_0477	PF00125	PF00808	3.3	0.662453057411	histone H3, putative	CCAAT-box DNA binding protein subunit B
+PFF0510w	PFF0860c	PF00125	PF00125	11.6	0.662453057411	histone H3, putative	histone h2a
+PFL0440c	PFL2055w	PF00097	PF00833	3.6	0.00210990516504	hypothetical protein	40S ribosomal protein S17, putative
+PF13_0271	PF13_0271	PF00005	PF00005	4.9	0.999395416906	ABC transporter, putative	ABC transporter, putative
+PF13_0271	PF08_0078	PF00005	PF00005	4.9	0.992259643086	ABC transporter, putative	hypothetical protein
+PF13_0271	PF11_0466	PF00005	PF00005	4.9	0.968499626183	ABC transporter, putative	transport protein, putative
+PFB0545c	PFB0545c	PF00542	PF00542	6.0	0.999395416906	ribosomal protein L7/L12, putative	ribosomal protein L7/L12, putative
+MAL8P1.48	MAL8P1.48	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein, putative
+MAL8P1.48	PF14_0057	PF01423	PF00076	14.5	0.592178183103	small nuclear ribonucleoprotein, putative	RNA binding protein, putative
+MAL8P1.48	PF11_0266	PF01423	PF01423	387.1	0.724412951832	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein D1, putative
+MAL8P1.48	PF11_0280	PF01423	PF01423	387.1	0.778309474056	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein F, putative
+MAL8P1.48	PF08_0084	PF01423	PF06220	20.3	0.989573993863	small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL8P1.48	PFL0460w	PF01423	PF01423	387.1	0.487934520218	small nuclear ribonucleoprotein, putative	u6 snRNA-associated Sm-like protein, putative
+MAL8P1.48	PF14_0411	PF01423	PF01423	387.1	0.547303915207	small nuclear ribonucleoprotein, putative	small nuclear ribonuclear protein, putative
+MAL8P1.48	MAL13P1.35	PF01423	PF00076	14.5	0.886720591628	small nuclear ribonucleoprotein, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL8P1.48	PF11_0255	PF01423	PF01423	387.1	0.997454786328	small nuclear ribonucleoprotein, putative	hypothetical protein
+MAL8P1.48	PF11_0250	PF01423	PF01248	6.0	0.0406856330183	small nuclear ribonucleoprotein, putative	high mobility group-like protein NHP2, putative
+MAL8P1.48	PFI0475w	PF01423	PF01423	387.1	0.717733968563	small nuclear ribonucleoprotein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFB0385w	PFB0385w	PF00550	PF00550	4.8	0.999395416906	acyl carrier protein, putative	acyl carrier protein, putative
+PFE0305w	PF11_0297	PF00352	PF04153	6.1	0.735200865013	transcription initiation factor TFiid, TATA-binding protein	hypothetical protein
+PF14_0057	PF14_0057	PF00076	PF00076	14.5	0.999395416906	RNA binding protein, putative	RNA binding protein, putative
+PF14_0057	PF10_0079	PF00076	PF02178	5.8	0.875813340306	RNA binding protein, putative	hypothetical protein
+PF14_0057	PF11_0266	PF00076	PF01423	14.5	0.0690035037901	RNA binding protein, putative	small nuclear ribonucleoprotein D1, putative
+PF14_0057	PFC0635c	PF00076	PF01652	8.3	0.317796481485	RNA binding protein, putative	translation initiation factor E4, putative
+PF14_0057	PF11_0280	PF00076	PF01423	14.5	0.935821455514	RNA binding protein, putative	small nuclear ribonucleoprotein F, putative
+PF14_0057	PF08_0084	PF00076	PF06220	6.2	0.884072451497	RNA binding protein, putative	hypothetical protein
+PF14_0057	PFL0460w	PF00076	PF01423	14.5	0.660485747215	RNA binding protein, putative	u6 snRNA-associated Sm-like protein, putative
+PF14_0057	PF14_0411	PF00076	PF01423	14.5	0.227087434187	RNA binding protein, putative	small nuclear ribonuclear protein, putative
+PF14_0057	MAL13P1.35	PF00076	PF00076	14.5	0.887075689878	RNA binding protein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF14_0057	PF11_0255	PF00076	PF01423	14.5	0.862338524799	RNA binding protein, putative	hypothetical protein
+PF14_0057	PFI0475w	PF00076	PF01423	14.5	0.898832606149	RNA binding protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+MAL13P1.324	MAL13P1.324	PF00248	PF00248	10.4	0.999395416906	aldo-keto reductase, putative	aldo-keto reductase, putative
+MAL13P1.324	PF14_0088	PF00248	PF00248	10.4	0.993918727988	aldo-keto reductase, putative	hypothetical protein
+PF13_0358	PF13_0358	PF02953	PF02953	14.6	0.999395416906	mitochondrial import inner membrane translocase, putative	mitochondrial import inner membrane translocase, putative
+PF13_0358	PF13_0359	PF02953	PF00153	6.6	0.892258757884	mitochondrial import inner membrane translocase, putative	mitochondrial carrier protein, putative
+PF13_0358	PFL2000w	PF02953	PF00153	6.6	0.895094067679	mitochondrial import inner membrane translocase, putative	mitochondrial carrier protein, putative
+PFB0895c	PF13_0268	PF00004	PF00237	3.2	0.0283936443119	replication factor C subunit 1, putative	ribosomal protein L17, putative
+PFL1180w	PF14_0314	PF04729	PF00400	3.1	0.743455789801	Chromatin assembly protein (ASF1), putative	chromatin assembly factor 1 p55 subunit, putative
+PFI1170c	PFI1170c	PF00070	PF00070	3.0	0.999395416906	Thioredoxin reductase	Thioredoxin reductase
+PFI1170c	PF08_0066	PF00070	PF00070	3.0	0.991892203668	Thioredoxin reductase	lipoamide dehydrogenase, putative
+PF11_0297	PF14_0267	PF04153	PF00352	6.1	0.958368757548	hypothetical protein	transcription initiation TFIID-like, putative
+PF10_0079	MAL13P1.35	PF02178	PF00076	5.8	0.963242675953	hypothetical protein	u1 small nuclear ribonucleoprotein a, putative
+PF11_0477	PF11_0477	PF00808	PF00808	18.6	0.999395416906	CCAAT-box DNA binding protein subunit B	CCAAT-box DNA binding protein subunit B
+PF11_0477	PFF0860c	PF00808	PF00125	3.3	0.662453057411	CCAAT-box DNA binding protein subunit B	histone h2a
+PFA0260c	PFA0260c	PF01213	PF01213	13.2	0.999395416906	hypothetical protein	hypothetical protein
+PFD0600c	PF13_0268	PF00164	PF00237	5.8	0.353400559391	ribosomal protein, putative	ribosomal protein L17, putative
+PF08_0078	PF08_0078	PF00005	PF00005	4.9	0.999395416906	hypothetical protein	hypothetical protein
+PF08_0078	PF11_0466	PF00005	PF00005	4.9	0.998292099417	hypothetical protein	transport protein, putative
+PFC0285c	PFC0285c	PF00118	PF00118	17.9	0.999395416906	T-complex protein beta subunit, putative	T-complex protein beta subunit, putative
+PF14_0068	PF11_0250	PF01269	PF01248	4.7	0.379379955292	fibrillarin, putative	high mobility group-like protein NHP2, putative
+PF14_0088	PF14_0088	PF00248	PF00248	10.4	0.999395416906	hypothetical protein	hypothetical protein
+PF11_0266	PF11_0266	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein D1, putative	small nuclear ribonucleoprotein D1, putative
+PF11_0266	PF11_0280	PF01423	PF01423	387.1	0.371844264126	small nuclear ribonucleoprotein D1, putative	small nuclear ribonucleoprotein F, putative
+PF11_0266	PF08_0084	PF01423	PF06220	20.3	0.990118859395	small nuclear ribonucleoprotein D1, putative	hypothetical protein
+PF11_0266	PFL0460w	PF01423	PF01423	387.1	0.954829371943	small nuclear ribonucleoprotein D1, putative	u6 snRNA-associated Sm-like protein, putative
+PF11_0266	PF14_0411	PF01423	PF01423	387.1	0.998424725489	small nuclear ribonucleoprotein D1, putative	small nuclear ribonuclear protein, putative
+PF11_0266	MAL13P1.35	PF01423	PF00076	14.5	0.537062134222	small nuclear ribonucleoprotein D1, putative	u1 small nuclear ribonucleoprotein a, putative
+PF11_0266	PF11_0255	PF01423	PF01423	387.1	0.446025707833	small nuclear ribonucleoprotein D1, putative	hypothetical protein
+PF11_0266	PF11_0250	PF01423	PF01248	6.0	0.255815026683	small nuclear ribonucleoprotein D1, putative	high mobility group-like protein NHP2, putative
+PF11_0266	PFI0475w	PF01423	PF01423	387.1	0.936535903176	small nuclear ribonucleoprotein D1, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFL2055w	PFC0740c	PF00833	PF00097	3.6	0.222632919021	40S ribosomal protein S17, putative	binding protein, putative
+PFL2055w	PF14_0054	PF00833	PF00097	3.6	0.0206940485093	40S ribosomal protein S17, putative	hypothetical protein, conserved
+PF14_0615	PF14_0317	PF01992	PF06645	6.5	0.0433501233992	ATP synthase (C/AC39) subunit, putative	hypothetical protein, conserved
+PF14_0615	PFI1670c	PF01992	PF01991	6.2	0.0467622607545	ATP synthase (C/AC39) subunit, putative	vacuolar ATP synthase subunit E, putative
+PF11_0048	PF11_0048	PF01214	PF01214	32.0	0.999395416906	casein kinase II beta chain, putative	casein kinase II beta chain, putative
+PFF0860c	PFF0860c	PF00125	PF00125	11.6	0.999395416906	histone h2a	histone h2a
+PF13_0102	PFB0875c	PF00226	PF02731	4.0	0.105487320215	DNAJ-like Sec63 homologue	hypothetical protein
+PF14_0314	PFD1015w	PF00400	PF01105	3.7	0.0619453107387	chromatin assembly factor 1 p55 subunit, putative	hypothetical protein
+PF11_0043	PF11_0043	PF00428	PF00428	9.3	0.999395416906	60S acidic ribosomal protein p1, putative	60S acidic ribosomal protein p1, putative
+PF11_0280	PF11_0280	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein F, putative	small nuclear ribonucleoprotein F, putative
+PF11_0280	PF08_0084	PF01423	PF06220	20.3	0.745056338923	small nuclear ribonucleoprotein F, putative	hypothetical protein
+PF11_0280	PFL0460w	PF01423	PF01423	387.1	0.981618196708	small nuclear ribonucleoprotein F, putative	u6 snRNA-associated Sm-like protein, putative
+PF11_0280	PF14_0411	PF01423	PF01423	387.1	0.576627784451	small nuclear ribonucleoprotein F, putative	small nuclear ribonuclear protein, putative
+PF11_0280	MAL13P1.35	PF01423	PF00076	14.5	0.392287759787	small nuclear ribonucleoprotein F, putative	u1 small nuclear ribonucleoprotein a, putative
+PF11_0280	PF11_0255	PF01423	PF01423	387.1	0.943745435083	small nuclear ribonucleoprotein F, putative	hypothetical protein
+PF11_0280	PF11_0250	PF01423	PF01248	6.0	0.930227352056	small nuclear ribonucleoprotein F, putative	high mobility group-like protein NHP2, putative
+PF11_0280	PFI0475w	PF01423	PF01423	387.1	0.990743010723	small nuclear ribonucleoprotein F, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0466	PF11_0466	PF00005	PF00005	4.9	0.999395416906	transport protein, putative	transport protein, putative
+PF08_0084	PFL0460w	PF06220	PF01423	20.3	0.972394618653	hypothetical protein	u6 snRNA-associated Sm-like protein, putative
+PF08_0084	PF14_0411	PF06220	PF01423	20.3	0.9908706314	hypothetical protein	small nuclear ribonuclear protein, putative
+PF08_0084	MAL13P1.35	PF06220	PF00076	6.2	0.994295838987	hypothetical protein	u1 small nuclear ribonucleoprotein a, putative
+PF08_0084	PF11_0255	PF06220	PF01423	20.3	0.946627479763	hypothetical protein	hypothetical protein
+PF08_0084	PFI0475w	PF06220	PF01423	20.3	0.962876022731	hypothetical protein	small nuclear ribonucleoprotein (snRNP), putative
+PFL2425w	PF14_0386	PF01217	PF00928	21.7	0.95066948544	adaptor-related protein complex 3, sigma 2 subunit, putative	hypothetical protein
+PFL2425w	PF13_0062	PF01217	PF00928	21.7	0.966757397403	adaptor-related protein complex 3, sigma 2 subunit, putative	clathrin-adaptor medium chain, putative
+PF08_0066	PF08_0066	PF00070	PF00070	3.0	0.999395416906	lipoamide dehydrogenase, putative	lipoamide dehydrogenase, putative
+PFL0460w	PFL0460w	PF01423	PF01423	387.1	0.999395416906	u6 snRNA-associated Sm-like protein, putative	u6 snRNA-associated Sm-like protein, putative
+PFL0460w	PF14_0411	PF01423	PF01423	387.1	0.988009528802	u6 snRNA-associated Sm-like protein, putative	small nuclear ribonuclear protein, putative
+PFL0460w	MAL13P1.35	PF01423	PF00076	14.5	0.768410184013	u6 snRNA-associated Sm-like protein, putative	u1 small nuclear ribonucleoprotein a, putative
+PFL0460w	PF11_0255	PF01423	PF01423	387.1	0.439676842814	u6 snRNA-associated Sm-like protein, putative	hypothetical protein
+PFL0460w	PF11_0250	PF01423	PF01248	6.0	0.963886465047	u6 snRNA-associated Sm-like protein, putative	high mobility group-like protein NHP2, putative
+PFL0460w	PFI0475w	PF01423	PF01423	387.1	0.99765101804	u6 snRNA-associated Sm-like protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF14_0411	PF14_0411	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonuclear protein, putative	small nuclear ribonuclear protein, putative
+PF14_0411	MAL13P1.35	PF01423	PF00076	14.5	0.378419841378	small nuclear ribonuclear protein, putative	u1 small nuclear ribonucleoprotein a, putative
+PF14_0411	PF11_0255	PF01423	PF01423	387.1	0.278850512978	small nuclear ribonuclear protein, putative	hypothetical protein
+PF14_0411	PF11_0250	PF01423	PF01248	6.0	0.50078524303	small nuclear ribonuclear protein, putative	high mobility group-like protein NHP2, putative
+PF14_0411	PFI0475w	PF01423	PF01423	387.1	0.969166754006	small nuclear ribonuclear protein, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0400	PFD1015w	PF00400	PF01105	3.7	0.0622986322822	hypothetical protein	hypothetical protein
+MAL13P1.35	MAL13P1.35	PF00076	PF00076	14.5	0.999395416906	u1 small nuclear ribonucleoprotein a, putative	u1 small nuclear ribonucleoprotein a, putative
+MAL13P1.35	PF11_0255	PF00076	PF01423	14.5	0.848534995743	u1 small nuclear ribonucleoprotein a, putative	hypothetical protein
+MAL13P1.35	PFI0475w	PF00076	PF01423	14.5	0.750247131458	u1 small nuclear ribonucleoprotein a, putative	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0258	PF11_0258	PF01025	PF01025	5.8	0.999395416906	co-chaperone GrpE, putative	co-chaperone GrpE, putative
+PF11_0255	PF11_0255	PF01423	PF01423	387.1	0.999395416906	hypothetical protein	hypothetical protein
+PF11_0255	PF11_0250	PF01423	PF01248	6.0	0.127356715245	hypothetical protein	high mobility group-like protein NHP2, putative
+PF11_0255	PFI0475w	PF01423	PF01423	387.1	0.853029042719	hypothetical protein	small nuclear ribonucleoprotein (snRNP), putative
+PF11_0250	PFI0475w	PF01248	PF01423	6.0	0.949351114622	high mobility group-like protein NHP2, putative	small nuclear ribonucleoprotein (snRNP), putative
+PFI0475w	PFI0475w	PF01423	PF01423	387.1	0.999395416906	small nuclear ribonucleoprotein (snRNP), putative	small nuclear ribonucleoprotein (snRNP), putative
+PFD1015w	PFD1015w	PF01105	PF01105	35.1	0.999395416906	hypothetical protein	hypothetical protein
